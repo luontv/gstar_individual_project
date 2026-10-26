@@ -1,0 +1,281 @@
+{
+ "Chop:explicit:0": [
+  "cut {x}",
+  "slice {x}",
+  "dice {x}",
+  "grab {x} and chop",
+  "quick, chop {x}",
+  "take {x} and cut it"
+ ],
+ "Chop:explicit:1": [
+  "chop some {x}",
+  "can you chop {x}",
+  "just chop {x}",
+  "chop up {x}",
+  "can u chop {x}",
+  "please chop {x}",
+  "grab {x} and chop it"
+ ],
+ "Prepare:explicit:0": [
+  "get the {x} stuff ready",
+  "prep the {x} ingredients",
+  "start on the {x} bits",
+  "can you prep {x}",
+  "set up the {x} ingredients",
+  "make the {x} ready",
+  "do the {x} prep",
+  "get the {x} ingredients going"
+ ],
+ "Cook:explicit:0": [
+  "make {x} soup",
+  "start {x} soup",
+  "put {x} in soup",
+  "prep {x} soup",
+  "drop {x} in soup",
+  "throw {x} in soup",
+  "do {x} soup"
+ ],
+ "Plate:explicit:0": [
+  "serve the {x} soup",
+  "dish up the {x} soup",
+  "plate up the {x} soup",
+  "throw the {x} soup on a plate",
+  "get the {x} soup plated",
+  "pop the {x} soup on a plate"
+ ],
+ "Serve:explicit:0": [
+  "put out {x} soup",
+  "send {x} soup",
+  "drop {x} soup",
+  "plate {x} soup",
+  "get {x} soup out",
+  "throw {x} soup in",
+  "serve up {x} soup"
+ ],
+ "Chop:bare:0": [
+  "Chop something!",
+  "Need a chop!",
+  "Cut something up!",
+  "Go chop!",
+  "Can you chop?",
+  "Chop anything!",
+  "Just chop one!",
+  "Put something on chop!"
+ ],
+ "Chop:bare:1": [
+  "can you chop it",
+  "chop it",
+  "can you cut",
+  "you chop",
+  "need you to chop",
+  "mind chopping",
+  "can you slice it",
+  "please chop"
+ ],
+ "Prepare:bare:0": [
+  "get some stuff ready",
+  "prep a few things",
+  "start prepping",
+  "set up some ingredients",
+  "grab some prep",
+  "do some prep work",
+  "have some ingredients ready",
+  "get the prep going"
+ ],
+ "Cook:bare:0": [
+  "cook soup",
+  "make soup",
+  "start soup",
+  "get soup going",
+  "throw a soup on",
+  "do soup",
+  "prep soup",
+  "whip up a soup"
+ ],
+ "Plate:bare:0": [
+  "plate it",
+  "put it on a plate",
+  "get that plated",
+  "plate that up",
+  "go plate the soup",
+  "can you plate it",
+  "serve it up",
+  "just plate it"
+ ],
+ "Serve:bare:0": [
+  "put it out",
+  "send it",
+  "serve that",
+  "get it out",
+  "plate it",
+  "throw it out",
+  "drop it off",
+  "send it over"
+ ],
+ "Chop:other:0": [
+  "chop the other one now",
+  "now cut the other one",
+  "other one, chop it now",
+  "go chop the other one",
+  "chop the other one",
+  "now, the other one\u2014chop it",
+  "hit the other one with the knife now",
+  "the other one now, chop it"
+ ],
+ "Prepare:other:0": [
+  "make the other one",
+  "do the other one",
+  "prep the other one",
+  "start the other one",
+  "get the other one ready",
+  "work on the other one",
+  "handle the other one",
+  "go with the other one"
+ ],
+ "Cook:other:0": [
+  "cook the other one",
+  "finish the other soup",
+  "make the other soup",
+  "do the other soup",
+  "get the other soup cooking",
+  "start the other one",
+  "work on the other soup",
+  "handle the other soup"
+ ],
+ "Plate:other:0": [
+  "put the other one on a plate",
+  "serve the other one",
+  "grab the other one and plate it",
+  "plate the other soup",
+  "do the other one",
+  "take the other one out and plate it",
+  "can you plate the other one"
+ ],
+ "Serve:other:0": [
+  "Do the other one",
+  "The other one\u2014serve it",
+  "Yeah, the other one",
+  "Put out the other one",
+  "Send the other one",
+  "Other one, serve that",
+  "Serve the other one instead"
+ ],
+ "None:again:0": [
+  "do it again",
+  "again",
+  "same thing again",
+  "keep doing that",
+  "repeat that",
+  "hit that again"
+ ],
+ "None:again:1": [
+  "same thing again",
+  "do that again",
+  "same one again",
+  "another same",
+  "repeat it",
+  "again, same",
+  "just like that again",
+  "run it back"
+ ],
+ "Chop:urgent:0": [
+  "Chop it, order's about to fail!",
+  "Need a chop, that order's expiring!",
+  "Chop fast, we're losing that order!",
+  "Get chopping, timer's almost done!",
+  "Quick chop, that order's running out!",
+  "Need you to chop, order's nearly gone!",
+  "Chop now, that order's gonna fail!",
+  "Fast chop, we're about to lose it!"
+ ],
+ "Prepare:urgent:0": [
+  "prep the urgent one",
+  "get the urgent one going",
+  "make the urgent one",
+  "start the urgent one",
+  "do the urgent one quick",
+  "rush the urgent one",
+  "work on the urgent one",
+  "grab the urgent one"
+ ],
+ "Cook:urgent:0": [
+  "cook the almost bad one",
+  "make the one that's gonna spoil",
+  "do the expiring one",
+  "cook the soon-to-go one",
+  "take the one about to go bad",
+  "cook that nearly expired one",
+  "use the one on the edge",
+  "grab the one that's expiring"
+ ],
+ "Plate:urgent:0": [
+  "plate the one that's urgent",
+  "put the urgent one on a plate",
+  "plate the urgent soup",
+  "yeah, plate the urgent one",
+  "can you plate that urgent one",
+  "just plate the urgent one",
+  "plate that one ASAP",
+  "get the urgent one plated"
+ ],
+ "Serve:urgent:0": [
+  "Serve the one that's gonna expire",
+  "Use the almost-expired one",
+  "Send out the one about to go bad",
+  "Serve the soon-to-expire one",
+  "Grab the nearly expired one",
+  "Put out the one that's expiring soon",
+  "Do the one on the edge of expiring",
+  "Use the one about to expire"
+ ],
+ "Chop:holding:0": [
+  "chop the matching one",
+  "cut the one for this",
+  "chop whatever goes here",
+  "slice the thing for this",
+  "just chop the pair for this",
+  "cut the matching item",
+  "chop the one that fits",
+  "prep what goes with it"
+ ],
+ "Prepare:holding:0": [
+  "make the one with this",
+  "prep the one using this",
+  "do the one with this",
+  "cook the one that needs this",
+  "make that one with this",
+  "prep that soup with this",
+  "use this for the one",
+  "get the one with this ready"
+ ],
+ "Cook:holding:0": [
+  "cook the soup for mine",
+  "make the soup with what I got",
+  "do the soup that matches mine",
+  "cook mine's soup",
+  "make the soup for this one",
+  "do the soup with my stuff",
+  "cook the one that goes with what I have",
+  "make the matching soup"
+ ],
+ "Plate:near:0": [
+  "Put the soup on the plate by me",
+  "Plate it next to me",
+  "Just plate it beside me",
+  "Drop the soup on my side",
+  "Put it on a plate near me",
+  "Plate the soup right here by me",
+  "Set the soup next to me plated",
+  "Get the soup plated beside me"
+ ],
+ "Serve:near:0": [
+  "serve the one by me",
+  "grab the one next to me",
+  "take the one beside me",
+  "send the one near me",
+  "use the one right here",
+  "serve this one here",
+  "hand over the one by me",
+  "do the one next to me"
+ ]
+}

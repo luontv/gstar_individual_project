@@ -1,0 +1,731 @@
+{"i": 0, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 2, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 3, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 4, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 5, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which other one's ingredients are being referred to?\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 6, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 7, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 8, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 9, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 10, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 11, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 12, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 13, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 14, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 15, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 16, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 17, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 18, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup ingredient should I prepare?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup ingredient should I prepare?\"}"}
+{"i": 19, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 20, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 21, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 22, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 23, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 24, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 25, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the Bob Soup on the far left.\"}"}
+{"i": 26, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 27, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 28, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 29, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 30, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 31, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 32, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soups.\"}"}
+{"i": 33, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soups.\"}"}
+{"i": 34, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 35, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 36, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 37, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 38, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 39, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 40, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 41, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 42, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 43, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 44, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 45, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 46, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 47, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 48, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 49, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 50, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 51, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 52, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the Cathy Soup.\"}"}
+{"i": 53, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the Cathy Soup.\"}"}
+{"i": 54, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 55, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 56, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 57, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 58, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 59, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 60, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 61, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot prepare David's ingredients as I am currently cooking Cathy's soup.\"}"}
+{"i": 62, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 63, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 64, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 65, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 66, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 67, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 68, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 69, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 70, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 71, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the middle one.\"}"}
+{"i": 72, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 73, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 74, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 75, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 76, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 77, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 78, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 79, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 80, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 81, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 82, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 83, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 84, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 85, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 86, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 87, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 88, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 89, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 90, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 91, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot grab or serve the soup as it is already plated. Please provide instructions for the actions you want me to perform.\"}"}
+{"i": 92, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 93, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 94, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 95, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 96, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 97, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 98, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 99, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 100, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 101, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 102, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 103, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 104, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 105, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 106, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 107, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 108, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 109, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Plate Bob Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 110, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 111, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 112, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 113, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Cathy Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 114, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Cathy Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 115, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 116, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 117, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 118, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 119, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 120, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 121, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 122, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 123, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 124, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 125, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 126, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 127, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 128, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 129, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Cook Cathy Soup\"], \"question\": \"What action should I take with Cathy?\"}", "reply": "the one with both", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Cook Cathy Soup\"], \"question\": \"What action should I take with Cathy?\"}"}
+{"i": 130, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 131, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 132, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 133, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 134, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 135, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 136, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 137, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 138, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 139, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 140, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 141, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 142, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 143, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 144, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 145, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the soup.\"}"}
+{"i": 146, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the soup.\"}"}
+{"i": 147, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 148, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 149, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 150, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 151, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 152, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 153, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Cook Cathy Soup\", \"Cook David Soup\"], \"question\": \"What is 'the other one' referring to in the context of the current situation?\"}", "reply": "all of those", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Cook Cathy Soup\", \"Cook David Soup\"], \"question\": \"What is 'the other one' referring to in the context of the current situation?\"}"}
+{"i": 154, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 155, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 156, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 157, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 158, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 159, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"What should I chop and grab?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"What should I chop and grab?\"}"}
+{"i": 160, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 161, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 162, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 163, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 164, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 165, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 166, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 167, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 168, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 169, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 170, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 171, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 172, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 173, "turn1": "{\"mode\": \"reply\", \"text\": \"I am already preparing Bob's ingredients. I will continue with the task.\"}"}
+{"i": 174, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 175, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 176, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 177, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 178, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 179, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 180, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 181, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve the Bob Soup from the back right pot as I am already serving it. Please clarify your request.\"}"}
+{"i": 182, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 183, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Should I prepare Bob's ingredients or Cathy's ingredients?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Should I prepare Bob's ingredients or Cathy's ingredients?\"}"}
+{"i": 184, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve it directly. I need to prepare the soup first.\"}"}
+{"i": 185, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 186, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 187, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 188, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 189, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 190, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Should I prepare Bob or David's ingredients?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Should I prepare Bob or David's ingredients?\"}"}
+{"i": 191, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup Soup\"}"}
+{"i": 192, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 193, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 194, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 195, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 196, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 197, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 198, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 199, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 200, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 201, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 202, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 203, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 204, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 205, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 206, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 207, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 208, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 209, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 210, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\"], \"question\": \"Should I cook Bob Soup?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\"], \"question\": \"Should I cook Bob Soup?\"}"}
+{"i": 211, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 212, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 213, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 214, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 215, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 216, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 217, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve this as I am already plating David Soup.\"}"}
+{"i": 218, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 219, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve it as I am already serving David Soup.\"}"}
+{"i": 220, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 221, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 222, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 223, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 224, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 225, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 226, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 227, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 228, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 229, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 230, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 231, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot plate the other one as I am currently cooking Bob Soup.\"}"}
+{"i": 232, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 233, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 234, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 235, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the non-urgent one, which is Alice Soup.\"}"}
+{"i": 236, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 237, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 238, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 239, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 240, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 241, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 242, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 243, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Prepare Cathy Ingredients\", \"Plate Bob Soup\"], \"question\": \"What action should I take next?\"}", "reply": "the one with both", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Prepare Cathy Ingredients\", \"Plate Bob Soup\"], \"question\": \"What action should I take next?\"}"}
+{"i": 244, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 245, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 246, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 247, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot plate the David Soup at (0, 6) as it is already on fire.\"}"}
+{"i": 248, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 249, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 250, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 251, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the Alice Soup as it is on the left.\"}"}
+{"i": 252, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the Alice Soup as it is on the left.\"}"}
+{"i": 253, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 254, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 255, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 256, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 257, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 258, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 259, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Should I prepare Cathy Ingredients or David Ingredients?\"}", "reply": "just do it", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 260, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 261, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 262, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 263, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 264, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 265, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 266, "turn1": "{\"mode\": \"reply\", \"text\": \"The David Soup is already plated at (7, 5). You need to place it on the right counter. The right counter is at (7, 5).\"}"}
+{"i": 267, "turn1": "{\"mode\": \"reply\", \"text\": \"The plated David Soup is already at (7, 5). The right side of the player is (4, 3).\"}"}
+{"i": 268, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 269, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 270, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 271, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 272, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 273, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 274, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 275, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 276, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 277, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 278, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 279, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 280, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 281, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 282, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 283, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 284, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot grab or serve the soup as it is already plated. Please provide instructions for the actions you want me to perform.\"}"}
+{"i": 285, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 286, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 287, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 288, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 289, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 290, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 291, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 292, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 293, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 294, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\"], \"question\": \"Should I prepare Bob's ingredients or something else?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 295, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 296, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 297, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 298, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 299, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 300, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 301, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 302, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 303, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 304, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 305, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 306, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 307, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 308, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 309, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 310, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 311, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 312, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 313, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 314, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 315, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the soup.\"}"}
+{"i": 316, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 317, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 318, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 319, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 320, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve it as I am already plating Bob Soup.\"}"}
+{"i": 321, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 322, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 323, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 324, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 325, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 326, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Cook David Soup\"], \"question\": \"Which soup should I cook next?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 327, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 328, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 329, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 330, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 331, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 332, "turn1": "{\"mode\": \"reply\", \"text\": \"The soup Alice is already plated at (7, 2).\"}"}
+{"i": 333, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve Alice Soup as it has plenty of time.\"}"}
+{"i": 334, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 335, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 336, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 337, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 338, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 339, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 340, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 341, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 342, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 343, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 344, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 345, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 346, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 347, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 348, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "no, not david", "turn2": "{\"mode\": \"ask\", \"options\": [\"Alice Soup\", \"Bob Soup\", \"Cathy Soup\", \"David Soup\"], \"question\": \"Which soup should I plate?\"}"}
+{"i": 349, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 350, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the soup.\"}"}
+{"i": 351, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 352, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 353, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 354, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 355, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 356, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 357, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 358, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which ingredients should I prepare for Bob's soup?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 359, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 360, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 361, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 362, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot plate the other one as I am currently cooking Bob Soup.\"}"}
+{"i": 363, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 364, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 365, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 366, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 367, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 368, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 369, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 370, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 371, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 372, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 373, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 374, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 375, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 376, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 377, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 378, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 379, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 380, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 381, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 382, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 383, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the Bob Soup.\"}"}
+{"i": 384, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 385, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\", \"Chop Tomato\"], \"question\": \"What is 'the other one' referring to?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"the other one refers to the remaining soup\", \"the other one refers to the remaining ingredients\"], \"question\": \"What is 'the other one' referring to?\"}"}
+{"i": 386, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\", \"Chop Tomato\"], \"question\": \"What is 'the other one' referring to?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 387, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 388, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 389, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 390, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 391, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 392, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 393, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 394, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 395, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 396, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 397, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 398, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 399, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 400, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 401, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the Bob Soup that is already cooked.\"}"}
+{"i": 402, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the David Soup.\"}"}
+{"i": 403, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve anything until I have prepared the ingredients.\"}"}
+{"i": 404, "turn1": "{\"mode\": \"reply\", \"text\": \"I am already preparing the soup for David. I will finish it soon.\"}"}
+{"i": 405, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve it directly. I need to prepare the ingredients first.\"}"}
+{"i": 406, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 407, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 408, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 409, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 410, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 411, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 412, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 413, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 414, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 415, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 416, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 417, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 418, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 419, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 420, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 421, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 422, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 423, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 424, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 425, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 426, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve the other one as I need to prepare ingredients for the soup.\"}"}
+{"i": 427, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve the other one as I need to prepare ingredients for the soup.\"}"}
+{"i": 428, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve it directly. I need to prepare the soup first.\"}"}
+{"i": 429, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve it directly. I need to prepare the soup first.\"}"}
+{"i": 430, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 431, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 432, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 433, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 434, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 435, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 436, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 437, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 438, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 439, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 440, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 441, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 442, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 443, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 444, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 445, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 446, "turn1": "{\"mode\": \"reply\", \"text\": \"I don't understand the command. Could you please clarify?\"}"}
+{"i": 447, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 448, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 449, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 450, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 451, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"What soup ingredient should I prepare next?\"}", "reply": "all of those", "turn2": "{\"mode\": \"ask\", \"options\": [\"Alice Ingredients\", \"Bob Ingredients\", \"Cathy Ingredients\", \"David Ingredients\"], \"question\": \"Which soup should I prepare next?\"}"}
+{"i": 452, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 453, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 454, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 455, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 456, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 457, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 458, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Cook David Soup\"], \"question\": \"What action should I take next?\"}", "reply": "what?", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Cook David Soup\", \"Plate Bob Soup\", \"Plate Cathy Soup\"], \"question\": \"What action should I take next?\"}"}
+{"i": 459, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the David Soup.\"}"}
+{"i": 460, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve anything unless I have the ingredients. Please grab the necessary ingredients first.\"}"}
+{"i": 461, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 462, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve it directly. I need to prepare the ingredients first.\"}"}
+{"i": 463, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 464, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 465, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 466, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 467, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 468, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 469, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 470, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 471, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 472, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 473, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 474, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 475, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 476, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't serve Cathy Soup at (3, 2) because it's already plated.\"}"}
+{"i": 477, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the Cathy Soup at (3, 2).\"}"}
+{"i": 478, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 479, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soups.\"}"}
+{"i": 480, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 481, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 482, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 483, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 484, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 485, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 486, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 487, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 488, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 489, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 490, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 491, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 492, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 493, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve the soup by the fire extinguisher as it is not a valid target for serving. Please provide a valid soup to serve.\"}"}
+{"i": 494, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 495, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 496, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 497, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 498, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 499, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 500, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 501, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 502, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 503, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 504, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 505, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 506, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 507, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 508, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\"], \"question\": \"Should I prepare Bob's ingredients or cook David's soup?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Cook David Soup\"], \"question\": \"Should I prepare Bob's ingredients or cook David's soup?\"}"}
+{"i": 509, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 510, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 511, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 512, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 513, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 514, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 515, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Plate Cathy Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "the alice one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 516, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\", \"Chop Tomato\"], \"question\": \"What ingredient should I chop next?\"}", "reply": "both", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\", \"Chop Tomato\"], \"question\": \"What ingredient should I chop next?\"}"}
+{"i": 517, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the soup.\"}"}
+{"i": 518, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 519, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 520, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 521, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 522, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 523, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 524, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 525, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 526, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 527, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 528, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 529, "turn1": "{\"mode\": \"reply\", \"text\": \"The Bob Soup is already plated at (0, 5). You can serve it directly from there.\"}"}
+{"i": 530, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve the other one. I am currently cooking Bob Soup. Please wait for me to finish.\")"}
+{"i": 531, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 532, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 533, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 534, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 535, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 536, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 537, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 538, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 539, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which ingredients should I prepare for Cathy's soup?\"}", "reply": "cathy please", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which ingredients should I prepare for Cathy's soup?\"}"}
+{"i": 540, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup Soup\"}"}
+{"i": 541, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 542, "turn1": "{\"mode\": \"reply\", \"text\": \"The David Soup is already plated.\"}"}
+{"i": 543, "turn1": "{\"mode\": \"reply\", \"text\": \"The urgent one is David Soup, which is already being cooked at (6, 6). I can't plate it again.\"}"}
+{"i": 544, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 545, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the soup.\"}"}
+{"i": 546, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 547, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Bob Soup\", \"Serve Cathy Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 548, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 549, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot serve it as I have already plated and served Bob Soup.\"}"}
+{"i": 550, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 551, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 552, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 553, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 554, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 555, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 556, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 557, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 558, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 559, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 560, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 561, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 562, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 563, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Plate Cathy Soup\"], \"question\": \"What is the 'other one' referring to?\"}", "reply": "the cathy one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 564, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 565, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 566, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 567, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot grab or serve the soup as it is already plated. Please provide instructions for the actions you want me to perform.\"}"}
+{"i": 568, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 569, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 570, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 571, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 572, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 573, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 574, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 575, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 576, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 577, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Prepare Cathy Ingredients\"], \"question\": \"What is the next action needed?\"}", "reply": "the one with both", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Prepare Cathy Ingredients\"], \"question\": \"What is the next action needed?\"}"}
+{"i": 578, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 579, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 580, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 581, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 582, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 583, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 584, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 585, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 586, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 587, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 588, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Cathy Soup\", \"Cook Cathy Soup\"], \"question\": \"What action should I take with Cathy Soup?\"}", "reply": "all of those", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\", \"Cook Bob Soup\", \"Serve Bob Soup\", \"Serve Cathy Soup\"], \"question\": \"What action should I take with Cathy Soup?\"}"}
+{"i": 589, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 590, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 591, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 592, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 593, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 594, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 595, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 596, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 597, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 598, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 599, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 600, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 601, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 602, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 603, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 604, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Plate Cathy Soup\"], \"question\": \"What do you need to do to 'plate the other one'?\"}", "reply": "the one with both", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Plate Cathy Soup\"], \"question\": \"What do you need to do to 'plate the other one'?\"}"}
+{"i": 605, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 606, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 607, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 608, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 609, "turn1": "{\"mode\": \"reply\", \"text\": \"I don't understand the command. Could you please clarify?\"}"}
+{"i": 610, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 611, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 612, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 613, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 614, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 615, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 616, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 617, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 618, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Cook Bob Soup\"], \"question\": \"What do you want to prepare or cook?\"}", "reply": "all of those", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Cook Bob Soup\"], \"question\": \"What do you want to prepare or cook?\"}"}
+{"i": 619, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 620, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 621, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 622, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 623, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 624, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the Alice Soup as it is already plated.\"}"}
+{"i": 625, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the Alice Soup as it is already plated.\"}"}
+{"i": 626, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 627, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 628, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 629, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 630, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 631, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 632, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 633, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 634, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 635, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\"], \"question\": \"Should I prepare Cathy's ingredients or another set of ingredients?\"}", "reply": "cathy please", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare Bob Ingredients\"], \"question\": \"Should I prepare Cathy's ingredients or another set of ingredients?\"}"}
+{"i": 636, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 637, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 638, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 639, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 640, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 641, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 642, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 643, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 644, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 645, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 646, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 647, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 648, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 649, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 650, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 651, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 652, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 653, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 654, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 655, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 656, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 657, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\"], \"question\": \"Should I prepare Bob's ingredients or something else?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Tomato\"], \"question\": \"Should I prepare Bob's ingredients or chop tomato?\"}"}
+{"i": 658, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 659, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 660, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 661, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 662, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot plate David Soup from the left pot as I do not have the necessary ingredients. I need to prepare David's ingredients first.\"}"}
+{"i": 663, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 664, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 665, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the soup.\"}"}
+{"i": 666, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 667, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 668, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 669, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 670, "turn1": "{\"mode\": \"reply\", \"text\": \"I will serve the soup.\"}"}
+{"i": 671, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 672, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 673, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 674, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 675, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 676, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 677, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 678, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 679, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 680, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 681, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 682, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot plate the other one as I need to prepare the ingredients first.\"}"}
+{"i": 683, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 684, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 685, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 686, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 687, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 688, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 689, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 690, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 691, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 692, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 693, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 694, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 695, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 696, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 697, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 698, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 699, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 700, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 701, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 702, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 703, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 704, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 705, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 706, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 707, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 708, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 709, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 710, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 711, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 712, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 713, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 714, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 715, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 716, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 717, "turn1": "{\"mode\": \"execute\", \"macro\": \"Putout\"}"}
+{"i": 718, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 719, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 720, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 721, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 722, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 723, "turn1": "{\"mode\": \"reply\", \"text\": \"I cannot plate the David Soup from the left pot as I do not have the necessary ingredients.\"}"}
+{"i": 724, "turn1": "{\"mode\": \"reply\", \"text\": \"I will plate the soup.\"}"}
+{"i": 725, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 726, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 727, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 728, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Cathy Soup\", \"Cook Cathy Soup\"], \"question\": \"What action should I take with Cathy Soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 729, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 730, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}

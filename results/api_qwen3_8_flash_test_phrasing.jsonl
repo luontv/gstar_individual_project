@@ -1,0 +1,1424 @@
+{"i": 0, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 1, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"You hold Chopped Lettuce. Do you want me to chop a Tomato (for David/Cathy) or another Lettuce (to replace your current one if it's not fresh enough for the order, though David needs Onion+Tomato too)?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 2, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Prepare Alice Ingredients\"\n}"}
+{"i": 3, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 4, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}"}
+{"i": 5, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 6, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 7, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 8, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 9, "turn1": "{\"mode\": \"refuse\", \"reason\": \"You are already holding a Plated Bob Soup. To serve it, you must walk to the serving counter and Serve it.\"}"}
+{"i": 10, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 11, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\"], \"question\": \"Which soup do you want me to serve?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 12, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 13, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 14, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 15, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 16, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie do you want chopped?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 17, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 18, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 19, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "david", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 20, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 21, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 22, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 23, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I plate? Alice is ready to be plated, and David is already plated but could be served.\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 24, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 25, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 26, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 27, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 28, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped onion, lettuce, and tomato ready on the counter. We can start preparing the soups now.\"}"}
+{"i": 29, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 30, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped lettuce and tomato. We are missing onions for Alice/David, but no onion orders yet.\"}"}
+{"i": 31, "turn1": "{\"mode\": \"reply\", \"text\": \"All needed veggies are already chopped. Focus on preparing David Soup (urgent) and Alice Soup.\"}"}
+{"i": 32, "turn1": "{\"mode\": \"reply\", \"text\": \"All necessary veggies are already chopped. We have 2 Chopped Tomatoes and 1 Chopped Lettuce on the counter, plus I hold Cathy Ingredients (Onion+Tomato). Ready to cook when you are.\"}"}
+{"i": 33, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 34, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 35, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 36, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Both David and Cathy are 'some time' (urgent). David needs lettuce/onion/tomato; Cathy needs onion/tomato. I have chopped lettuce. Should I chop tomato (needed by both) or fresh lettuce (needed only by David)? Note: Chopped Onion is next to you, so I can grab it later.\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 37, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare David Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Which soup ingredients should I prepare?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 38, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"The urgent order is Cathy Soup, which needs Onion and Tomato. You have already chopped Tomato twice (and there are 2 Chopped Tomatoes on the counter), but you haven't chopped any Onion yet for this batch. Should I chop an Onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 39, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There are no urgent orders; all listed orders have plenty of time.\"}"}
+{"i": 40, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}"}
+{"i": 41, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 42, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 43, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 44, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 45, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 46, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 47, "turn1": "{\"mode\": \"refuse\", \"reason\": \"I am holding Plated Bob Soup, but the urgent orders are for Cathy Soup. I cannot serve Bob Soup to fulfill a Cathy order.\"}"}
+{"i": 48, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 49, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Tomato\"\n}"}
+{"i": 50, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 51, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 52, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 53, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 54, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 55, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 56, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 57, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 58, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 59, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 60, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 61, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 62, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "no, not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 63, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 64, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 65, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 66, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 67, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 68, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 69, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}"}
+{"i": 70, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 71, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 72, "turn1": "{\n  \"mode\": \"reply\",\n  \"text\": \"Understood. I have Chopped Lettuce ready. Please chop the Fresh Lettuce you are holding so we can start preparing David's soup.\"\n}"}
+{"i": 73, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Cathy Soup\", \"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup do you want to start cooking?\"}", "reply": "cathy please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 74, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 75, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 76, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 77, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 78, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 79, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 80, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 81, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 82, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Both David and Cathy are urgent. Do you want to chop the missing ingredient for David (Onion) or for Cathy (Lettuce)?\""}
+{"i": 83, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 84, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want chopped?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 85, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 86, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 87, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 88, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There are no urgent orders (both Alice soups have 'some time' and Cathy has 'plenty of time'). Additionally, the ingredients for the pending orders (Alice: lettuce+onion; Cathy: onion+tomato) require Onions, but there is no Onion available to chop. The current counters only hold Tomato and Lettuce.\"}"}
+{"i": 89, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 90, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 91, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you mean by 'the other veggie'? You are holding chopped lettuce, and there is chopped onion next to you.\"}", "reply": "no, not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 92, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped tomatoes and lettuce ready. We are missing onions for Alice and Cathy soups.\"}"}
+{"i": 93, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 94, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 95, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 96, "turn1": "{\"mode\": \"reply\", \"text\": \"We have Chopped Tomato, 2x Chopped Onion, and Chopped Lettuce ready. We need one more Chopped Lettuce for David's soup (needs 2 lettuce). You hold Fresh Lettuce; please chop it.\"}"}
+{"i": 97, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 98, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 99, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "the alice one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 100, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 101, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 102, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 103, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 104, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 105, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 106, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you mean? You have Chopped Tomato on the counter, so 'the other' could be Onion or Lettuce.\"}", "reply": "neither", "turn2": "{\"mode\": \"refuse\", \"reason\": \"The only vegetables available to chop are Tomato, Onion, and Lettuce. Since you rejected Onion and Lettuce, and Tomato is already chopped/available, there is no 'other' vegetable left to chop.\"}"}
+{"i": 107, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Bob Soup\", \"Plate Bob Soup\"], \"question\": \"Do you want me to serve the cooked Bob Soup or plate it?\"}", "reply": "both", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 108, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 109, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 110, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 111, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 112, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 113, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 114, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 115, "turn1": "{\"mode\": \"reply\", \"text\": \"Chopped Lettuce and Onion are ready. I need to chop Tomato for the soups.\"}"}
+{"i": 116, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 117, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 118, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 119, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Alice Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "no, not alice", "turn2": "{\"mode\": \"ask\", \"options\": [\"Cook Cathy Soup\"], \"question\": \"Should I cook Cathy Soup?\"}"}
+{"i": 120, "turn1": "{\"mode\": \"refuse\", \"reason\": \"I am already holding the Plated Cathy Soup, but I have already served it. The David Soups are expiring urgently and need to be cooked first.\"}"}
+{"i": 121, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 122, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 123, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 124, "turn1": "{\"mode\": \"reply\", \"text\": \"We have chopped lettuce and onion. We still need chopped tomato for the David soups.\"}"}
+{"i": 125, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 126, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 127, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 128, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 129, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 130, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 131, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 132, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 133, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Cook David Soup\"], \"question\": \"Do you want me to chop the onion for David or cook the expiring David soup?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 134, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Alice is expiring and needs Onion or Lettuce. Which one should I chop?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 135, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 136, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\""}
+{"i": 137, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 138, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 139, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 140, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 141, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 142, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 143, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 144, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 145, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}"}
+{"i": 146, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 147, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 148, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Cathy Ingredients\"\n}"}
+{"i": 149, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Serve David Soup\"], \"question\": \"Which soup do you want to cook? I can start the Bob Soup or serve the plated David Soup.\"}", "reply": "bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 150, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 151, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Alice Soup\", \"Serve Cathy Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 152, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 153, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 154, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 155, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 156, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 157, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Bob is expiring, but Cathy also has little time.\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 158, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 159, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 160, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 161, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 162, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 163, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 164, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup ingredients should I prepare?\"}", "reply": "bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 165, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 166, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 167, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 168, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\""}
+{"i": 169, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"What should I chop again?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop again?\"}"}
+{"i": 170, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 171, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 172, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 173, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 174, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\", \"Chop Tomato\"], \"question\": \"Which veggie do you mean by 'the other'?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 175, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 176, "turn1": "{\n  \"mode\": \"refuse\",\n  \"reason\": \"Bob Soup is not in the current orders. The active orders are Alice (urgent) and Cathy.\"\n}"}
+{"i": 177, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Tomato\"\n}"}
+{"i": 178, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 179, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 180, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 181, "turn1": "{\"mode\": \"reply\", \"text\": \"I see chopped lettuce, onions, and tomatoes on the counters. Do you want me to chop more of a specific vegetable?\"}"}
+{"i": 182, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 183, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 184, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 185, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 186, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 187, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 188, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 189, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 190, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 191, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 192, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 193, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which ingredient should I chop next for Alice Soup?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 194, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 195, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 196, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 197, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 198, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 199, "turn1": "{\"mode\": \"reply\", \"text\": \"We have chopped lettuce and onion. We still need chopped tomato for the David soups.\"}"}
+{"i": 200, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 201, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 202, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 203, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 204, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\", \"Prepare Alice Ingredients\"], \"question\": \"What should I do again?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 205, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 206, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Onion\"], \"question\": \"Which soup ingredients should I prepare?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 207, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 208, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 209, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 210, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 211, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 212, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 213, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 214, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop again?\"}", "reply": "both", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 215, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 216, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 217, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 218, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 219, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 220, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 221, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "neither", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Plate Cathy Soup\"], \"question\": \"Since you don't want me to chop, should I prepare ingredients for the expiring Alice Soup or plate the cooked Cathy Soup?\"}"}
+{"i": 222, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent order is Cathy Soup, which requires Onion and Tomato. You are holding Lettuce, so you cannot chop the required ingredients immediately without dropping or swapping items first.\""}
+{"i": 223, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 224, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 225, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 226, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 227, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 228, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 229, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 230, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped plenty of tomato and lettuce. We are missing onions for the Alice soups and Cathy soup.\"}"}
+{"i": 231, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 232, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 233, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which order is urgent? (Alice needs lettuce+onion, Cathy is cooking, David needs lettuce+onion+tomato)\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 234, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 235, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 236, "turn1": "{\"mode\": \"refuse\", \"reason\": \"Bob Soup is already served.\"}"}
+{"i": 237, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 238, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 239, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 240, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 241, "turn1": "{\"mode\": \"refuse\", \"reason\": \"You are already holding a Plated Bob Soup. To serve it, you must walk to the serving counter and Serve it.\"}"}
+{"i": 242, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 243, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 244, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 245, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped plenty of tomato and lettuce. We are missing onions for the Alice soups and Cathy soup.\"}"}
+{"i": 246, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 247, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 248, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 249, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 250, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Alice Soup\", \"Cook David Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "david", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 251, "turn1": "{\"mode\": \"reply\", \"text\": \"I already have a Fresh Tomato. Would you like me to chop it, or do you need more chopped tomatoes from the counter?\"}"}
+{"i": 252, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 253, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 254, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\"}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 255, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 256, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 257, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 258, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 259, "turn1": "{\"mode\": \"reply\", \"text\": \"Lettuce and tomatoes are already chopped. We need to chop onions for Cathy and Alice.\"}"}
+{"i": 260, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\", \"Putout\"], \"question\": \"Do you want me to serve the expiring David Soup or put out something else?\"}", "reply": "david", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 261, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 262, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 263, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 264, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 265, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 266, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\"], \"question\": \"I can only prepare Bob ingredients now. Do you want me to do that?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 267, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup ingredients should I prepare?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 268, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie should I chop next? The urgent David soup needs onion, but there are also tomatoes available.\"}", "reply": "not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 269, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 270, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 271, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 272, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"You hold Fresh Tomato. The player holds Chopped Lettuce. 'This' usually refers to the item in hand, but you can't chop a tomato into lettuce or onion. Do you want me to chop something else nearby? Or did you mean for me to use the chopped ingredients?\"}", "reply": "neither", "turn2": "{\"mode\": \"refuse\", \"reason\": \"I am holding a Fresh Tomato, but the only chopping actions available are for Tomato, Lettuce, and Onion. Since you rejected using nearby items or existing chopped ingredients, and I cannot chop what is already chopped or incompatible, there is no valid action to perform based on your constraints.\"}"}
+{"i": 273, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 274, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 275, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 276, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you need chopped?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 277, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 278, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 279, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 280, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 281, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 282, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 283, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 284, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 285, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 286, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 287, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Prepare David Ingredients\"], \"question\": \"Which soup should I cook or prepare?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 288, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 289, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop for the player's current order?\"}", "reply": "not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 290, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 291, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 292, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Alice or David?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 293, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 294, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 295, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 296, "turn1": "{\"mode\": \"refuse\", \"reason\": \"No order is currently urgent (all have plenty of time).\"}"}
+{"i": 297, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 298, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which ingredient should I chop one more time?\"}", "reply": "not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 299, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 300, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 301, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 302, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 303, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 304, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 305, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 306, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 307, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 308, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you mean by 'the other veggie'? You are holding chopped lettuce, and there is chopped onion next to you.\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 309, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The Bob Soup is already plated and held by the player.\"}"}
+{"i": 310, "turn1": "{\"mode\": \"reply\", \"text\": \"I see chopped lettuce, onions, and tomatoes on the counters. Do you want me to chop more of a specific vegetable?\"}"}
+{"i": 311, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 312, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 313, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 314, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 315, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 316, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 317, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 318, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent order is Cathy Soup, which has already been plated. The remaining orders (David and Bob) have plenty of time.\"}"}
+{"i": 319, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 320, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 321, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 322, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 323, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 324, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent soup (Cathy) is already plated and served. The remaining orders are David (cooking) and Bob (ingredients prepared, not cooked yet). I cannot cook an already finished soup.\"}"}
+{"i": 325, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 326, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 327, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 328, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 329, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 330, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\", \"Chop Tomato\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 331, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"The urgent orders are for Alice Soup (needs Lettuce and Onion). You hold Tomato, and the player holds Chopped Lettuce. Do you want me to chop an Onion or a Lettuce?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"The urgent Alice Soup needs Lettuce and Onion. You hold Tomato, player holds Chopped Lettuce. Should I chop an Onion or another Lettuce?\"}"}
+{"i": 332, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}"}
+{"i": 333, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 334, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 335, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 336, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 337, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 338, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 339, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 340, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 341, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 342, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 343, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"All three orders (Bob, Alice, Bob) need lettuce. The two Bob orders also need tomato, while the Alice order needs onion. Which ingredient should I chop for the most urgent order?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 344, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 345, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"What should I chop again?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 346, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Prepare David Ingredients\"], \"question\": \"Which soup do you want to start cooking? Bob is cooked but not plated/served, while David needs preparation first.\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 347, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 348, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 349, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 350, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Both David and Cathy are urgent. Do you want to chop the missing ingredient for David (Onion) or for Cathy (Lettuce)?\""}
+{"i": 351, "turn1": "{\"mode\": \"reply\", \"text\": \"We have Chopped Tomato, 2x Chopped Onion, and Chopped Lettuce ready. We need one more Chopped Lettuce for David's soup (needs 2 lettuce). You hold Fresh Lettuce; please chop it.\"}"}
+{"i": 352, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 353, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 354, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 355, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 356, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 357, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare Bob Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? (Cathy is expiring)\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 358, "turn1": "{\"mode\": \"ask\", \"question\": \"Which veggie should I chop?\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"]}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 359, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 360, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 361, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 362, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 363, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"ask\", \"options\": [\"Alice Soup\", \"David Soup\"], \"question\": \"Which soup's ingredients should I prepare?\""}
+{"i": 364, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 365, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\", \"Cook Bob Soup\"], \"question\": \"The only plated soup ready to serve is David Soup, but Alice (the most urgent) is charred and cannot be served. Do you want me to serve the available David Soup, or start cooking a new Bob Soup?\"}", "reply": "not bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 366, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup should I prepare ingredients for?\"}", "reply": "cathy please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 367, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 368, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"You hold Chopped Lettuce. Do you want me to chop more Lettuce or Onion?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Okay, I will wait for your next instruction.\"}"}
+{"i": 369, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 370, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 371, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 372, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 373, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie do you want chopped?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Understood. I will hold off on chopping until you specify which ingredient is needed for the Cathy or Bob soups.\"}"}
+{"i": 374, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 375, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you need chopped?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you need chopped?\"}"}
+{"i": 376, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 377, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 378, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 379, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Alice Soup\", \"Serve Cathy Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "the cathy one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 380, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 381, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 382, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 383, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 384, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 385, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 386, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 387, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 388, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which urgent order? Cathy (Onion+Tomato) or Bob (Lettuce+Tomato)? Note: Lettuce is already chopped.\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"The urgent orders are Bob and Cathy. Bob needs Lettuce (already chopped) and Tomato. Cathy needs Onion and Tomato (already chopped). Since neither is currently missing a chopped ingredient that you can chop right now, there is no action to take for 'chopping' the urgent orders.\"}"}
+{"i": 389, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 390, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 391, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 392, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 393, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Prepare Cathy Ingredients\"\n}"}
+{"i": 394, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 395, "turn1": "{\"mode\":\"ask\",\"options\":[\"Chop Tomato\",\"Chop Lettuce\",\"Chop Onion\"],\"question\":\"Which veggie should I chop?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 396, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 397, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 398, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 399, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 400, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 401, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"The urgent orders are for Alice Soup (needs lettuce and onion). I have plenty of chopped lettuce on the counter. Should I chop an onion or more lettuce?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 402, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 403, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 404, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 405, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 406, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 407, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 408, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 409, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 410, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 411, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 412, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There are no urgent orders; all listed orders have plenty of time.\"}"}
+{"i": 413, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 414, "turn1": "{\n\"mode\": \"ask\",\n\"options\": [\n\"Chop Lettuce\",\n\"Chop Onion\"\n],\n\"question\": \"Both Alice and Cathy orders are marked as 'some time' (urgent). Which ingredient should I chop for them?\"\n}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 415, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 416, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 417, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 418, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 419, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 420, "turn1": "{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Prepare Cathy Ingredients\"\n  ],\n  \"question\": \"Which ingredient should I chop again?\"\n}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 421, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which ingredient should I chop next?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 422, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 423, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 424, "turn1": "{\"mode\": \"reply\", \"text\": \"All veggies are chopped: lettuce, onion, and tomato.\"}"}
+{"i": 425, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 426, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 427, "turn1": "{\"mode\": \"reply\", \"text\": \"I have already served the David Soup.\"}"}
+{"i": 428, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 429, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 430, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 431, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 432, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Onion\"\n}"}
+{"i": 433, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 434, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 435, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped tomatoes and lettuce ready. We are missing onions for Alice and Cathy soups.\"}"}
+{"i": 436, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 437, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 438, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 439, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 440, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"The urgent orders are for Alice Soup (needs Lettuce and Onion). You hold Tomato, and the player holds Chopped Lettuce. Do you want me to chop an Onion or a Lettuce?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 441, "turn1": "{\n\"mode\": \"ask\",\n\"options\": [\n{\"macro\": \"Chop Tomato\"},\n{\"macro\": \"Chop Onion\"}\n],\n\"question\": \"Which vegetable do you mean by 'the other veggie'? I see Chopped Tomato and Chopped Onion on the counters.\"\n}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which vegetable do you mean by 'the other veggie'? I see Chopped Tomato and Chopped Onion on the counters.\"}"}
+{"i": 442, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}"}
+{"i": 443, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Soup Ingredients\"}"}
+{"i": 444, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Onion\"\n}"}
+{"i": 445, "turn1": "{\"mode\": \"ask\", \"question\": \"Which soup's ingredients should I prepare?\", \"options\": [\"Prepare Bob Ingredients\"]}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 446, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 447, "turn1": "{\"mode\": \"reply\", \"text\": \"Chopped Lettuce and Onion are ready. I need to chop Tomato for the soups.\"}"}
+{"i": 448, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 449, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 450, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 451, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 452, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 453, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 454, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 455, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Onion\"\n}"}
+{"i": 456, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Onion\"\n}"}
+{"i": 457, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Soup Ingredients\"}"}
+{"i": 458, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 459, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 460, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 461, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 462, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 463, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 464, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which order is urgent? (Alice needs lettuce+onion, Cathy is cooking, David needs lettuce+onion+tomato)\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Okay, I will wait for your next instruction.\"}"}
+{"i": 465, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 466, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 467, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 468, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 469, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Both Alice and Cathy are urgent. Alice needs lettuce (which you have) and onion. Cathy needs onion and tomato. You hold lettuce, so the missing ingredients for the urgent orders are onion (for Alice/Cathy) or tomato (for Cathy). Do you want me to chop the onion or the tomato?\"}", "reply": "neither", "turn2": "{\"mode\": \"refuse\", \"reason\": \"You said 'neither', but I cannot chop what you do not want me to chop.\"}"}
+{"i": 470, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"All three orders (Bob, Alice, Bob) need lettuce. The two Bob orders also need tomato, while the Alice order needs onion. Which ingredient should I chop for the most urgent order?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Understood. I will continue with the current workflow.\"}"}
+{"i": 471, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 472, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 473, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"What should I chop for the lettuce you are holding?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 474, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 475, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Both Alice and Cathy are urgent. Alice needs onion, Cathy needs tomato. Which one should I chop?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 476, "turn1": "{\n  \"mode\": \"reply\",\n  \"text\": \"I can't grab items, but there is a Plate next to you. You can pick it up.\"\n}"}
+{"i": 477, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 478, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 479, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Cathy Soup\", \"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup do you want to start cooking?\"}", "reply": "the cathy one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 480, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 481, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 482, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 483, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop one more time?\""}
+{"i": 484, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 485, "turn1": "{\"mode\": \"reply\", \"text\": \"I have already chopped 3 lettuces and there is one more chopped lettuce right next to you. We have enough for Alice and David.\"}"}
+{"i": 486, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Onion\"], \"question\": \"Which soup's ingredients should I prepare? Note that 'Bob' is the only recipe with available ingredients (Lettuce + Tomato) in my current possible actions, but you have ordered Cathy, David, and Alice. Do you want me to chop an onion first?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 487, "turn1": "{\"mode\": \"reply\", \"text\": \"Lettuce and tomatoes are already chopped. We need to chop onions for Cathy and Alice.\"}"}
+{"i": 488, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 489, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Bob Soup\", \"Serve Cathy Soup\"], \"question\": \"Which soup should I serve? The urgent one (Cathy) or the other ready one (Bob)?\"}", "reply": "bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 490, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 491, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Cook Bob Soup\"], \"question\": \"Which order should I start? The cooked Bob Soup is ready to serve, but Alice needs prep.\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 492, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 493, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 494, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 495, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 496, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie should I chop next: onion or tomato?\"}", "reply": "not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 497, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 498, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 499, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 500, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 501, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 502, "turn1": "{\n\"mode\": \"reply\",\n\"text\": \"I've been chopping tomatoes and lettuce. Do you need onions chopped for the Cathy or Alice orders?\"\n}"}
+{"i": 503, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 504, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Cathy Soup\", \"Cook David Soup\"], \"question\": \"Which soup should I start cooking? Cathy is expiring, but David has plenty of time.\"}", "reply": "cathy please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 505, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 506, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 507, "turn1": "{\"mode\": \"reply\", \"text\": \"I have already chopped lettuce. There are 2 chopped lettuces on the counter and one next to you.\"}"}
+{"i": 508, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 509, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 510, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 511, "turn1": "{\"mode\": \"refuse\", \"reason\": \"You are currently holding Plated Bob Soup. You must put it down or serve it before you can use your hands to prepare ingredients.\"}"}
+{"i": 512, "turn1": "{\"mode\": \"reply\", \"text\": \"Understood. I will chop the remaining vegetables to prepare for the upcoming orders.\"}"}
+{"i": 513, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 514, "turn1": "{\n  \"mode\": \"reply\",\n  \"text\": \"Understood. I have Chopped Lettuce ready. Please chop the Fresh Lettuce you are holding so we can start preparing David's soup.\"\n}"}
+{"i": 515, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\", \"Chop Tomato\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 516, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 517, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 518, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 519, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 520, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 521, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 522, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 523, "turn1": "{\n  \"mode\": \"refuse\",\n  \"reason\": \"There is no 'Grab Plate' action available in the current context. Plates are typically handled during the 'Plate <Soup> Soup' step, which requires a cooked soup to be ready and on a pot or counter. Currently, only Cathy Soup is cooked, but the player did not specify plating it, and the command 'grab a plate' is not a valid primitive action.\"\n}"}
+{"i": 524, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Both Bob and Alice orders are urgent. Bob needs tomato (onion is ready), Alice needs onion (lettuce is ready). Which one should I chop?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 525, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 526, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 527, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent order is David Soup, but you are holding Cathy Ingredients and the only cooked soup available is Cathy. You cannot cook David Soup with these ingredients.\"}"}
+{"i": 528, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 529, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 530, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 531, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 532, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Okay, I will not prepare any ingredients right now.\"}"}
+{"i": 533, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 534, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 535, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 536, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 537, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 538, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 539, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 540, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 541, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}"}
+{"i": 542, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 543, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 544, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped lettuce and tomato. We are missing onions for Alice/David, but no onion orders yet.\"}"}
+{"i": 545, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 546, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Alice is expiring and needs Onion or Lettuce. Which one should I chop?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 547, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 548, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 549, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 550, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Bob Soup\", \"Serve Cathy Soup\"], \"question\": \"Which soup should I serve? The urgent one (Cathy) or the other ready one (Bob)?\"}", "reply": "cathy please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 551, "turn1": "{\"mode\": \"reply\", \"text\": \"All necessary veggies are already chopped. We have 2 Chopped Tomatoes and 1 Chopped Lettuce on the counter, plus I hold Cathy Ingredients (Onion+Tomato). Ready to cook when you are.\"}"}
+{"i": 552, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie should I chop next: onion or tomato?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 553, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 554, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 555, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 556, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 557, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 558, "turn1": "{\"mode\": \"refuse\", \"reason\": \"No urgent order exists (all have 'some time')\"}"}
+{"i": 559, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Tomato\"\n}"}
+{"i": 560, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 561, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 562, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 563, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 564, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 565, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 566, "turn1": "{\"mode\": \"refuse\", \"reason\": \"You are holding Plated David Soup, but the urgent orders are Cathy Soups. You cannot serve a plated soup without dropping it first, and there is no action to drop or swap held items in the possible actions list.\"}"}
+{"i": 567, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped tomatoes and onions. The player has chopped lettuce. We are ready to prepare.\"}"}
+{"i": 568, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which ingredient should I chop next?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 569, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 570, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 571, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 572, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 573, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Alice is expiring and needs Onion or Lettuce. Which one should I chop?\"}", "reply": "not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 574, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 575, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 576, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 577, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 578, "turn1": "{\"mode\": \"reply\", \"text\": \"All required veggies are already chopped. We can start preparing soups now.\"}"}
+{"i": 579, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped tomatoes and lettuce. We are missing chopped onions for the Cathy and David orders. I will chop an onion now.\"}"}
+{"i": 580, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 581, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Alice Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 582, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Onion\"\n}"}
+{"i": 583, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 584, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 585, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 586, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 587, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 588, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 589, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop again?\"}", "reply": "just do it", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 590, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Understood. I will not chop anything.\"}"}
+{"i": 591, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 592, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 593, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 594, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 595, "turn1": "{\"mode\": \"refuse\", \"reason\": \"Cathy Soup is already charred and cannot be cooked again.\"}"}
+{"i": 596, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 597, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 598, "turn1": "{\"mode\": \"refuse\", \"reason\": \"All orders have plenty of time, so there is no urgent order.\"}"}
+{"i": 599, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 600, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 601, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped tomatoes and lettuce. We are missing chopped onions for the Cathy and David orders. I will chop an onion now.\"}"}
+{"i": 602, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 603, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 604, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}"}
+{"i": 605, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 606, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup should I prepare ingredients for? Cathy, David, or Alice?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 607, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 608, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 609, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped onion, lettuce, and tomato ready on the counter. We can start preparing the soups now.\"}"}
+{"i": 610, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which ingredient should I chop again?\"}", "reply": "both", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 611, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy Soup is expiring (needs Onion)\", \"Alice Soup is expiring (needs Lettuce + Onion)\"], \"question\": \"Both Cathy and Alice are expiring. Which one do you mean?\"}", "reply": "no, not alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 612, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 613, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 614, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 615, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 616, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"You hold Chopped Tomato. To complete a soup, you need either Lettuce (for David or Alice) or Onion (for Cathy). Which one should I chop?\"}", "reply": "not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 617, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie do you mean? You hold Tomato, and there are Chopped Lettuce/Onion nearby.\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 618, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 619, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 620, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 621, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 622, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 623, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}"}
+{"i": 624, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 625, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 626, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 627, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 628, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 629, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 630, "turn1": "{\"mode\": \"reply\", \"text\": \"Chopped Lettuce and Onion are ready. I need to chop Tomato for the soups.\"}"}
+{"i": 631, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 632, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 633, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 634, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare David Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Which soup ingredients should I prepare?\"}", "reply": "no, not david", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Which soup ingredients should I prepare?\"}"}
+{"i": 635, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 636, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 637, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 638, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 639, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop? I can see Chopped Tomato on the counters, but David Soup needs Lettuce and Onion.\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 640, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"The urgent order is Cathy Soup, which needs Onion and Tomato. You have already chopped Tomato twice (and there are 2 Chopped Tomatoes on the counter), but you haven't chopped any Onion yet for this batch. Should I chop an Onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 641, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 642, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 643, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 644, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 645, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 646, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Onion\"], \"question\": \"Which soup ingredients should I prepare?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 647, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare David Ingredients\", \"Cook David Soup\"], \"question\": \"David Ingredients are already on the counter. Do you want to Cook it, or Prepare more ingredients?\"}", "reply": "all of those", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 648, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 649, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 650, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Only Alice needs preparation (Bob and Cathy are already cooked).\"}", "reply": "alice please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 651, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 652, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 653, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\", \"Chop Tomato\"], \"question\": \"Which veggie do you mean by 'the other'?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 654, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}"}
+{"i": 655, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\"], \"question\": \"Which soup ingredients should I prepare? I can only prepare Alice (lettuce+onion) right now.\""}
+{"i": 656, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 657, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Cathy or David?\""}
+{"i": 658, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 659, "turn1": "{\"mode\": \"reply\", \"text\": \"All veggies are chopped: lettuce, onion, and tomato.\"}"}
+{"i": 660, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 661, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 662, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 663, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 664, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 665, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 666, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 667, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped tomatoes and onions. The player has chopped lettuce. We are ready to prepare.\"}"}
+{"i": 668, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 669, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 670, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 671, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\", \"Chop Tomato\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 672, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 673, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 674, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 675, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy Soup is expiring (needs Onion)\", \"Alice Soup is expiring (needs Lettuce + Onion)\"], \"question\": \"Both Cathy and Alice are expiring. Which one do you mean?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 676, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 677, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 678, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 679, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 680, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 681, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 682, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 683, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 684, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 685, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 686, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 687, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 688, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 689, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 690, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 691, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 692, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 693, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 694, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 695, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 696, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 697, "turn1": "{\"mode\":\"ask\",\"options\":[\"Chop Tomato\",\"Chop Lettuce\",\"Chop Onion\"],\"question\":\"Which veggie should I chop?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 698, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which ingredient should I chop next for Alice Soup?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 699, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 700, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 701, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 702, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 703, "turn1": "{\"mode\": \"reply\", \"text\": \"The onion is already chopped and on the counter next to you.\"}"}
+{"i": 704, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 705, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 706, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 707, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 708, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent order is Cathy Soup, which requires Onion and Tomato. You are holding Lettuce, so you cannot chop the required ingredients immediately without dropping or swapping items first.\""}
+{"i": 709, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 710, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 711, "turn1": "{\"mode\": \"reply\", \"text\": \"All needed veggies are already chopped. Focus on preparing David Soup (urgent) and Alice Soup.\"}"}
+{"i": 712, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped tomatoes and onions. The player has chopped lettuce. We are ready to prepare.\"}"}
+{"i": 713, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 714, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop again?\""}
+{"i": 715, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Alice or David?\"}", "reply": "neither", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\"], \"question\": \"Should I prepare the ingredients for Bob Soup?\"}"}
+{"i": 716, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 717, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 718, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I start cooking? The charred Cathy soup is next to you, but the Bob ingredients are also there.\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 719, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 720, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 721, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 722, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare David Ingredients\", \"Prepare Bob Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? You hold Cathy ingredients, but the urgent orders are for David.\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 723, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 724, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 725, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 726, "turn1": "{\"mode\": \"reply\", \"text\": \"All required veggies are already chopped. We can start preparing soups now.\"}"}
+{"i": 727, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 728, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 729, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 730, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 731, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Serve David Soup\"], \"question\": \"Which soup do you mean by 'the urgent one'? Cathy is already charred, and Alice is on fire. The remaining active order with little time is Bob.\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 732, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 733, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 734, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 735, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve? Alice is expiring, but both are plated.\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 736, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve David Soup\"\n}"}
+{"i": 737, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Both David and Cathy are urgent. Do you want to chop the missing ingredient for David (Onion) or for Cathy (Lettuce)?\""}
+{"i": 738, "turn1": "{\"mode\": \"reply\", \"text\": \"All veggies are chopped: lettuce, onion, and tomato.\"}"}
+{"i": 739, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 740, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 741, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Bob is expiring, but Cathy also has little time.\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 742, "turn1": "{\"mode\": \"ask\", \"question\": \"Which veggie should I chop?\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"]}", "reply": "not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 743, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 744, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 745, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 746, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 747, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 748, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 749, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop next?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 750, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There are no urgent orders (both Alice soups have 'some time' and Cathy has 'plenty of time'). Additionally, the ingredients for the pending orders (Alice: lettuce+onion; Cathy: onion+tomato) require Onions, but there is no Onion available to chop. The current counters only hold Tomato and Lettuce.\"}"}
+{"i": 751, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 752, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 753, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 754, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "", "turn2": "{\"mode\": \"refuse\", \"reason\": \"The player's response was empty, so I cannot determine which vegetable to chop next.\"}"}
+{"i": 755, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 756, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 757, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 758, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 759, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 760, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped onion, lettuce, and tomato ready on the counter. We can start preparing the soups now.\"}"}
+{"i": 761, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 762, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 763, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next? (Tomato or Onion)\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 764, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 765, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Both Bob and Alice orders are urgent. Bob needs tomato (onion is ready), Alice needs onion (lettuce is ready). Which one should I chop?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 766, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 767, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 768, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 769, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 770, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 771, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 772, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Cathy Soup\", \"Cook David Soup\"], \"question\": \"Which soup should I start cooking? Cathy is expiring, but David has plenty of time.\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 773, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 774, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 775, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 776, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 777, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 778, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 779, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 780, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 781, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "just do it", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 782, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 783, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 784, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Cathy Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I take out: the cooked Cathy Soup or the plated David Soup next to you?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 785, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}"}
+{"i": 786, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 787, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}"}
+{"i": 788, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Onion\"], \"question\": \"Which soup ingredients should I prepare?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup ingredients should I prepare?\"}"}
+{"i": 789, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 790, "turn1": "{\"mode\": \"refuse\", \"reason\": \"All orders have plenty of time, so there is no urgent order to identify.\"}"}
+{"i": 791, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 792, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 793, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Cathy Ingredients\"\n}"}
+{"i": 794, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There is no Bob Soup order. The active orders are Alice (x2) and Cathy.\"}"}
+{"i": 795, "turn1": "{\"mode\": \"reply\", \"text\": \"Understood. I have Fresh Tomato in hand. Do you want me to chop this, or do you need something else prepared first?\"}"}
+{"i": 796, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which soup's ingredients should I prepare? (Alice is the only one with a specific 'Prepare' action, but Cathy/Bob might need chopping.)\"}", "reply": "the one with both", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 797, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 798, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 799, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop? I can see Chopped Tomato on the counters, but David Soup needs Lettuce and Onion.\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 800, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 801, "turn1": "{\"mode\": \"reply\", \"text\": \"We have Chopped Tomato, 2x Chopped Onion, and Chopped Lettuce ready. We need one more Chopped Lettuce for David's soup (needs 2 lettuce). You hold Fresh Lettuce; please chop it.\"}"}
+{"i": 802, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Soup Ingredients\"}"}
+{"i": 803, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 804, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped lettuce and tomato on the counters. I can chop more if you want, but we are ready to prepare ingredients now.\"}"}
+{"i": 805, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Soup Ingredients\", \"Prepare David Soup Ingredients\"], \"question\": \"Which soup should I prepare ingredients for?\"}", "reply": "what?", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Soup Ingredients\", \"Prepare David Soup Ingredients\"], \"question\": \"Cathy is expiring, but David has two orders with little time. Which one should I prioritize?\"}"}
+{"i": 806, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which urgent order? Cathy (Onion+Tomato) or Bob (Lettuce+Tomato)? Note: Lettuce is already chopped.\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 807, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 808, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 809, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 810, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 811, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 812, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Putout\"\n}"}
+{"i": 813, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 814, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 815, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 816, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"You hold Chopped Lettuce. To complete Alice Soup (expiring), you need Chopped Onion. To start David Soup, you could also use Chopped Tomato or Onion. Which ingredient should I chop for your current holding?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 817, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 818, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 819, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 820, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 821, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 822, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 823, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 824, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 825, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 826, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 827, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 828, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 829, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 830, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 831, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 832, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 833, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 834, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 835, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 836, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 837, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 838, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"What ingredient should I chop again?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 839, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 840, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 841, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 842, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 843, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 844, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 845, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 846, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 847, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 848, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 849, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 850, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 851, "turn1": "{\"mode\": \"refuse\", \"reason\": \"No plates available on counters to grab.\"}"}
+{"i": 852, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 853, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 854, "turn1": "{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Bob Ingredients\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"I am holding Fresh Lettuce and the player holds Fresh Tomato. 'Get ingredients ready' could mean preparing a soup (like Bob's, which needs these two) or chopping an ingredient (like Onion). Which action do you want?\"\n}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 855, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 856, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 857, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 858, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 859, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 860, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 861, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 862, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 863, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 864, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 865, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 866, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 867, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 868, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 869, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"You hold Fresh Tomato. The player holds Chopped Lettuce. 'This' usually refers to the item in hand, but you can't chop a tomato into lettuce or onion. Do you want me to chop something else nearby? Or did you mean for me to use the chopped ingredients?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 870, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 871, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 872, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 873, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 874, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 875, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 876, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 877, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 878, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 879, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 880, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie should I chop next? The urgent David soup needs onion, but there are also tomatoes available.\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 881, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 882, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"The urgent orders are for Alice Soup (needs lettuce and onion). I have plenty of chopped lettuce on the counter. Should I chop an onion or more lettuce?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 883, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"All three orders (Bob, Alice, Bob) need lettuce. The two Bob orders also need tomato, while the Alice order needs onion. Which ingredient should I chop for the most urgent order?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 884, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 885, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 886, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you mean? You have Chopped Tomato on the counter, so 'the other' could be Onion or Lettuce.\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 887, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 888, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 889, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 890, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 891, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 892, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 893, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Both Alice and Cathy are urgent. Alice needs onion, Cathy needs tomato. Which one should I chop?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 894, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 895, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 896, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 897, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 898, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup should I prepare ingredients for? Cathy, David, or Alice?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 899, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 900, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop again?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop again?\"}"}
+{"i": 901, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 902, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 903, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Onion\"\n}"}
+{"i": 904, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 905, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 906, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 907, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 908, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 909, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}"}
+{"i": 910, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 911, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Plate David Soup\"\n}"}
+{"i": 912, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 913, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 914, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 915, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "just do it", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 916, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 917, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 918, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 919, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 920, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Prepare Bob Ingredients\"], \"question\": \"Do you want me to chop the remaining onion or prepare a soup with the ingredients I have?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 921, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 922, "turn1": "{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Cathy Ingredients\",\n    \"Prepare David Ingredients\",\n    \"Prepare Alice Ingredients\"\n  ],\n  \"question\": \"Which soup's ingredients should I prepare? Cathy is expiring soon.\"\n}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 923, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 924, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 925, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 926, "turn1": "{\"mode\": \"reply\", \"text\": \"Lettuce is already chopped.\"}"}
+{"i": 927, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 928, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 929, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which ingredients should I prepare? Bob or David?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 930, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 931, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 932, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 933, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 934, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 935, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop for the current order?\"}", "reply": "", "turn2": "{\"mode\": \"refuse\", \"reason\": \"Empty reply received. Please specify which ingredient to chop.\"}"}
+{"i": 936, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 937, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 938, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 939, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup should I prepare ingredients for?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup should I prepare ingredients for?\"}"}
+{"i": 940, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 941, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 942, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 943, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 944, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 945, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 946, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 947, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 948, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 949, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Cathy or David?\""}
+{"i": 950, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 951, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"The player holds Chopped Tomato. To complete the expiring David Soup (Lettuce + Onion + Tomato), do you want to chop Lettuce or Onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 952, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"You hold Chopped Lettuce. To complete Alice Soup (expiring), you need Chopped Onion. To start David Soup, you could also use Chopped Tomato or Onion. Which ingredient should I chop for your current holding?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 953, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 954, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 955, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Putout\"], \"question\": \"Which soup ingredients should I prepare? You are holding Cathy, but I can only prep Bob or extinguish fire.\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 956, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 957, "turn1": "{\"mode\": \"reply\", \"text\": \"Understood. I will chop the remaining vegetables to prepare for the upcoming orders.\"}"}
+{"i": 958, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 959, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 960, "turn1": "{\"mode\": \"execute\", \"macro\": \"Pickup Plate\"}"}
+{"i": 961, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 962, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 963, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 964, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 965, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 966, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 967, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve? Alice is expiring, but both are plated.\"}", "reply": "alice please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 968, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 969, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 970, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 971, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 972, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 973, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\""}
+{"i": 974, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 975, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 976, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop again?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 977, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 978, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 979, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 980, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Tomato\"\n}"}
+{"i": 981, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 982, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 983, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 984, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 985, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 986, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 987, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 988, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 989, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 990, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 991, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop for the current order?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 992, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 993, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\"], \"question\": \"Which soup should I serve? Only David Soup is plated and ready.\"}", "reply": "david", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 994, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 995, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Alice Soup\", \"Cook David Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "the alice one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 996, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 997, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want chopped?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 998, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 999, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1000, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1001, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Alice Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I cook? Alice is ready to cook, but Cathy is charred.\"}", "reply": "cathy please", "turn2": "{\"mode\": \"refuse\", \"reason\": \"The Cathy Soup is already charred and cannot be cooked again. You should probably chop the onion for it or start a new batch if ingredients are available, but 'Cook' action is invalid on a charred pot.\"}"}
+{"i": 1002, "turn1": "{\n  \"mode\": \"refuse\",\n  \"reason\": \"I am already holding a Plated Bob Soup. I cannot grab another plate while holding this one.\"\n}"}
+{"i": 1003, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare next?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1004, "turn1": "{\"mode\": \"reply\", \"text\": \"Understood. I will chop the remaining vegetables to prepare for the upcoming orders.\"}"}
+{"i": 1005, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Serve David Soup\"], \"question\": \"Which order's ingredients should I prepare?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare David Soup Ingredients\", \"Prepare Alice Soup Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}"}
+{"i": 1006, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1007, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped tomatoes and lettuce. We are missing chopped onions for the Cathy and David orders. I will chop an onion now.\"}"}
+{"i": 1008, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 1009, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1010, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop again?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1011, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1012, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"You hold Fresh Tomato. Do you want me to chop the tomato?\"}", "reply": "neither", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\"], \"question\": \"You hold Fresh Tomato, but said neither. Do you want me to chop the onion instead?\"}"}
+{"i": 1013, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1014, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie do you want chopped?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1015, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1016, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1017, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1018, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1019, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1020, "turn1": "{\n\"mode\": \"ask\",\n\"options\": [\n{\"macro\": \"Chop Tomato\"},\n{\"macro\": \"Chop Onion\"}\n],\n\"question\": \"Which vegetable do you mean by 'the other veggie'? I see Chopped Tomato and Chopped Onion on the counters.\"\n}", "reply": "neither", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"If not the chopped ones on the counter, which vegetable should I chop now? (Tomato, Lettuce, or Onion?)\"}"}
+{"i": 1021, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1022, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Prepare Bob Ingredients\"], \"question\": \"Do you want me to chop the remaining onion or prepare a soup with the ingredients I have?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1023, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup do you want plated/served? Alice is ready to plate, or David is ready to serve.\"}", "reply": "no, not david", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 1024, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1025, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1026, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Cathy or David?\""}
+{"i": 1027, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1028, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? Alice or David?\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1029, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1030, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent order is Cathy Soup, which requires Onion and Tomato. You are holding Lettuce, so you cannot chop the required ingredients immediately without dropping or swapping items first.\""}
+{"i": 1031, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1032, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Serve Cathy Soup\"], \"question\": \"Which order should I prioritize?\"}", "reply": "no, not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 1033, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 1034, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 1035, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup should I prepare ingredients for? Cathy, David, or Alice?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1036, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\"], \"question\": \"Which soup do you want to send out?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 1037, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1038, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 1039, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1040, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There are no urgent orders; all listed orders have plenty of time.\"}"}
+{"i": 1041, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1042, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1043, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1044, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "the alice one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 1045, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1046, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1047, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1048, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 1049, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1050, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1051, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1052, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1053, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1054, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1055, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1056, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1057, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1058, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1059, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1060, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 1061, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next? (Tomato or Onion)\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1062, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped lettuce and tomato on the counters. I can chop more if you want, but we are ready to prepare ingredients now.\"}"}
+{"i": 1063, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1064, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1065, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"What should I chop for the lettuce you are holding?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1066, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1067, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1068, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 1069, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Both Bob and Alice orders are urgent. Bob needs tomato (onion is ready), Alice needs onion (lettuce is ready). Which one should I chop?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Okay, I will not chop anything now.\"}"}
+{"i": 1070, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1071, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1072, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1073, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1074, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1075, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 1076, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1077, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1078, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 1079, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1080, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1081, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 1082, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1083, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1084, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1085, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Bob Soup\", \"Plate Bob Soup\"], \"question\": \"Which action should I repeat? The last one was Serve Bob Soup, but there is also a cooked pot next to you.\"}", "reply": "all of those", "turn2": "{\"mode\": \"ask\", \"options\": [\"Plate Bob Soup\", \"Serve Bob Soup\"], \"question\": \"Do you want me to Plate or Serve the cooked Bob Soup?\"}"}
+{"i": 1086, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Serve David Soup\"], \"question\": \"Which soup do you want to cook? I can start the Bob Soup or serve the plated David Soup.\"}", "reply": "neither", "turn2": "{\"mode\": \"ask\", \"options\": [\"Cook Alice Soup\", \"Serve David Soup\"], \"question\": \"I can't cook the charred Cathy soup. Do you want me to plate the cooked Alice soup or serve the plated David soup?\"}"}
+{"i": 1087, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1088, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Cathy is expiring but already charred. Do you want to chop for Alice (Onion) or Bob (Tomato)? Note: Alice has little time, Bob has some/plenty.\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1089, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup do you want plated/served? Alice is ready to plate, or David is ready to serve.\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 1090, "turn1": "{\n\"mode\": \"reply\",\n\"text\": \"I've been chopping tomatoes and lettuce. Do you need onions chopped for the Cathy or Alice orders?\"\n}"}
+{"i": 1091, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Both Bob and Alice orders have plenty of time. Which one do you consider urgent?\"}", "reply": "", "turn2": "{\"mode\": \"reply\", \"text\": \"No orders are currently urgent as all have plenty of time. I will continue with the current workflow: finishing Bob Soup preparation or starting Alice Soup.\"}"}
+{"i": 1092, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1093, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1094, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1095, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1096, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie do you want chopped?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1097, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1098, "turn1": "{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare David Ingredients\",\n    \"Prepare Alice Ingredients\"\n  ],\n  \"question\": \"Which soup's ingredients should I prepare? David is expiring, but you have two Alice orders waiting.\"\n}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Should I prepare ingredients for the expiring David soup or the waiting Alice soups?\"}"}
+{"i": 1099, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1100, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Onion\"\n}"}
+{"i": 1101, "turn1": "{\"mode\": \"reply\", \"text\": \"All needed veggies are already chopped. Focus on preparing David Soup (urgent) and Alice Soup.\"}"}
+{"i": 1102, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 1103, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1104, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1105, "turn1": "{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which vegetable do you mean by 'the other veggie'? You are holding Tomato, and the player has Chopped Lettuce. Do you want me to chop more Lettuce or Onion?\"\n}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1106, "turn1": "{\"mode\": \"refuse\", \"reason\": \"All orders have plenty of time, so there is no urgent order.\"}"}
+{"i": 1107, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1108, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1109, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1110, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1111, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1112, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1113, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1114, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1115, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1116, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1117, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1118, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1119, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1120, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1121, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you need chopped?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1122, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1123, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1124, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 1125, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1126, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup ingredients should I prepare?\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1127, "turn1": "{\"mode\": \"reply\", \"text\": \"I see chopped lettuce, onions, and tomatoes on the counters. Do you want me to chop more of a specific vegetable?\"}"}
+{"i": 1128, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1129, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1130, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 1131, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Alice Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I cook? Alice is ready to cook, but Cathy is charred.\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 1132, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Tomato\"\n}"}
+{"i": 1133, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1134, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1135, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1136, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie do you want chopped?\"}", "reply": "not tomato", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie do you want chopped?\"}"}
+{"i": 1137, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want chopped?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1138, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1139, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1140, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "not david", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1141, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1142, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1143, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1144, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1145, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1146, "turn1": "{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Cathy Ingredients\",\n    \"Prepare David Ingredients\",\n    \"Prepare Alice Ingredients\"\n  ],\n  \"question\": \"Which soup's ingredients should I prepare? Cathy is expiring soon.\"\n}", "reply": "cathy please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1147, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1148, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped lettuce and tomato. We are missing onions for Alice/David, but no onion orders yet.\"}"}
+{"i": 1149, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1150, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1151, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"The Alice order is expiring and needs onion. Should I chop onion for that, or lettuce?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1152, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1153, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie do you mean? You hold Tomato, and there are Chopped Lettuce/Onion nearby.\"}", "reply": "not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1154, "turn1": "{\"mode\": \"reply\", \"text\": \"I already have the Plated Bob Soup in my hands. Ready to serve?\"}"}
+{"i": 1155, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Which soup should I prepare ingredients for?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1156, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1157, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1158, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There are no urgent orders; all listed orders have plenty of time.\"}"}
+{"i": 1159, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Do you want me to chop tomato or onion for the David soup?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1160, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1161, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1162, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1163, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1164, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1165, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1166, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1167, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1168, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 1169, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1170, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\"], \"question\": \"Which urgent soup do you mean? Alice is already plated. The other expiring order is Bob.\"}", "reply": "bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 1171, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"You hold Fresh Tomato. Do you want me to chop the tomato?\"}", "reply": "not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1172, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 1173, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1174, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1175, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 1176, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1177, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\", \"Plate Alice Soup\"], \"question\": \"Which soup should I send out?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 1178, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1179, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1180, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1181, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 1182, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1183, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which order is urgent? (Alice needs lettuce+onion, Cathy is cooking, David needs lettuce+onion+tomato)\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which ingredient should I chop? (Alice needs lettuce+onion, David needs lettuce+onion+tomato)\"}"}
+{"i": 1184, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1185, "turn1": "{\"mode\": \"reply\", \"text\": \"I have chopped plenty of tomato and lettuce. We are missing onions for the Alice soups and Cathy soup.\"}"}
+{"i": 1186, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1187, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1188, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1189, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1190, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1191, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1192, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1193, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1194, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1195, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Cathy Soup\", \"Cook David Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 1196, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1197, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie do you want chopped?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Understood. I will hold off on chopping until you specify which ingredient is needed for the Cathy or Bob soups.\"}"}
+{"i": 1198, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1199, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Both Bob and Alice orders have plenty of time. Which one do you consider urgent?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1200, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1201, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1202, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Soup Ingredients\"}"}
+{"i": 1203, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Alice Soup\", \"Chop Onion\"], \"question\": \"Do you want to cook the expiring Alice soup or chop an onion for it?\"}", "reply": "just do it", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 1204, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1205, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1206, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1207, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1208, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1209, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I start cooking? The charred Cathy soup is next to you, but the Bob ingredients are also there.\"}", "reply": "the cathy one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1210, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1211, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"You hold Chopped Lettuce. Do you want me to chop more Lettuce or Onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1212, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Prepare Alice Ingredients\"\n}"}
+{"i": 1213, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1214, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1215, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1216, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1217, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1218, "turn1": "{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Cathy Ingredients\",\n    \"Prepare David Ingredients\",\n    \"Prepare Alice Ingredients\"\n  ],\n  \"question\": \"Which soup's ingredients should I prepare? Cathy is expiring soon.\"\n}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1219, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1220, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1221, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 1222, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Onion\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1223, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped tomatoes and lettuce ready. We are missing onions for Alice and Cathy soups.\"}"}
+{"i": 1224, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1225, "turn1": "{\n\"mode\": \"ask\",\n\"options\": [\n\"Chop Lettuce\",\n\"Chop Onion\"\n],\n\"question\": \"Both Alice and Cathy orders are marked as 'some time' (urgent). Which ingredient should I chop for them?\"\n}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1226, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1227, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Cathy Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 1228, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop? I can see Chopped Tomato on the counters, but David Soup needs Lettuce and Onion.\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Understood. I will not chop Lettuce or Onion for now.\"}"}
+{"i": 1229, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1230, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Cathy Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve? Both are plated and ready.\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 1231, "turn1": "{\"mode\": \"reply\", \"text\": \"Cathy Soup is already cooking.\"}"}
+{"i": 1232, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"You are holding Chopped Lettuce and Bob Ingredients (Lettuce + Tomato) are next to you. To complete the order for Alice Soup (expiring, needs Lettuce + Onion), should I chop Onion? Or do you want me to chop Tomato for another purpose?\"}", "reply": "", "turn2": "{\"mode\": \"refuse\", \"reason\": \"The player's input was empty, so I cannot determine which ingredient to chop. Please specify an action.\"}"}
+{"i": 1233, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1234, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1235, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1236, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop for the player's current order?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1237, "turn1": "{\"mode\": \"refuse\", \"reason\": \"All orders have plenty of time, so there is no urgent order to identify.\"}"}
+{"i": 1238, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\"], \"question\": \"I can only prepare Bob ingredients right now. Is that what you want?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1239, "turn1": "{\"mode\": \"reply\", \"text\": \"Lettuce and tomatoes are already chopped. We need to chop onions for Cathy and Alice.\"}"}
+{"i": 1240, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1241, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 1242, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1243, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1244, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1245, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1246, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1247, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1248, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"You hold Chopped Lettuce. Do you want me to chop a Tomato (for David/Cathy) or another Lettuce (to replace your current one if it's not fresh enough for the order, though David needs Onion+Tomato too)?\"}", "reply": "neither", "turn2": "{\"mode\": \"refuse\", \"reason\": \"Player rejected Tomato and Lettuce. Remaining options are Onion or Prepare Alice, but 'chop something' implies raw ingredient prep for the urgent orders (David/Cathy) which need Tomato/Onion. Since Tomato was rejected, and Onions are already chopped on counter, there is no valid 'something' to chop that fits the context of helping with the current urgent orders without contradicting previous refusals.\"}"}
+{"i": 1249, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1250, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1251, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1252, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1253, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1254, "turn1": "{\"mode\": \"reply\", \"text\": \"All required veggies are already chopped. We can start preparing soups now.\"}"}
+{"i": 1255, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1256, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1257, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1258, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1259, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1260, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1261, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 1262, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Bob Soup\", \"Plate Bob Soup\"], \"question\": \"Do you want me to serve the cooked Bob Soup or plate it?\"}", "reply": "both", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 1263, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1264, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1265, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1266, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient do you want me to chop for the urgent order?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1267, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1268, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which veggie do you mean by 'the other'?\"}", "reply": "", "turn2": "{\"mode\": \"refuse\", \"reason\": \"The player did not specify which vegetable 'the other' refers to, and there are multiple chopped vegetables available (Lettuce, Onion, Tomato) that could fit the description. Please clarify which specific vegetable you want me to chop.\"}"}
+{"i": 1269, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1270, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1271, "turn1": "{\"mode\": \"refuse\", \"reason\": \"All orders have plenty of time, so there is no urgent order to identify.\"}"}
+{"i": 1272, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 1273, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1274, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1275, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Do you want me to chop tomato or onion for the David soup?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1276, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"What should I chop again?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1277, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Both Bob and Alice orders have plenty of time. Which one do you consider urgent?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1278, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1279, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 1280, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 1281, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1282, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1283, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1284, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Onion\"], \"question\": \"Which soup's ingredients should I prepare? Bob (Lettuce+Tomato) or do you need me to chop an onion for Cathy/David?\"}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1285, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1286, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 1287, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 1288, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable do you want me to chop next?\"}", "reply": "no, not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1289, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1290, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1291, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1292, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1293, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1294, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1295, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 1296, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1297, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1298, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1299, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1300, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "cathy please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1301, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1302, "turn1": "{\"mode\": \"reply\", \"text\": \"We have chopped lettuce and onion. We still need chopped tomato for the David soups.\"}"}
+{"i": 1303, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Lettuce\"\n}"}
+{"i": 1304, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1305, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\"], \"question\": \"Which soup's ingredients should I prepare?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Okay, I will not prepare any ingredients right now.\"}"}
+{"i": 1306, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "neither", "turn2": "{\"mode\": \"reply\", \"text\": \"Understood. I will wait for further instructions.\"}"}
+{"i": 1307, "turn1": "{\"mode\":\"ask\",\"options\":[\"Chop Tomato\",\"Chop Lettuce\",\"Chop Onion\"],\"question\":\"Which veggie should I chop?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1308, "turn1": "{\"mode\": \"refuse\", \"reason\": \"All orders have plenty of time, so there is no urgent order.\"}"}
+{"i": 1309, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare Bob Ingredients\"], \"question\": \"Which soup's ingredients should I prepare? (Cathy is expiring)\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1310, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1311, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1312, "turn1": "{\n  \"mode\": \"reply\",\n  \"text\": \"Understood. I have Chopped Lettuce ready. Please chop the Fresh Lettuce you are holding so we can start preparing David's soup.\"\n}"}
+{"i": 1313, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"The player holds Chopped Tomato. To complete the expiring David Soup (Lettuce + Onion + Tomato), do you want to chop Lettuce or Onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1314, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1315, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1316, "turn1": "{\"mode\": \"refuse\", \"reason\": \"You already hold Plated David Soup.\"}"}
+{"i": 1317, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Onion\"], \"question\": \"Which soup's ingredients do you want me to prepare?\"}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1318, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Putout\"\n}"}
+{"i": 1319, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1320, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1321, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1322, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Soup Ingredients\"}"}
+{"i": 1323, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1324, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1325, "turn1": "{\"mode\": \"reply\", \"text\": \"You already have a plate.\"}"}
+{"i": 1326, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 1327, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1328, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1329, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1330, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"What should I chop one more time?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1331, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1332, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1333, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"You are holding Chopped Lettuce and Bob Ingredients (Lettuce + Tomato) are next to you. To complete the order for Alice Soup (expiring, needs Lettuce + Onion), should I chop Onion? Or do you want me to chop Tomato for another purpose?\"}", "reply": "no, not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1334, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Both David and Cathy are 'some time' (urgent). David needs lettuce/onion/tomato; Cathy needs onion/tomato. I have chopped lettuce. Should I chop tomato (needed by both) or fresh lettuce (needed only by David)? Note: Chopped Onion is next to you, so I can grab it later.\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1335, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1336, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1337, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1338, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1339, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1340, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1341, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1342, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Serve Bob Soup\"], \"question\": \"Do you want me to plate the Cathy soup or serve another Bob soup?\"}", "reply": "the cathy one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1343, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 1344, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1345, "turn1": "{\"mode\": \"refuse\", \"reason\": \"David Soup is already plated.\"}"}
+{"i": 1346, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1347, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1348, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve Alice Soup\", \"Serve David Soup\"], \"question\": \"Which soup should I serve?\"}", "reply": "no, not alice", "turn2": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\"], \"question\": \"Do you want me to serve the David Soup?\"}"}
+{"i": 1349, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1350, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"You hold Bob Ingredients (Lettuce + Tomato). Do you want me to chop more Tomato or Lettuce?\"}", "reply": "no, not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1351, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 1352, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1353, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Tomato\"\n}"}
+{"i": 1354, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1355, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1356, "turn1": "{\"mode\": \"refuse\", \"reason\": \"You are holding the Plated David Soup, but it is not next to a serving counter or pot to serve from. Please move to a serving location first.\"}"}
+{"i": 1357, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1358, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1359, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Cathy is expiring but already charred. Do you want to chop for Alice (Onion) or Bob (Tomato)? Note: Alice has little time, Bob has some/plenty.\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1360, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1361, "turn1": "{\"mode\": \"ask\", \"options\": [\"Serve David Soup\", \"Plate Alice Soup\"], \"question\": \"Which soup do you want to send out?\"}", "reply": "no, not alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 1362, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1363, "turn1": "{\"mode\": \"reply\", \"text\": \"We have plenty of chopped lettuce and tomato on the counters. I can chop more if you want, but we are ready to prepare ingredients now.\"}"}
+{"i": 1364, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1365, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1366, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1367, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1368, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1369, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Cathy Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 1370, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1371, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1372, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1373, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy Soup is expiring (needs Onion)\", \"Alice Soup is expiring (needs Lettuce + Onion)\"], \"question\": \"Both Cathy and Alice are expiring. Which one do you mean?\"}", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare Alice Ingredients\"], \"question\": \"Both Cathy and Alice are expiring. Which one do you mean?\""}
+{"i": 1374, "turn1": "{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Chop Tomato\"], \"question\": \"Which soup do you want me to prepare? The expiring order is Cathy (needs Onion+Tomato), but Bob is also active. I have chopped lettuce/onion, so 'get ingredients ready' could mean finishing Alice (Lettuce+Onion) or starting the missing Tomato for Cathy/Bob.\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1375, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1376, "turn1": "{\"mode\": \"reply\", \"text\": \"All necessary veggies are already chopped. We have 2 Chopped Tomatoes and 1 Chopped Lettuce on the counter, plus I hold Cathy Ingredients (Onion+Tomato). Ready to cook when you are.\"}"}
+{"i": 1377, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1378, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1379, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1380, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 1381, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1382, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1383, "turn1": "{\"mode\": \"refuse\", \"reason\": \"Bob Soup is already plated and served.\"}"}
+{"i": 1384, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1385, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1386, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1387, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1388, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1389, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Both David and Cathy are 'some time' (urgent). David needs lettuce/onion/tomato; Cathy needs onion/tomato. I have chopped lettuce. Should I chop tomato (needed by both) or fresh lettuce (needed only by David)? Note: Chopped Onion is next to you, so I can grab it later.\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1390, "turn1": "{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}"}
+{"i": 1391, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 1392, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1393, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1394, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1395, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 1396, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1397, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 1398, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 1399, "turn1": "{\n\"mode\": \"reply\",\n\"text\": \"I've been chopping tomatoes and lettuce. Do you need onions chopped for the Cathy or Alice orders?\"\n}"}
+{"i": 1400, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1401, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Cathy Soup\", \"Cook David Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 1402, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent order is Cathy Soup, which has already been plated. The remaining orders (David and Bob) have plenty of time.\"}"}
+{"i": 1403, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 1404, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Chop Onion\"\n}"}
+{"i": 1405, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop one more time?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1406, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1407, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop next?\""}
+{"i": 1408, "turn1": "{\n\"mode\": \"execute\",\n\"macro\": \"Plate David Soup\"\n}"}
+{"i": 1409, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1410, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1411, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1412, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Which vegetable should I chop next?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1413, "turn1": "{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which vegetable do you mean by 'the other veggie'? You are holding Tomato, and the player has Chopped Lettuce. Do you want me to chop more Lettuce or Onion?\"\n}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1414, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1415, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1416, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1417, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 1418, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Bob Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 1419, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1420, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1421, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop next?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 1422, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1423, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"You hold Chopped Tomato. To complete a soup, you need either Lettuce (for David or Alice) or Onion (for Cathy). Which one should I chop?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}

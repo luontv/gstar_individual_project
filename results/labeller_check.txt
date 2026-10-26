@@ -1,0 +1,4 @@
+qwen/qwen3.8-flash               answered 271/300  clear/ambiguous acc 0.73  kappa 0.48  exact set 0.56  intended in set 0.75  says ambiguous 0.35 (truth 0.56)
+gemini-3.5-flash                 answered 300/300  clear/ambiguous acc 0.94  kappa 0.88  exact set 0.82  intended in set 0.93  says ambiguous 0.55 (truth 0.57)
+minimax/MiniMax-M2.7-highspeed   answered 236/300  clear/ambiguous acc 0.75  kappa 0.51  exact set 0.66  intended in set 0.78  says ambiguous 0.32 (truth 0.57)
+deepseek-v4-flash                answered 300/300  clear/ambiguous acc 0.61  kappa 0.28  exact set 0.48  intended in set 0.64  says ambiguous 0.20 (truth 0.57)

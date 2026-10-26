@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<04:36,  1.12it/s]Loading weights:   1%|          | 2/311 [00:00<02:12,  2.33it/s]Loading weights:  76%|███████▌  | 235/311 [00:01<00:00, 375.83it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 255.20it/s]
+Qwen/Qwen3-0.6B: 600 commands, 67 questions, 0 unparseable, 2.3 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Qwen/Qwen3-0.6B | 0.43 | 0.35 | 0.29 | 0.12 | 0.03 | 0.04 | 0.20 | 0.26 | 1.00 | -0.44 |
+latency per command: p50 892 ms, p95 1636 ms

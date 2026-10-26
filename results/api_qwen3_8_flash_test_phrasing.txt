@@ -1,0 +1,4 @@
+qwen/qwen3.8-flash: 1424 commands, 308 questions, 16 unparseable, 1.9 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| qwen/qwen3.8-flash | 0.59 | 0.64 | 0.42 | 0.75 | 0.26 | 0.39 | 0.14 | 0.27 | 1.00 | -0.12 |

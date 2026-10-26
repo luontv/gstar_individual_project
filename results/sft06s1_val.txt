@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<03:22,  1.53it/s]Loading weights:  65%|██████▍   | 201/311 [00:00<00:00, 360.80it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 330.72it/s]
+out/sft06-s1: 600 commands, 306 questions, 0 unparseable, 2.0 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| out/sft06-s1 | 0.94 | 0.92 | 0.79 | 0.97 | 0.99 | 0.98 | 0.03 | 0.12 | 1.00 | 0.85 |
+latency per command: p50 1396 ms, p95 1793 ms

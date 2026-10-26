@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<06:33,  1.27s/it]Loading weights:  44%|████▎     | 136/311 [00:01<00:01, 135.24it/s]Loading weights:  66%|██████▌   | 206/311 [00:01<00:00, 169.55it/s]Loading weights:  82%|████████▏ | 256/311 [00:01<00:00, 187.66it/s]Loading weights:  95%|█████████▌| 296/311 [00:02<00:00, 188.37it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 146.50it/s]
+out/sftmore-1.7b-v3: 600 commands, 306 questions, 0 unparseable, 3.1 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| out/sftmore-1.7b-v3 | 0.90 | 0.85 | 0.79 | 0.97 | 0.99 | 0.98 | 0.03 | 0.10 | 1.00 | 0.87 |
+latency per command: p50 1354 ms, p95 1757 ms

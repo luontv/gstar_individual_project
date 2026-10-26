@@ -1,0 +1,4 @@
+gemini-3.5-flash: 1424 commands, 166 questions, 498 unparseable, 10.9 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| gemini-3.5-flash | 0.34 | 0.44 | 0.13 | 0.96 | 0.18 | 0.31 | 0.01 | 0.01 | 1.00 | -0.35 |

@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<05:19,  1.03s/it]Loading weights:   1%|          | 2/311 [00:01<02:38,  1.95it/s]Loading weights:  50%|█████     | 156/311 [00:01<00:00, 218.13it/s]Loading weights:  73%|███████▎  | 226/311 [00:01<00:00, 233.48it/s]Loading weights:  90%|████████▉ | 279/311 [00:01<00:00, 237.34it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 167.37it/s]
+out/grpo-1.7b-v3: 600 commands, 305 questions, 0 unparseable, 3.0 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| out/grpo-1.7b-v3 | 0.94 | 0.96 | 0.88 | 0.97 | 0.98 | 0.98 | 0.03 | 0.12 | 1.00 | 0.84 |
+latency per command: p50 1309 ms, p95 1701 ms

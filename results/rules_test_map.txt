@@ -1,0 +1,10 @@
+2000 commands, 269 ambiguous, 146 clear only from context, 70 ambiguous where the intended option is not the most urgent
+
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| never_ask_random | 0.93 | 0.46 | 0.47 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.73 |
+| never_ask_best | 0.93 | 1.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.73 |
+| always_ask | 0.99 | 1.00 | 0.89 | 0.13 | 1.00 | 0.24 | 1.00 | 1.00 | 1.00 | -0.33 |
+| text_rule | 0.98 | 0.95 | 0.80 | 0.68 | 0.89 | 0.77 | 0.06 | 0.77 | 1.00 | 0.86 |
+| state_rule | 0.99 | 1.00 | 0.83 | 1.00 | 1.00 | 1.00 | 0.00 | 0.00 | 1.00 | 0.97 |
+| oracle_rule | 0.99 | 1.00 | 0.83 | 1.00 | 1.00 | 1.00 | 0.00 | 0.00 | 1.00 | 0.97 |

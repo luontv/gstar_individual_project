@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<05:31,  1.07s/it]Loading weights:   1%|          | 2/311 [00:01<02:43,  1.89it/s]Loading weights:  41%|████      | 127/311 [00:01<00:01, 171.03it/s]Loading weights:  58%|█████▊    | 181/311 [00:01<00:00, 189.39it/s]Loading weights:  72%|███████▏  | 223/311 [00:01<00:00, 209.81it/s]Loading weights:  84%|████████▎ | 260/311 [00:01<00:00, 213.46it/s]Loading weights:  94%|█████████▍| 292/311 [00:02<00:00, 213.69it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 149.36it/s]
+out/sftlow-1.7b-v3: 731 commands, 171 questions, 0 unparseable, 2.9 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| out/sftlow-1.7b-v3 | 0.89 | 0.84 | 0.73 | 0.94 | 0.82 | 0.87 | 0.02 | 0.11 | 1.00 | 0.71 |
+latency per command: p50 822 ms, p95 1799 ms

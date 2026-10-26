@@ -1,0 +1,1424 @@
+{"i": 0, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 1, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 2, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 3, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 4, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Alice Soup\"\n}\n```"}
+{"i": 5, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 6, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 7, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 8, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Should I chop an onion or a tomato to go with the lettuce?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 9, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Cathy Soup\"\n}\n```"}
+{"i": 10, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 11, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve David Soup\"\n}\n```"}
+{"i": 12, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"None of the orders are urgent right now.\"}\n```"}
+{"i": 13, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}\n```"}
+{"i": 14, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 15, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Should I chop an onion or a tomato for Cathy Soup?\"\n}\n```", "reply": "onion please", "turn2": "ERROR HTTPError"}
+{"i": 16, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 17, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 18, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 19, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve David Soup\"\n}\n```"}
+{"i": 20, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 21, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "onion please", "turn2": "ERROR HTTPError"}
+{"i": 22, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 23, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 24, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 25, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 26, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 27, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 28, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 29, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 30, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 31, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 32, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "tomato please", "turn2": "ERROR HTTPError"}
+{"i": 33, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 34, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 35, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 36, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 37, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 38, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 39, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Should I chop tomato or lettuce for David Soup?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 40, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 41, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 42, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\", \"Prepare Alice Ingredients\"], \"question\": \"Do you want me to work on lettuce or onion next?\"}", "reply": "all of those", "turn2": "ERROR HTTPError"}
+{"i": 43, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 44, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 45, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 46, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 47, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"Cathy Soup is not cooked or plated yet.\"}\n```"}
+{"i": 48, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Should I chop onion or tomato for Cathy Soup?\"}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 49, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 50, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"David Soup is already cooking and doesn't need any ingredients chopped.\"}\n```"}
+{"i": 51, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 52, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 53, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 54, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 55, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 56, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 57, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 58, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 59, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 60, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 61, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 62, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 63, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 64, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 65, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 66, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 67, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Which ingredient should I chop for the order?\"}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 68, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 69, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 70, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"David Soup needs lettuce, onion, and tomato. Which ingredient should I chop?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 71, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 72, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 73, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Cathy Soup\"\n}\n```"}
+{"i": 74, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 75, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"The ingredients for David Soup are already chopped.\"}\n```"}
+{"i": 76, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 77, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Cathy Soup\"\n}\n```"}
+{"i": 78, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 79, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Alice Soup\"\n}\n```"}
+{"i": 80, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 81, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 82, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 83, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop a tomato or an onion?\"\n}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 84, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 85, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 86, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 87, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 88, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 89, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}\n```"}
+{"i": 90, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 91, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 92, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 93, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 94, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 95, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 96, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 97, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 98, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 99, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 100, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 101, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 102, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 103, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 104, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}\n```"}
+{"i": 105, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 106, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 107, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 108, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 109, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 110, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 111, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Chop Onion\"], \"question\": \"Should I prepare Bob ingredients or chop onions for Cathy soup?\"}\n```", "reply": "the bob one", "turn2": "ERROR HTTPError"}
+{"i": 112, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"The urgent order is Cathy Soup, but it isn't ready yet (I'm holding Plated Bob Soup).\"}\n```"}
+{"i": 113, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"David Soup needs lettuce, onion, and tomato. Which ingredient should I chop?\"\n}\n```", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 114, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 115, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 116, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 117, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 118, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 119, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 120, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 121, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 122, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 123, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 124, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "onion please", "turn2": "ERROR HTTPError"}
+{"i": 125, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 126, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 127, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 128, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 129, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Should I chop lettuce or chop onion?\"}", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 130, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion for the urgent orders?\"\n}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 131, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 132, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Cathy Soup\"\n}\n```"}
+{"i": 133, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 134, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 135, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 136, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Should I chop tomato or lettuce for Bob Soup?\"}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 137, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 138, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 139, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 140, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Should I chop onion or chop lettuce?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 141, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 142, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 143, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 144, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Should I chop lettuce or tomato for Bob Soup?\"\n}\n```", "reply": "neither", "turn2": "ERROR HTTPError"}
+{"i": 145, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Alice Soup\"\n}\n```"}
+{"i": 146, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 147, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 148, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Cathy Ingredients\"\n}\n```"}
+{"i": 149, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 150, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 151, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 152, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 153, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 154, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 155, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Which one should I chop?\"\n}\n```", "reply": "onion please", "turn2": "ERROR HTTPError"}
+{"i": 156, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 157, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 158, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 159, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 160, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 161, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"Cathy Soup is the urgent order, but it is not cooked or plated yet.\"}\n```"}
+{"i": 162, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 163, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 164, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 165, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 166, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 167, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 168, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"No order is urgent right now. Which ingredient should I chop?\"\n}\n```", "reply": "doesn't matter", "turn2": "ERROR HTTPError"}
+{"i": 169, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 170, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 171, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 172, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook David Soup\"\n}\n```"}
+{"i": 173, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 174, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 175, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop?\"}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 176, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 177, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 178, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Should I chop tomato or lettuce for Bob Soup?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 179, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 180, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 181, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 182, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 183, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 184, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 185, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 186, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 187, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 188, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 189, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 190, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion for the urgent orders?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 191, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 192, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 193, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 194, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}\n```"}
+{"i": 195, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 196, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 197, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Cathy Ingredients\"\n}\n```"}
+{"i": 198, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 199, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 200, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 201, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook David Soup\"\n}\n```"}
+{"i": 202, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 203, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 204, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 205, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 206, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 207, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 208, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 209, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 210, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 211, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Should I chop onion or tomato for the Cathy Soup?\"}", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 212, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 213, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 214, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 215, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 216, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}\n```"}
+{"i": 217, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 218, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop tomato or onion?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 219, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Should I chop tomato or onion for Cathy Soup?\"}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 220, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 221, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 222, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 223, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 224, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 225, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 226, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop tomato or onion for Cathy Soup?\"\n}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 227, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}\n```"}
+{"i": 228, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 229, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 230, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 231, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}\n```"}
+{"i": 232, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 233, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 234, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 235, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 236, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 237, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 238, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 239, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 240, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 241, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Cathy Soup\"\n}\n```"}
+{"i": 242, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 243, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 244, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}\n```"}
+{"i": 245, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 246, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 247, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 248, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 249, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Bob Soup needs both tomato and lettuce. Which one should I chop?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 250, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook David Soup\"\n}\n```"}
+{"i": 251, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 252, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 253, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 254, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 255, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"All orders currently have plenty of time. For the first order (David Soup), should I chop lettuce or tomato?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 256, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 257, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 258, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 259, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\", \"Chop Tomato\"], \"question\": \"Which veggie would you like me to chop?\"}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 260, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 261, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Should I chop lettuce or tomato for the Bob Soup?\"\n}\n```", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 262, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 263, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Cathy Ingredients\"\n}\n```"}
+{"i": 264, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 265, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 266, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 267, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 268, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 269, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 270, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}\n```"}
+{"i": 271, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 272, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 273, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 274, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 275, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 276, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 277, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 278, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"I am holding Plated Bob Soup and need to plate Cathy Soup first.\"}\n```"}
+{"i": 279, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 280, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 281, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 282, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 283, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 284, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 285, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Cathy Soup\"\n}\n```"}
+{"i": 286, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 287, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 288, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 289, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 290, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 291, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 292, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 293, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 294, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Serve Cathy Soup\",\n    \"Serve David Soup\"\n  ],\n  \"question\": \"Both orders are urgent. Which soup should I serve, Cathy or David?\"\n}\n```", "reply": "david please", "turn2": "ERROR HTTPError"}
+{"i": 295, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 296, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 297, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 298, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 299, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Which one should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 300, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 301, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 302, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare David Ingredients\"\n}\n```"}
+{"i": 303, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 304, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 305, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 306, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 307, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 308, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 309, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}\n```"}
+{"i": 310, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "tomato please", "turn2": "ERROR HTTPError"}
+{"i": 311, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Should I chop tomato or onion?\"}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 312, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 313, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 314, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Serve Alice Soup\",\n    \"Serve David Soup\"\n  ],\n  \"question\": \"Which soup should I serve, Alice Soup or David Soup?\"\n}\n```", "reply": "alice", "turn2": "ERROR HTTPError"}
+{"i": 315, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 316, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Should I chop lettuce or onion for the Alice Soup?\"}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 317, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 318, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 319, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Cathy Soup\"\n}\n```"}
+{"i": 320, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie would you like me to chop, onion or tomato?\"}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 321, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 322, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which vegetable should I chop?\"\n}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 323, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 324, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"Cathy Soup is already cooked and plated on the counter, so it just needs to be served.\"}\n```"}
+{"i": 325, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"David Soup is already cooking and doesn't need any ingredients chopped.\"}\n```"}
+{"i": 326, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 327, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 328, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 329, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 330, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 331, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Should I chop lettuce or onion for the Alice Soup?\"}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 332, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 333, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 334, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 335, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 336, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare David Ingredients\"\n}\n```"}
+{"i": 337, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 338, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 339, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Should I chop lettuce or onion?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 340, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Cathy Soup\"\n}\n```"}
+{"i": 341, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 342, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 343, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop for the order?\"}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 344, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 345, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 346, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 347, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 348, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 349, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 350, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 351, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 352, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 353, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve David Soup\"\n}\n```"}
+{"i": 354, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 355, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 356, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\"Chop Onion\", \"Chop Tomato\"],\n  \"question\": \"Should I chop an onion or a tomato?\"\n}\n```", "reply": "onion please", "turn2": "ERROR HTTPError"}
+{"i": 357, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Cathy Ingredients\"\n}\n```"}
+{"i": 358, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 359, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 360, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 361, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 362, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}\n```"}
+{"i": 363, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 364, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 365, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"Alice Soup is charred and cannot be served right now.\"}\n```"}
+{"i": 366, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Alice Ingredients\",\n    \"Prepare Cathy Ingredients\",\n    \"Prepare David Ingredients\"\n  ],\n  \"question\": \"Which soup should I prepare the ingredients for?\"\n}\n```", "reply": "cathy", "turn2": "ERROR HTTPError"}
+{"i": 367, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 368, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Should I chop an onion or a tomato for the lettuce?\"}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 369, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}\n```"}
+{"i": 370, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 371, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 372, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Should I chop a tomato or an onion?\"}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 373, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 374, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 375, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 376, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook David Soup\"\n}\n```"}
+{"i": 377, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 378, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 379, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 380, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 381, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 382, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 383, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 384, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 385, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 386, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 387, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 388, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Bob Soup needs lettuce and tomato. Which one should I chop?\"\n}\n```", "reply": "not tomato", "turn2": "ERROR HTTPError"}
+{"i": 389, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Should I chop tomato or lettuce?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 390, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 391, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 392, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 393, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 394, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 395, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 396, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 397, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 398, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve David Soup\"\n}\n```"}
+{"i": 399, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"The ingredients for David Soup are already chopped.\"}\n```"}
+{"i": 400, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop a tomato or an onion?\"\n}\n```", "reply": "no, not tomato", "turn2": "ERROR HTTPError"}
+{"i": 401, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 402, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 403, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Which one should I chop?\"\n}\n```", "reply": "neither", "turn2": "ERROR HTTPError"}
+{"i": 404, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Should I chop lettuce or onion?\"\n}\n```", "reply": "not lettuce", "turn2": "ERROR HTTPError"}
+{"i": 405, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 406, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Alice Soup\"\n}\n```"}
+{"i": 407, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 408, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 409, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 410, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 411, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 412, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"None of the orders are urgent right now.\"}\n```"}
+{"i": 413, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 414, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion for the Alice Soup?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 415, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 416, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 417, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Bob Ingredients\",\n    \"Cook Bob Soup\"\n  ],\n  \"question\": \"Should I prepare another set of Bob ingredients or cook the Bob ingredients I'm holding?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 418, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 419, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 420, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 421, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 422, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 423, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 424, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 425, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 426, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion for the Alice Soup?\"\n}\n```", "reply": "neither", "turn2": "ERROR HTTPError"}
+{"i": 427, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 428, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 429, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 430, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 431, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 432, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 433, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 434, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 435, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 436, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 437, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 438, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Should I chop lettuce or chop onion?\"}", "reply": "onion please", "turn2": "ERROR HTTPError"}
+{"i": 439, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}\n```"}
+{"i": 440, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Should I chop lettuce or onion for the Alice Soup?\"}\n```", "reply": "doesn't matter", "turn2": "ERROR HTTPError"}
+{"i": 441, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 442, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 443, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 444, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 445, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 446, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 447, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 448, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 449, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 450, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\"Chop Onion\", \"Chop Lettuce\", \"Chop Tomato\"],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "tomato please", "turn2": "ERROR HTTPError"}
+{"i": 451, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 452, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 453, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 454, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 455, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 456, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 457, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 458, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}\n```"}
+{"i": 459, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 460, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 461, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 462, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 463, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 464, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 465, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 466, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Cathy Ingredients\"\n}\n```"}
+{"i": 467, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 468, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 469, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Should I chop lettuce or onion for the Alice Soup?\"}\n```", "reply": "not onion", "turn2": "ERROR HTTPError"}
+{"i": 470, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop for the order?\"}\n```", "reply": "onion please", "turn2": "ERROR HTTPError"}
+{"i": 471, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 472, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 473, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 474, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Cathy Soup\"\n}\n```"}
+{"i": 475, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs lettuce and onion\u2014which one should I chop?\"\n}\n```", "reply": "no, not lettuce", "turn2": "ERROR HTTPError"}
+{"i": 476, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 477, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 478, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 479, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 480, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 481, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 482, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 483, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 484, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 485, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 486, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 487, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Lettuce\", \"Chop Tomato\"], \"question\": \"Which veggie would you like me to chop?\"}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 488, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Should I chop tomato or lettuce for the Bob Soup?\"}", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 489, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Cathy Soup\"\n}\n```"}
+{"i": 490, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 491, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 492, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 493, "turn1": "ERROR HTTPError"}
+{"i": 494, "turn1": "ERROR HTTPError"}
+{"i": 495, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 496, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 497, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 498, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 499, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Which one should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 500, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\", \"Chop Lettuce\"], \"question\": \"Which ingredient would you like me to chop?\"}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 501, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 502, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 503, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 504, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Cathy Soup\"\n}\n```"}
+{"i": 505, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 506, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 507, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 508, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Cathy Soup\"\n}\n```"}
+{"i": 509, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 510, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 511, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 512, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 513, "turn1": "ERROR HTTPError"}
+{"i": 514, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "onion please", "turn2": "ERROR HTTPError"}
+{"i": 515, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "tomato please", "turn2": "ERROR HTTPError"}
+{"i": 516, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Cathy Ingredients\"\n}\n```"}
+{"i": 517, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare David Ingredients\"\n}\n```"}
+{"i": 518, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Bob Soup needs both lettuce and tomato. Which one should I chop?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 519, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 520, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 521, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 522, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop?\"}", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 523, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Cathy Soup\"\n}\n```"}
+{"i": 524, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Bob Soup needs both lettuce and tomato. Which one should I chop?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 525, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 526, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 527, "turn1": "{\"mode\": \"refuse\", \"reason\": \"I cannot cook David Soup right now because its ingredients are not prepared and in a pot yet.\"}"}
+{"i": 528, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 529, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"The ingredients for David Soup are already chopped.\"}\n```"}
+{"i": 530, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Should I chop onion or chop lettuce?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 531, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Should I chop lettuce or tomato for Bob Soup?\"\n}\n```", "reply": "doesn't matter", "turn2": "ERROR HTTPError"}
+{"i": 532, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 533, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 534, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"All orders currently have plenty of time. For the first order (David Soup), should I chop lettuce or tomato?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 535, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 536, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 537, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 538, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\"Chop Lettuce\", \"Chop Tomato\"],\n  \"question\": \"Should I chop lettuce or tomato for Bob Soup?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 539, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 540, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"All orders currently have plenty of time. For the first order (David Soup), should I chop lettuce or tomato?\"\n}\n```", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 541, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 542, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Cook Alice Soup\",\n    \"Plate Cathy Soup\"\n  ],\n  \"question\": \"Should I cook the Alice Soup or plate the Cathy Soup?\"\n}\n```", "reply": "alice please", "turn2": "ERROR HTTPError"}
+{"i": 543, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 544, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 545, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Putout\"}\n```"}
+{"i": 546, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 547, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 548, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook David Soup\"\n}\n```"}
+{"i": 549, "turn1": "ERROR HTTPError"}
+{"i": 550, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Cathy Soup\"\n}\n```"}
+{"i": 551, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 552, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 553, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop a tomato or an onion?\"\n}\n```", "reply": "tomato please", "turn2": "ERROR HTTPError"}
+{"i": 554, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 555, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Should I chop lettuce or tomato for Bob Soup?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 556, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Cathy Soup\"\n}\n```"}
+{"i": 557, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 558, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 559, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 560, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 561, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Should I chop onion or tomato for Cathy Soup?\"}\n```", "reply": "not onion", "turn2": "ERROR HTTPError"}
+{"i": 562, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 563, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 564, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"None of the orders are urgent right now.\"}\n```"}
+{"i": 565, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 566, "turn1": "```json\n{\n  \"mode\": \"refuse\",\n  \"reason\": \"Cathy Soup is not cooked or plated yet.\"\n}\n```"}
+{"i": 567, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 568, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 569, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or chop onion?\"\n}\n```", "reply": "no, not onion", "turn2": "ERROR HTTPError"}
+{"i": 570, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 571, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 572, "turn1": "ERROR HTTPError"}
+{"i": 573, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 574, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook David Soup\"\n}\n```"}
+{"i": 575, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 576, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 577, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 578, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 579, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 580, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 581, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 582, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 583, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Cathy Soup\"\n}\n```"}
+{"i": 584, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 585, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 586, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop a tomato or an onion?\"\n}\n```", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 587, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 588, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 589, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 590, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 591, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 592, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 593, "turn1": "ERROR HTTPError"}
+{"i": 594, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 595, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 596, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 597, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 598, "turn1": "ERROR HTTPError"}
+{"i": 599, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 600, "turn1": "ERROR HTTPError"}
+{"i": 601, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 602, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "tomato please", "turn2": "ERROR HTTPError"}
+{"i": 603, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 604, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 605, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 606, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Cathy Ingredients\",\n    \"Prepare Alice Ingredients\",\n    \"Prepare David Ingredients\"\n  ],\n  \"question\": \"Which order should I prepare the ingredients for?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 607, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 608, "turn1": "ERROR HTTPError"}
+{"i": 609, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 610, "turn1": "ERROR HTTPError"}
+{"i": 611, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 612, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"There is no active order for David Soup right now.\"}\n```"}
+{"i": 613, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 614, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 615, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 616, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Should I chop lettuce or onion?\"}\n```", "reply": "not lettuce", "turn2": "ERROR HTTPError"}
+{"i": 617, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or chop onion?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 618, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"David Soup needs both tomato and lettuce. Which one should I chop?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 619, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which vegetable should I chop?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 620, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 621, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 622, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 623, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 624, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Bob Soup needs both lettuce and tomato. Which one should I chop?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 625, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 626, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 627, "turn1": "ERROR HTTPError"}
+{"i": 628, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion for the Alice Soup?\"\n}\n```", "reply": "not lettuce", "turn2": "ERROR HTTPError"}
+{"i": 629, "turn1": "ERROR HTTPError"}
+{"i": 630, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 631, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 632, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 633, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 634, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 635, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 636, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\"Chop Onion\", \"Chop Tomato\"],\n  \"question\": \"Should I chop an onion or a tomato?\"\n}\n```", "reply": "no, not onion", "turn2": "ERROR HTTPError"}
+{"i": 637, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 638, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 639, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 640, "turn1": "ERROR HTTPError"}
+{"i": 641, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 642, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 643, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 644, "turn1": "ERROR HTTPError"}
+{"i": 645, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 646, "turn1": "ERROR HTTPError"}
+{"i": 647, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 648, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 649, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 650, "turn1": "ERROR HTTPError"}
+{"i": 651, "turn1": "ERROR HTTPError"}
+{"i": 652, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 653, "turn1": "ERROR HTTPError"}
+{"i": 654, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 655, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 656, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 657, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 658, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Should I chop tomato or onion?\"}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 659, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 660, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 661, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Should I chop an onion or a tomato for Cathy Soup?\"\n}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 662, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 663, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 664, "turn1": "ERROR HTTPError"}
+{"i": 665, "turn1": "ERROR HTTPError"}
+{"i": 666, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Alice Soup\"\n}\n```"}
+{"i": 667, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 668, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare David Ingredients\"\n}\n```"}
+{"i": 669, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 670, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 671, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 672, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 673, "turn1": "ERROR HTTPError"}
+{"i": 674, "turn1": "ERROR HTTPError"}
+{"i": 675, "turn1": "ERROR HTTPError"}
+{"i": 676, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 677, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or onion for the Alice Soup?\"\n}\n```", "reply": "no, not onion", "turn2": "ERROR HTTPError"}
+{"i": 678, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 679, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 680, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 681, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 682, "turn1": "ERROR HTTPError"}
+{"i": 683, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 684, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 685, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 686, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Which one should I chop?\"\n}\n```", "reply": "doesn't matter", "turn2": "ERROR HTTPError"}
+{"i": 687, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 688, "turn1": "ERROR HTTPError"}
+{"i": 689, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 690, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 691, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 692, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 693, "turn1": "ERROR HTTPError"}
+{"i": 694, "turn1": "ERROR HTTPError"}
+{"i": 695, "turn1": "ERROR HTTPError"}
+{"i": 696, "turn1": "ERROR HTTPError"}
+{"i": 697, "turn1": "ERROR HTTPError"}
+{"i": 698, "turn1": "ERROR HTTPError"}
+{"i": 699, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 700, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 701, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Cathy Soup\"\n}\n```"}
+{"i": 702, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 703, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 704, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 705, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 706, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 707, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 708, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 709, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 710, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Which one should I chop?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 711, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 712, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 713, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 714, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 715, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 716, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 717, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 718, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 719, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which vegetable should I chop?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 720, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop lettuce or chop onion?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 721, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 722, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 723, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 724, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Do you want me to chop lettuce or chop onion?\"}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 725, "turn1": "ERROR HTTPError"}
+{"i": 726, "turn1": "ERROR HTTPError"}
+{"i": 727, "turn1": "ERROR HTTPError"}
+{"i": 728, "turn1": "ERROR HTTPError"}
+{"i": 729, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}\n```"}
+{"i": 730, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 731, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 732, "turn1": "ERROR HTTPError"}
+{"i": 733, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 734, "turn1": "ERROR HTTPError"}
+{"i": 735, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 736, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 737, "turn1": "ERROR HTTPError"}
+{"i": 738, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 739, "turn1": "ERROR HTTPError"}
+{"i": 740, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}\n```"}
+{"i": 741, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 742, "turn1": "ERROR HTTPError"}
+{"i": 743, "turn1": "ERROR HTTPError"}
+{"i": 744, "turn1": "ERROR HTTPError"}
+{"i": 745, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 746, "turn1": "ERROR HTTPError"}
+{"i": 747, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 748, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 749, "turn1": "ERROR HTTPError"}
+{"i": 750, "turn1": "ERROR HTTPError"}
+{"i": 751, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Should I chop lettuce or onion?\"}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 752, "turn1": "ERROR HTTPError"}
+{"i": 753, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 754, "turn1": "ERROR HTTPError"}
+{"i": 755, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 756, "turn1": "ERROR HTTPError"}
+{"i": 757, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Bob Soup needs both lettuce and tomato. Which one should I chop?\"\n}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 758, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 759, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs lettuce and onion. Should I chop lettuce or onion?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 760, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 761, "turn1": "ERROR HTTPError"}
+{"i": 762, "turn1": "ERROR HTTPError"}
+{"i": 763, "turn1": "ERROR HTTPError"}
+{"i": 764, "turn1": "ERROR HTTPError"}
+{"i": 765, "turn1": "ERROR HTTPError"}
+{"i": 766, "turn1": "ERROR HTTPError"}
+{"i": 767, "turn1": "ERROR HTTPError"}
+{"i": 768, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 769, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}\n```"}
+{"i": 770, "turn1": "ERROR HTTPError"}
+{"i": 771, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 772, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Cathy Soup\"\n}\n```"}
+{"i": 773, "turn1": "ERROR HTTPError"}
+{"i": 774, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 775, "turn1": "ERROR HTTPError"}
+{"i": 776, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 777, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 778, "turn1": "ERROR HTTPError"}
+{"i": 779, "turn1": "ERROR HTTPError"}
+{"i": 780, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 781, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 782, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 783, "turn1": "ERROR HTTPError"}
+{"i": 784, "turn1": "```json\n{\n  \"mode\": \"ask\", \"options\": [\"Serve Cathy Soup\", \"Serve David Soup\"], \"question\": \"Should I serve Cathy Soup or David Soup?\"\n}\n```", "reply": "the david one", "turn2": "ERROR HTTPError"}
+{"i": 785, "turn1": "ERROR HTTPError"}
+{"i": 786, "turn1": "ERROR HTTPError"}
+{"i": 787, "turn1": "ERROR HTTPError"}
+{"i": 788, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Cathy Ingredients\",\n    \"Prepare Alice Ingredients\",\n    \"Prepare David Ingredients\"\n  ],\n  \"question\": \"Which soup ingredients should I get ready?\"\n}\n```", "reply": "doesn't matter", "turn2": "ERROR HTTPError"}
+{"i": 789, "turn1": "ERROR HTTPError"}
+{"i": 790, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 791, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 792, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 793, "turn1": "ERROR HTTPError"}
+{"i": 794, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 795, "turn1": "ERROR HTTPError"}
+{"i": 796, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 797, "turn1": "```json\n{\"mode\": \"refuse\", \"reason\": \"Neither Alice Soup nor Bob Soup is ready to be served right now.\"}\n```"}
+{"i": 798, "turn1": "ERROR HTTPError"}
+{"i": 799, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 800, "turn1": "ERROR HTTPError"}
+{"i": 801, "turn1": "ERROR HTTPError"}
+{"i": 802, "turn1": "ERROR HTTPError"}
+{"i": 803, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 804, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 805, "turn1": "ERROR HTTPError"}
+{"i": 806, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Bob Soup needs lettuce and tomato. Which one should I chop?\"\n}\n```", "reply": "doesn't matter", "turn2": "ERROR HTTPError"}
+{"i": 807, "turn1": "ERROR HTTPError"}
+{"i": 808, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 809, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 810, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Alice Soup\"\n}\n```"}
+{"i": 811, "turn1": "ERROR HTTPError"}
+{"i": 812, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Plate Bob Soup\",\n    \"Serve Bob Soup\"\n  ],\n  \"question\": \"Should I plate the cooked Bob Soup from the pot or serve the plated Bob Soup?\"\n}\n```", "reply": "all of those", "turn2": "ERROR HTTPError"}
+{"i": 813, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 814, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Which veggie would you like me to chop, onion or tomato?\"}\n```", "reply": "neither", "turn2": "ERROR HTTPError"}
+{"i": 815, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 816, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 817, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 818, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 819, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the lettuce one", "turn2": "ERROR HTTPError"}
+{"i": 820, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 821, "turn1": "ERROR HTTPError"}
+{"i": 822, "turn1": "ERROR HTTPError"}
+{"i": 823, "turn1": "ERROR HTTPError"}
+{"i": 824, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"All orders currently have plenty of time. For the first order (David Soup), should I chop lettuce or tomato?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 825, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"All orders currently have plenty of time. For the first order (David Soup), should I chop lettuce or tomato?\"\n}\n```", "reply": "neither", "turn2": "ERROR HTTPError"}
+{"i": 826, "turn1": "ERROR HTTPError"}
+{"i": 827, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 828, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 829, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 830, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 831, "turn1": "ERROR HTTPError"}
+{"i": 832, "turn1": "ERROR HTTPError"}
+{"i": 833, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 834, "turn1": "ERROR HTTPError"}
+{"i": 835, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 836, "turn1": "ERROR HTTPError"}
+{"i": 837, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 838, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 839, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Should I chop tomato or onion?\"}\n```", "reply": "doesn't matter", "turn2": "ERROR HTTPError"}
+{"i": 840, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 841, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 842, "turn1": "ERROR HTTPError"}
+{"i": 843, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 844, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 845, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 846, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 847, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 848, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 849, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 850, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 851, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}\n```"}
+{"i": 852, "turn1": "ERROR HTTPError"}
+{"i": 853, "turn1": "ERROR HTTPError"}
+{"i": 854, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\"Chop Onion\", \"Prepare Bob Ingredients\"],\n  \"question\": \"Should I chop onion for the current orders or prepare Bob ingredients?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 855, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 856, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 857, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 858, "turn1": "ERROR HTTPError"}
+{"i": 859, "turn1": "ERROR HTTPError"}
+{"i": 860, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 861, "turn1": "ERROR HTTPError"}
+{"i": 862, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 863, "turn1": "ERROR HTTPError"}
+{"i": 864, "turn1": "ERROR HTTPError"}
+{"i": 865, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 866, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 867, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 868, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 869, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 870, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 871, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 872, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 873, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 874, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 875, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 876, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 877, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 878, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 879, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 880, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 881, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop tomato or onion?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 882, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 883, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which ingredient should I chop for the order?\"}\n```", "reply": "tomato please", "turn2": "ERROR HTTPError"}
+{"i": 884, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 885, "turn1": "ERROR HTTPError"}
+{"i": 886, "turn1": "ERROR HTTPError"}
+{"i": 887, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 888, "turn1": "ERROR HTTPError"}
+{"i": 889, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\", \"Chop Onion\"], \"question\": \"Which veggie should I chop?\"}", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 890, "turn1": "ERROR HTTPError"}
+{"i": 891, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 892, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 893, "turn1": "ERROR HTTPError"}
+{"i": 894, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Should I chop lettuce or tomato for Bob Soup?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 895, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 896, "turn1": "ERROR HTTPError"}
+{"i": 897, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Should I chop a tomato or an onion?\"\n}\n```", "reply": "either, just hurry", "turn2": "ERROR HTTPError"}
+{"i": 898, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Cathy Ingredients\",\n    \"Prepare Alice Ingredients\",\n    \"Prepare David Ingredients\"\n  ],\n  \"question\": \"Which order should I prepare the ingredients for?\"\n}\n```", "reply": "alice please", "turn2": "ERROR HTTPError"}
+{"i": 899, "turn1": "ERROR HTTPError"}
+{"i": 900, "turn1": "ERROR HTTPError"}
+{"i": 901, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 902, "turn1": "ERROR HTTPError"}
+{"i": 903, "turn1": "ERROR HTTPError"}
+{"i": 904, "turn1": "ERROR HTTPError"}
+{"i": 905, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 906, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 907, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 908, "turn1": "```json\n{\n  \"mode\": \"refuse\",\n  \"reason\": \"David Soup has not been cooked or plated yet.\"\n}\n```"}
+{"i": 909, "turn1": "ERROR HTTPError"}
+{"i": 910, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 911, "turn1": "ERROR HTTPError"}
+{"i": 912, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 913, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 914, "turn1": "ERROR HTTPError"}
+{"i": 915, "turn1": "ERROR HTTPError"}
+{"i": 916, "turn1": "ERROR HTTPError"}
+{"i": 917, "turn1": "ERROR HTTPError"}
+{"i": 918, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 919, "turn1": "ERROR HTTPError"}
+{"i": 920, "turn1": "ERROR HTTPError"}
+{"i": 921, "turn1": "ERROR HTTPError"}
+{"i": 922, "turn1": "ERROR HTTPError"}
+{"i": 923, "turn1": "ERROR HTTPError"}
+{"i": 924, "turn1": "ERROR HTTPError"}
+{"i": 925, "turn1": "ERROR HTTPError"}
+{"i": 926, "turn1": "ERROR HTTPError"}
+{"i": 927, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 928, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 929, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 930, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 931, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 932, "turn1": "ERROR HTTPError"}
+{"i": 933, "turn1": "ERROR HTTPError"}
+{"i": 934, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 935, "turn1": "ERROR HTTPError"}
+{"i": 936, "turn1": "ERROR HTTPError"}
+{"i": 937, "turn1": "ERROR HTTPError"}
+{"i": 938, "turn1": "ERROR HTTPError"}
+{"i": 939, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Prepare Alice Ingredients\",\n    \"Prepare Cathy Ingredients\",\n    \"Prepare David Ingredients\"\n  ],\n  \"question\": \"Which soup should I prepare the ingredients for?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 940, "turn1": "ERROR HTTPError"}
+{"i": 941, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 942, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the onion one", "turn2": "ERROR HTTPError"}
+{"i": 943, "turn1": "ERROR HTTPError"}
+{"i": 944, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 945, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 946, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Serve Cathy Soup\",\n    \"Serve David Soup\"\n  ],\n  \"question\": \"Both orders are urgent. Which soup should I serve, Cathy or David?\"\n}\n```", "reply": "the cathy one", "turn2": "ERROR HTTPError"}
+{"i": 947, "turn1": "ERROR HTTPError"}
+{"i": 948, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 949, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 950, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 951, "turn1": "ERROR HTTPError"}
+{"i": 952, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 953, "turn1": "ERROR HTTPError"}
+{"i": 954, "turn1": "ERROR HTTPError"}
+{"i": 955, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 956, "turn1": "ERROR HTTPError"}
+{"i": 957, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Lettuce\",\n    \"Chop Tomato\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 958, "turn1": "ERROR HTTPError"}
+{"i": 959, "turn1": "ERROR HTTPError"}
+{"i": 960, "turn1": "ERROR HTTPError"}
+{"i": 961, "turn1": "ERROR HTTPError"}
+{"i": 962, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 963, "turn1": "ERROR HTTPError"}
+{"i": 964, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 965, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 966, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 967, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 968, "turn1": "ERROR HTTPError"}
+{"i": 969, "turn1": "ERROR HTTPError"}
+{"i": 970, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 971, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 972, "turn1": "ERROR HTTPError"}
+{"i": 973, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"No order is urgent right now. Which ingredient should I chop?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 974, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Alice Ingredients\"\n}\n```"}
+{"i": 975, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 976, "turn1": "ERROR HTTPError"}
+{"i": 977, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "onion", "turn2": "ERROR HTTPError"}
+{"i": 978, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 979, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 980, "turn1": "ERROR HTTPError"}
+{"i": 981, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 982, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 983, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 984, "turn1": "ERROR HTTPError"}
+{"i": 985, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 986, "turn1": "ERROR HTTPError"}
+{"i": 987, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 988, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 989, "turn1": "ERROR HTTPError"}
+{"i": 990, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 991, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Onion\", \"Chop Tomato\"], \"question\": \"Should I chop an onion or a tomato?\"}\n```", "reply": "no, not tomato", "turn2": "ERROR HTTPError"}
+{"i": 992, "turn1": "ERROR HTTPError"}
+{"i": 993, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}\n```"}
+{"i": 994, "turn1": "ERROR HTTPError"}
+{"i": 995, "turn1": "ERROR HTTPError"}
+{"i": 996, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 997, "turn1": "ERROR HTTPError"}
+{"i": 998, "turn1": "ERROR HTTPError"}
+{"i": 999, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 1000, "turn1": "ERROR HTTPError"}
+{"i": 1001, "turn1": "ERROR HTTPError"}
+{"i": 1002, "turn1": "ERROR HTTPError"}
+{"i": 1003, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 1004, "turn1": "ERROR HTTPError"}
+{"i": 1005, "turn1": "ERROR HTTPError"}
+{"i": 1006, "turn1": "ERROR HTTPError"}
+{"i": 1007, "turn1": "ERROR HTTPError"}
+{"i": 1008, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Alice Soup\"\n}\n```"}
+{"i": 1009, "turn1": "ERROR HTTPError"}
+{"i": 1010, "turn1": "ERROR HTTPError"}
+{"i": 1011, "turn1": "ERROR HTTPError"}
+{"i": 1012, "turn1": "ERROR HTTPError"}
+{"i": 1013, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 1014, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1015, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare Bob Ingredients\"\n}\n```"}
+{"i": 1016, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 1017, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 1018, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1019, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Cathy Soup\"\n}\n```"}
+{"i": 1020, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1021, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1022, "turn1": "ERROR HTTPError"}
+{"i": 1023, "turn1": "ERROR HTTPError"}
+{"i": 1024, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 1025, "turn1": "ERROR HTTPError"}
+{"i": 1026, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 1027, "turn1": "ERROR HTTPError"}
+{"i": 1028, "turn1": "ERROR HTTPError"}
+{"i": 1029, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1030, "turn1": "ERROR HTTPError"}
+{"i": 1031, "turn1": "ERROR HTTPError"}
+{"i": 1032, "turn1": "ERROR HTTPError"}
+{"i": 1033, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 1034, "turn1": "ERROR HTTPError"}
+{"i": 1035, "turn1": "ERROR HTTPError"}
+{"i": 1036, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}\n```"}
+{"i": 1037, "turn1": "ERROR HTTPError"}
+{"i": 1038, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 1039, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 1040, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Should I chop tomato or lettuce for David Soup?\"\n}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 1041, "turn1": "ERROR HTTPError"}
+{"i": 1042, "turn1": "ERROR HTTPError"}
+{"i": 1043, "turn1": "ERROR HTTPError"}
+{"i": 1044, "turn1": "ERROR HTTPError"}
+{"i": 1045, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1046, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 1047, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1048, "turn1": "ERROR HTTPError"}
+{"i": 1049, "turn1": "ERROR HTTPError"}
+{"i": 1050, "turn1": "ERROR HTTPError"}
+{"i": 1051, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1052, "turn1": "ERROR HTTPError"}
+{"i": 1053, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Prepare David Ingredients\"\n}\n```"}
+{"i": 1054, "turn1": "ERROR HTTPError"}
+{"i": 1055, "turn1": "ERROR HTTPError"}
+{"i": 1056, "turn1": "ERROR HTTPError"}
+{"i": 1057, "turn1": "ERROR HTTPError"}
+{"i": 1058, "turn1": "ERROR HTTPError"}
+{"i": 1059, "turn1": "ERROR HTTPError"}
+{"i": 1060, "turn1": "ERROR HTTPError"}
+{"i": 1061, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1062, "turn1": "ERROR HTTPError"}
+{"i": 1063, "turn1": "ERROR HTTPError"}
+{"i": 1064, "turn1": "ERROR HTTPError"}
+{"i": 1065, "turn1": "ERROR HTTPError"}
+{"i": 1066, "turn1": "ERROR HTTPError"}
+{"i": 1067, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Should I chop tomato or lettuce?\"\n}\n```", "reply": "tomato please", "turn2": "ERROR HTTPError"}
+{"i": 1068, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate Bob Soup\"\n}\n```"}
+{"i": 1069, "turn1": "ERROR HTTPError"}
+{"i": 1070, "turn1": "ERROR HTTPError"}
+{"i": 1071, "turn1": "ERROR HTTPError"}
+{"i": 1072, "turn1": "ERROR HTTPError"}
+{"i": 1073, "turn1": "ERROR HTTPError"}
+{"i": 1074, "turn1": "ERROR HTTPError"}
+{"i": 1075, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Plate David Soup\"\n}\n```"}
+{"i": 1076, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 1077, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 1078, "turn1": "ERROR HTTPError"}
+{"i": 1079, "turn1": "ERROR HTTPError"}
+{"i": 1080, "turn1": "ERROR HTTPError"}
+{"i": 1081, "turn1": "ERROR HTTPError"}
+{"i": 1082, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1083, "turn1": "ERROR HTTPError"}
+{"i": 1084, "turn1": "ERROR HTTPError"}
+{"i": 1085, "turn1": "ERROR HTTPError"}
+{"i": 1086, "turn1": "ERROR HTTPError"}
+{"i": 1087, "turn1": "ERROR HTTPError"}
+{"i": 1088, "turn1": "ERROR HTTPError"}
+{"i": 1089, "turn1": "ERROR HTTPError"}
+{"i": 1090, "turn1": "ERROR HTTPError"}
+{"i": 1091, "turn1": "ERROR HTTPError"}
+{"i": 1092, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "lettuce", "turn2": "ERROR HTTPError"}
+{"i": 1093, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1094, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}\n```"}
+{"i": 1095, "turn1": "ERROR HTTPError"}
+{"i": 1096, "turn1": "ERROR HTTPError"}
+{"i": 1097, "turn1": "ERROR HTTPError"}
+{"i": 1098, "turn1": "ERROR HTTPError"}
+{"i": 1099, "turn1": "ERROR HTTPError"}
+{"i": 1100, "turn1": "ERROR HTTPError"}
+{"i": 1101, "turn1": "ERROR HTTPError"}
+{"i": 1102, "turn1": "ERROR HTTPError"}
+{"i": 1103, "turn1": "ERROR HTTPError"}
+{"i": 1104, "turn1": "ERROR HTTPError"}
+{"i": 1105, "turn1": "ERROR HTTPError"}
+{"i": 1106, "turn1": "ERROR HTTPError"}
+{"i": 1107, "turn1": "ERROR HTTPError"}
+{"i": 1108, "turn1": "ERROR HTTPError"}
+{"i": 1109, "turn1": "ERROR HTTPError"}
+{"i": 1110, "turn1": "ERROR HTTPError"}
+{"i": 1111, "turn1": "ERROR HTTPError"}
+{"i": 1112, "turn1": "ERROR HTTPError"}
+{"i": 1113, "turn1": "ERROR HTTPError"}
+{"i": 1114, "turn1": "ERROR HTTPError"}
+{"i": 1115, "turn1": "ERROR HTTPError"}
+{"i": 1116, "turn1": "ERROR HTTPError"}
+{"i": 1117, "turn1": "ERROR HTTPError"}
+{"i": 1118, "turn1": "ERROR HTTPError"}
+{"i": 1119, "turn1": "ERROR HTTPError"}
+{"i": 1120, "turn1": "ERROR HTTPError"}
+{"i": 1121, "turn1": "ERROR HTTPError"}
+{"i": 1122, "turn1": "ERROR HTTPError"}
+{"i": 1123, "turn1": "ERROR HTTPError"}
+{"i": 1124, "turn1": "ERROR HTTPError"}
+{"i": 1125, "turn1": "ERROR HTTPError"}
+{"i": 1126, "turn1": "ERROR HTTPError"}
+{"i": 1127, "turn1": "ERROR HTTPError"}
+{"i": 1128, "turn1": "ERROR HTTPError"}
+{"i": 1129, "turn1": "ERROR HTTPError"}
+{"i": 1130, "turn1": "ERROR HTTPError"}
+{"i": 1131, "turn1": "ERROR HTTPError"}
+{"i": 1132, "turn1": "ERROR HTTPError"}
+{"i": 1133, "turn1": "ERROR HTTPError"}
+{"i": 1134, "turn1": "ERROR HTTPError"}
+{"i": 1135, "turn1": "ERROR HTTPError"}
+{"i": 1136, "turn1": "ERROR HTTPError"}
+{"i": 1137, "turn1": "ERROR HTTPError"}
+{"i": 1138, "turn1": "ERROR HTTPError"}
+{"i": 1139, "turn1": "ERROR HTTPError"}
+{"i": 1140, "turn1": "ERROR HTTPError"}
+{"i": 1141, "turn1": "ERROR HTTPError"}
+{"i": 1142, "turn1": "ERROR HTTPError"}
+{"i": 1143, "turn1": "ERROR HTTPError"}
+{"i": 1144, "turn1": "ERROR HTTPError"}
+{"i": 1145, "turn1": "ERROR HTTPError"}
+{"i": 1146, "turn1": "ERROR HTTPError"}
+{"i": 1147, "turn1": "ERROR HTTPError"}
+{"i": 1148, "turn1": "ERROR HTTPError"}
+{"i": 1149, "turn1": "ERROR HTTPError"}
+{"i": 1150, "turn1": "ERROR HTTPError"}
+{"i": 1151, "turn1": "ERROR HTTPError"}
+{"i": 1152, "turn1": "ERROR HTTPError"}
+{"i": 1153, "turn1": "ERROR HTTPError"}
+{"i": 1154, "turn1": "ERROR HTTPError"}
+{"i": 1155, "turn1": "ERROR HTTPError"}
+{"i": 1156, "turn1": "ERROR HTTPError"}
+{"i": 1157, "turn1": "ERROR HTTPError"}
+{"i": 1158, "turn1": "ERROR HTTPError"}
+{"i": 1159, "turn1": "ERROR HTTPError"}
+{"i": 1160, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1161, "turn1": "ERROR HTTPError"}
+{"i": 1162, "turn1": "ERROR HTTPError"}
+{"i": 1163, "turn1": "ERROR HTTPError"}
+{"i": 1164, "turn1": "ERROR HTTPError"}
+{"i": 1165, "turn1": "ERROR HTTPError"}
+{"i": 1166, "turn1": "ERROR HTTPError"}
+{"i": 1167, "turn1": "ERROR HTTPError"}
+{"i": 1168, "turn1": "ERROR HTTPError"}
+{"i": 1169, "turn1": "ERROR HTTPError"}
+{"i": 1170, "turn1": "ERROR HTTPError"}
+{"i": 1171, "turn1": "ERROR HTTPError"}
+{"i": 1172, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 1173, "turn1": "ERROR HTTPError"}
+{"i": 1174, "turn1": "ERROR HTTPError"}
+{"i": 1175, "turn1": "ERROR HTTPError"}
+{"i": 1176, "turn1": "ERROR HTTPError"}
+{"i": 1177, "turn1": "ERROR HTTPError"}
+{"i": 1178, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1179, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 1180, "turn1": "ERROR HTTPError"}
+{"i": 1181, "turn1": "ERROR HTTPError"}
+{"i": 1182, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Lettuce\"], \"question\": \"Should I chop tomato or lettuce for the Bob Soup?\"}", "reply": "tomato", "turn2": "ERROR HTTPError"}
+{"i": 1183, "turn1": "ERROR HTTPError"}
+{"i": 1184, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1185, "turn1": "ERROR HTTPError"}
+{"i": 1186, "turn1": "ERROR HTTPError"}
+{"i": 1187, "turn1": "ERROR HTTPError"}
+{"i": 1188, "turn1": "ERROR HTTPError"}
+{"i": 1189, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Lettuce\", \"Chop Onion\", \"Prepare Alice Ingredients\"], \"question\": \"Do you want me to work on lettuce or onion next?\"}", "reply": "the one with both", "turn2": "ERROR HTTPError"}
+{"i": 1190, "turn1": "ERROR HTTPError"}
+{"i": 1191, "turn1": "ERROR HTTPError"}
+{"i": 1192, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1193, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Tomato\",\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Which veggie should I chop?\"\n}\n```", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 1194, "turn1": "ERROR HTTPError"}
+{"i": 1195, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 1196, "turn1": "ERROR HTTPError"}
+{"i": 1197, "turn1": "ERROR HTTPError"}
+{"i": 1198, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 1199, "turn1": "ERROR HTTPError"}
+{"i": 1200, "turn1": "ERROR HTTPError"}
+{"i": 1201, "turn1": "ERROR HTTPError"}
+{"i": 1202, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 1203, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 1204, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 1205, "turn1": "ERROR HTTPError"}
+{"i": 1206, "turn1": "ERROR HTTPError"}
+{"i": 1207, "turn1": "ERROR HTTPError"}
+{"i": 1208, "turn1": "ERROR HTTPError"}
+{"i": 1209, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Cook Bob Soup\"\n}\n```"}
+{"i": 1210, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 1211, "turn1": "ERROR HTTPError"}
+{"i": 1212, "turn1": "ERROR HTTPError"}
+{"i": 1213, "turn1": "ERROR HTTPError"}
+{"i": 1214, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1215, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 1216, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Onion\",\n    \"Chop Tomato\",\n    \"Chop Lettuce\"\n  ],\n  \"question\": \"Which veggie would you like me to chop?\"\n}\n```", "reply": "the tomato one", "turn2": "ERROR HTTPError"}
+{"i": 1217, "turn1": "ERROR HTTPError"}
+{"i": 1218, "turn1": "ERROR HTTPError"}
+{"i": 1219, "turn1": "ERROR HTTPError"}
+{"i": 1220, "turn1": "ERROR HTTPError"}
+{"i": 1221, "turn1": "ERROR HTTPError"}
+{"i": 1222, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 1223, "turn1": "ERROR HTTPError"}
+{"i": 1224, "turn1": "ERROR HTTPError"}
+{"i": 1225, "turn1": "ERROR HTTPError"}
+{"i": 1226, "turn1": "ERROR HTTPError"}
+{"i": 1227, "turn1": "ERROR HTTPError"}
+{"i": 1228, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Lettuce\"\n}\n```"}
+{"i": 1229, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1230, "turn1": "ERROR HTTPError"}
+{"i": 1231, "turn1": "ERROR HTTPError"}
+{"i": 1232, "turn1": "ERROR HTTPError"}
+{"i": 1233, "turn1": "ERROR HTTPError"}
+{"i": 1234, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1235, "turn1": "ERROR HTTPError"}
+{"i": 1236, "turn1": "ERROR HTTPError"}
+{"i": 1237, "turn1": "ERROR HTTPError"}
+{"i": 1238, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 1239, "turn1": "ERROR HTTPError"}
+{"i": 1240, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Serve Bob Soup\"\n}\n```"}
+{"i": 1241, "turn1": "ERROR HTTPError"}
+{"i": 1242, "turn1": "ERROR HTTPError"}
+{"i": 1243, "turn1": "ERROR HTTPError"}
+{"i": 1244, "turn1": "ERROR HTTPError"}
+{"i": 1245, "turn1": "ERROR HTTPError"}
+{"i": 1246, "turn1": "ERROR HTTPError"}
+{"i": 1247, "turn1": "ERROR HTTPError"}
+{"i": 1248, "turn1": "ERROR HTTPError"}
+{"i": 1249, "turn1": "ERROR HTTPError"}
+{"i": 1250, "turn1": "```json\n{\n  \"mode\": \"ask\",\n  \"options\": [\n    \"Chop Lettuce\",\n    \"Chop Onion\"\n  ],\n  \"question\": \"Alice Soup needs both lettuce and onion. Which one should I chop?\"\n}\n```", "reply": "lettuce please", "turn2": "ERROR HTTPError"}
+{"i": 1251, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Chop Onion\"], \"question\": \"Should I chop tomato or onion?\"}\n```", "reply": "not onion", "turn2": "ERROR HTTPError"}
+{"i": 1252, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Tomato\"\n}\n```"}
+{"i": 1253, "turn1": "ERROR HTTPError"}
+{"i": 1254, "turn1": "ERROR HTTPError"}
+{"i": 1255, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 1256, "turn1": "ERROR HTTPError"}
+{"i": 1257, "turn1": "ERROR HTTPError"}
+{"i": 1258, "turn1": "```json\n{\n  \"mode\": \"execute\",\n  \"macro\": \"Chop Onion\"\n}\n```"}
+{"i": 1259, "turn1": "ERROR HTTPError"}
+{"i": 1260, "turn1": "ERROR HTTPError"}
+{"i": 1261, "turn1": "ERROR HTTPError"}
+{"i": 1262, "turn1": "ERROR HTTPError"}
+{"i": 1263, "turn1": "ERROR HTTPError"}
+{"i": 1264, "turn1": "ERROR HTTPError"}
+{"i": 1265, "turn1": "ERROR HTTPError"}
+{"i": 1266, "turn1": "ERROR HTTPError"}
+{"i": 1267, "turn1": "ERROR HTTPError"}
+{"i": 1268, "turn1": "ERROR HTTPError"}
+{"i": 1269, "turn1": "ERROR HTTPError"}
+{"i": 1270, "turn1": "ERROR HTTPError"}
+{"i": 1271, "turn1": "ERROR HTTPError"}
+{"i": 1272, "turn1": "ERROR HTTPError"}
+{"i": 1273, "turn1": "ERROR HTTPError"}
+{"i": 1274, "turn1": "ERROR HTTPError"}
+{"i": 1275, "turn1": "ERROR HTTPError"}
+{"i": 1276, "turn1": "ERROR HTTPError"}
+{"i": 1277, "turn1": "ERROR HTTPError"}
+{"i": 1278, "turn1": "ERROR HTTPError"}
+{"i": 1279, "turn1": "ERROR HTTPError"}
+{"i": 1280, "turn1": "ERROR HTTPError"}
+{"i": 1281, "turn1": "ERROR HTTPError"}
+{"i": 1282, "turn1": "ERROR HTTPError"}
+{"i": 1283, "turn1": "ERROR HTTPError"}
+{"i": 1284, "turn1": "ERROR HTTPError"}
+{"i": 1285, "turn1": "ERROR HTTPError"}
+{"i": 1286, "turn1": "{\"mode\": \"ask\", \"options\": [\"Plate Alice Soup\", \"Plate David Soup\"], \"question\": \"Which soup should I plate?\"}", "reply": "no, not alice", "turn2": "ERROR HTTPError"}
+{"i": 1287, "turn1": "ERROR HTTPError"}
+{"i": 1288, "turn1": "ERROR HTTPError"}
+{"i": 1289, "turn1": "ERROR HTTPError"}
+{"i": 1290, "turn1": "ERROR HTTPError"}
+{"i": 1291, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 1292, "turn1": "ERROR HTTPError"}
+{"i": 1293, "turn1": "ERROR HTTPError"}
+{"i": 1294, "turn1": "ERROR HTTPError"}
+{"i": 1295, "turn1": "ERROR HTTPError"}
+{"i": 1296, "turn1": "ERROR HTTPError"}
+{"i": 1297, "turn1": "ERROR HTTPError"}
+{"i": 1298, "turn1": "ERROR HTTPError"}
+{"i": 1299, "turn1": "ERROR HTTPError"}
+{"i": 1300, "turn1": "ERROR HTTPError"}
+{"i": 1301, "turn1": "ERROR HTTPError"}
+{"i": 1302, "turn1": "ERROR HTTPError"}
+{"i": 1303, "turn1": "ERROR HTTPError"}
+{"i": 1304, "turn1": "ERROR HTTPError"}
+{"i": 1305, "turn1": "ERROR HTTPError"}
+{"i": 1306, "turn1": "ERROR HTTPError"}
+{"i": 1307, "turn1": "ERROR HTTPError"}
+{"i": 1308, "turn1": "ERROR HTTPError"}
+{"i": 1309, "turn1": "ERROR HTTPError"}
+{"i": 1310, "turn1": "ERROR HTTPError"}
+{"i": 1311, "turn1": "ERROR HTTPError"}
+{"i": 1312, "turn1": "ERROR HTTPError"}
+{"i": 1313, "turn1": "ERROR HTTPError"}
+{"i": 1314, "turn1": "ERROR HTTPError"}
+{"i": 1315, "turn1": "ERROR HTTPError"}
+{"i": 1316, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 1317, "turn1": "ERROR HTTPError"}
+{"i": 1318, "turn1": "ERROR HTTPError"}
+{"i": 1319, "turn1": "ERROR HTTPError"}
+{"i": 1320, "turn1": "ERROR HTTPError"}
+{"i": 1321, "turn1": "ERROR HTTPError"}
+{"i": 1322, "turn1": "ERROR HTTPError"}
+{"i": 1323, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 1324, "turn1": "ERROR HTTPError"}
+{"i": 1325, "turn1": "ERROR HTTPError"}
+{"i": 1326, "turn1": "ERROR HTTPError"}
+{"i": 1327, "turn1": "ERROR HTTPError"}
+{"i": 1328, "turn1": "ERROR HTTPError"}
+{"i": 1329, "turn1": "ERROR HTTPError"}
+{"i": 1330, "turn1": "ERROR HTTPError"}
+{"i": 1331, "turn1": "ERROR HTTPError"}
+{"i": 1332, "turn1": "ERROR HTTPError"}
+{"i": 1333, "turn1": "ERROR HTTPError"}
+{"i": 1334, "turn1": "ERROR HTTPError"}
+{"i": 1335, "turn1": "ERROR HTTPError"}
+{"i": 1336, "turn1": "ERROR HTTPError"}
+{"i": 1337, "turn1": "ERROR HTTPError"}
+{"i": 1338, "turn1": "ERROR HTTPError"}
+{"i": 1339, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1340, "turn1": "ERROR HTTPError"}
+{"i": 1341, "turn1": "ERROR HTTPError"}
+{"i": 1342, "turn1": "ERROR HTTPError"}
+{"i": 1343, "turn1": "ERROR HTTPError"}
+{"i": 1344, "turn1": "ERROR HTTPError"}
+{"i": 1345, "turn1": "ERROR HTTPError"}
+{"i": 1346, "turn1": "ERROR HTTPError"}
+{"i": 1347, "turn1": "ERROR HTTPError"}
+{"i": 1348, "turn1": "ERROR HTTPError"}
+{"i": 1349, "turn1": "ERROR HTTPError"}
+{"i": 1350, "turn1": "ERROR HTTPError"}
+{"i": 1351, "turn1": "ERROR HTTPError"}
+{"i": 1352, "turn1": "ERROR HTTPError"}
+{"i": 1353, "turn1": "ERROR HTTPError"}
+{"i": 1354, "turn1": "ERROR HTTPError"}
+{"i": 1355, "turn1": "ERROR HTTPError"}
+{"i": 1356, "turn1": "ERROR HTTPError"}
+{"i": 1357, "turn1": "ERROR HTTPError"}
+{"i": 1358, "turn1": "ERROR HTTPError"}
+{"i": 1359, "turn1": "ERROR HTTPError"}
+{"i": 1360, "turn1": "ERROR HTTPError"}
+{"i": 1361, "turn1": "ERROR HTTPError"}
+{"i": 1362, "turn1": "ERROR HTTPError"}
+{"i": 1363, "turn1": "ERROR HTTPError"}
+{"i": 1364, "turn1": "ERROR HTTPError"}
+{"i": 1365, "turn1": "ERROR HTTPError"}
+{"i": 1366, "turn1": "ERROR HTTPError"}
+{"i": 1367, "turn1": "ERROR HTTPError"}
+{"i": 1368, "turn1": "ERROR HTTPError"}
+{"i": 1369, "turn1": "ERROR HTTPError"}
+{"i": 1370, "turn1": "ERROR HTTPError"}
+{"i": 1371, "turn1": "ERROR HTTPError"}
+{"i": 1372, "turn1": "ERROR HTTPError"}
+{"i": 1373, "turn1": "ERROR HTTPError"}
+{"i": 1374, "turn1": "ERROR HTTPError"}
+{"i": 1375, "turn1": "ERROR HTTPError"}
+{"i": 1376, "turn1": "ERROR HTTPError"}
+{"i": 1377, "turn1": "ERROR HTTPError"}
+{"i": 1378, "turn1": "ERROR HTTPError"}
+{"i": 1379, "turn1": "ERROR HTTPError"}
+{"i": 1380, "turn1": "ERROR HTTPError"}
+{"i": 1381, "turn1": "ERROR HTTPError"}
+{"i": 1382, "turn1": "ERROR HTTPError"}
+{"i": 1383, "turn1": "ERROR HTTPError"}
+{"i": 1384, "turn1": "ERROR HTTPError"}
+{"i": 1385, "turn1": "ERROR HTTPError"}
+{"i": 1386, "turn1": "ERROR HTTPError"}
+{"i": 1387, "turn1": "ERROR HTTPError"}
+{"i": 1388, "turn1": "ERROR HTTPError"}
+{"i": 1389, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1390, "turn1": "ERROR HTTPError"}
+{"i": 1391, "turn1": "ERROR HTTPError"}
+{"i": 1392, "turn1": "ERROR HTTPError"}
+{"i": 1393, "turn1": "ERROR HTTPError"}
+{"i": 1394, "turn1": "ERROR HTTPError"}
+{"i": 1395, "turn1": "ERROR HTTPError"}
+{"i": 1396, "turn1": "ERROR HTTPError"}
+{"i": 1397, "turn1": "ERROR HTTPError"}
+{"i": 1398, "turn1": "ERROR HTTPError"}
+{"i": 1399, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 1400, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1401, "turn1": "ERROR HTTPError"}
+{"i": 1402, "turn1": "ERROR HTTPError"}
+{"i": 1403, "turn1": "ERROR HTTPError"}
+{"i": 1404, "turn1": "ERROR HTTPError"}
+{"i": 1405, "turn1": "ERROR HTTPError"}
+{"i": 1406, "turn1": "ERROR HTTPError"}
+{"i": 1407, "turn1": "ERROR HTTPError"}
+{"i": 1408, "turn1": "ERROR HTTPError"}
+{"i": 1409, "turn1": "ERROR HTTPError"}
+{"i": 1410, "turn1": "ERROR HTTPError"}
+{"i": 1411, "turn1": "ERROR HTTPError"}
+{"i": 1412, "turn1": "ERROR HTTPError"}
+{"i": 1413, "turn1": "ERROR HTTPError"}
+{"i": 1414, "turn1": "ERROR HTTPError"}
+{"i": 1415, "turn1": "ERROR HTTPError"}
+{"i": 1416, "turn1": "ERROR HTTPError"}
+{"i": 1417, "turn1": "ERROR HTTPError"}
+{"i": 1418, "turn1": "ERROR HTTPError"}
+{"i": 1419, "turn1": "ERROR HTTPError"}
+{"i": 1420, "turn1": "ERROR HTTPError"}
+{"i": 1421, "turn1": "ERROR HTTPError"}
+{"i": 1422, "turn1": "ERROR HTTPError"}
+{"i": 1423, "turn1": "ERROR HTTPError"}

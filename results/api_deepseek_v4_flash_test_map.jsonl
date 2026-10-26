@@ -1,0 +1,2000 @@
+{"i": 0, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 1, "turn1": "{\"mode\": \"ask\", \"options\": [\"Chop Tomato\", \"Prepare Cathy Ingredients\"], \"question\": \"Which ingredients should I prepare? (We need lettuce/onion for David and Alice, but I can't chop those right now.)\"}", "reply": "all of those", "turn2": "ERROR HTTPError"}
+{"i": 2, "turn1": "{\"mode\": \"refuse\", \"reason\": \"Cathy Soup isn't cooked yet, and we don't have the onion needed to make it. I can't plate the urgent Cathy order right now.\"}"}
+{"i": 3, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 4, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 5, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup is about to expire\u2014Bob or Cathy?\"}", "reply": "", "turn2": "ERROR HTTPError"}
+{"i": 6, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 7, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 8, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 9, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 10, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 11, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 12, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent Alice Soup needs lettuce and onion, but both are already chopped on the counter.\"}"}
+{"i": 13, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 14, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 15, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 16, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 17, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 18, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 19, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 20, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 21, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 22, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 23, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 24, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 25, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 26, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 27, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 28, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The expiring order is Alice (lettuce+onion). Chopping tomato won't help Alice, and there's no lettuce available to chop.\"}"}
+{"i": 29, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 30, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 31, "turn1": "{\"mode\": \"refuse\", \"reason\": \"No order is currently urgent; all orders have plenty of time.\"}"}
+{"i": 32, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 33, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 34, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 35, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 36, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 37, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 38, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 39, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 40, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 41, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 42, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 43, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 44, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 45, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 46, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 47, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 48, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 49, "turn1": "{\"mode\": \"refuse\", \"reason\": \"Cannot prepare Alice Soup now: no lettuce is available.\"}"}
+{"i": 50, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 51, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 52, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 53, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 54, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 55, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 56, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 57, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 58, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 59, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 60, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 61, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 62, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 63, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 64, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 65, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 66, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 67, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 68, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 69, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 70, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 71, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 72, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 73, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 74, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 75, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 76, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 77, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 78, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 79, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 80, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 81, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 82, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 83, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 84, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 85, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 86, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 87, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 88, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 89, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 90, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 91, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 92, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 93, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 94, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 95, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 96, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 97, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 98, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 99, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 100, "turn1": "{\"mode\": \"refuse\", \"reason\": \"I can't chop the onion for Alice while you're holding it. Put it on a cutting board and I'll chop it.\"}"}
+{"i": 101, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 102, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 103, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 104, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 105, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 106, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 107, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 108, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 109, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 110, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 111, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 112, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There's no urgent soup right now; all orders have plenty of time.\"}"}
+{"i": 113, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 114, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 115, "turn1": "{\"mode\": \"refuse\", \"reason\": \"David Soup is already plated and expiring, so it needs to be served, not cooked. I can serve it if you want.\"}"}
+{"i": 116, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 117, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 118, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 119, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 120, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 121, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 122, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 123, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 124, "turn1": "{\"mode\": \"refuse\", \"reason\": \"No order is running out right now; all orders have plenty of time.\"}"}
+{"i": 125, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 126, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 127, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 128, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 129, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 130, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 131, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 132, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 133, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 134, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 135, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 136, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 137, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 138, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 139, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 140, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 141, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 142, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 143, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 144, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 145, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 146, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 147, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 148, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 149, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 150, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 151, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 152, "turn1": "{\"mode\": \"refuse\", \"reason\": \"Cathy Soup is the urgent one, but it needs onion and tomato, and no onion is ready right now.\"}"}
+{"i": 153, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 154, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 155, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 156, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 157, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 158, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 159, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 160, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 161, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 162, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 163, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 164, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 165, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 166, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 167, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 168, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 169, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 170, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 171, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 172, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 173, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 174, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 175, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 176, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 177, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 178, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The urgent David Soup needs lettuce and onion, not tomato; there are already chopped tomatoes. I can only chop tomato right now.\"}"}
+{"i": 179, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 180, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 181, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 182, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 183, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 184, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 185, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 186, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 187, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 188, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 189, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 190, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 191, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 192, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 193, "turn1": "ERROR HTTPError"}
+{"i": 194, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 195, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 196, "turn1": "ERROR HTTPError"}
+{"i": 197, "turn1": "ERROR HTTPError"}
+{"i": 198, "turn1": "ERROR HTTPError"}
+{"i": 199, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 200, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 201, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 202, "turn1": "ERROR HTTPError"}
+{"i": 203, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 204, "turn1": "ERROR HTTPError"}
+{"i": 205, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 206, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 207, "turn1": "ERROR HTTPError"}
+{"i": 208, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cook Bob Soup\", \"Cook Cathy Soup\"], \"question\": \"Which soup should I start cooking?\"}", "reply": "bob please", "turn2": "ERROR HTTPError"}
+{"i": 209, "turn1": "ERROR HTTPError"}
+{"i": 210, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 211, "turn1": "ERROR HTTPError"}
+{"i": 212, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 213, "turn1": "ERROR HTTPError"}
+{"i": 214, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 215, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 216, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 217, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 218, "turn1": "ERROR HTTPError"}
+{"i": 219, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 220, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 221, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 222, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 223, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 224, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 225, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 226, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 227, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 228, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 229, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 230, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 231, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 232, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 233, "turn1": "ERROR HTTPError"}
+{"i": 234, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 235, "turn1": "ERROR HTTPError"}
+{"i": 236, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 237, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 238, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 239, "turn1": "{\"mode\": \"reply\", \"text\": \"Tomatoes are already chopped.\"}"}
+{"i": 240, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 241, "turn1": "ERROR HTTPError"}
+{"i": 242, "turn1": "ERROR HTTPError"}
+{"i": 243, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 244, "turn1": "ERROR HTTPError"}
+{"i": 245, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 246, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 247, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 248, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 249, "turn1": "ERROR HTTPError"}
+{"i": 250, "turn1": "ERROR HTTPError"}
+{"i": 251, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 252, "turn1": "ERROR HTTPError"}
+{"i": 253, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 254, "turn1": "ERROR HTTPError"}
+{"i": 255, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 256, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 257, "turn1": "ERROR HTTPError"}
+{"i": 258, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 259, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 260, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 261, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 262, "turn1": "ERROR HTTPError"}
+{"i": 263, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 264, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 265, "turn1": "ERROR HTTPError"}
+{"i": 266, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 267, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 268, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 269, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 270, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 271, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 272, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 273, "turn1": "ERROR HTTPError"}
+{"i": 274, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 275, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 276, "turn1": "ERROR HTTPError"}
+{"i": 277, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 278, "turn1": "ERROR HTTPError"}
+{"i": 279, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 280, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 281, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 282, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 283, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 284, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 285, "turn1": "ERROR HTTPError"}
+{"i": 286, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 287, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 288, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 289, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 290, "turn1": "ERROR HTTPError"}
+{"i": 291, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 292, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 293, "turn1": "{\"mode\": \"refuse\", \"reason\": \"David is already cooked; chopping won't help. I should plate the David Soup to fill the expiring order.\"}"}
+{"i": 294, "turn1": "ERROR HTTPError"}
+{"i": 295, "turn1": "ERROR HTTPError"}
+{"i": 296, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 297, "turn1": "ERROR HTTPError"}
+{"i": 298, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 299, "turn1": "ERROR HTTPError"}
+{"i": 300, "turn1": "{\"mode\": \"refuse\", \"reason\": \"Alice Soup is the one about to expire, but I can't cook it right now because there are no Alice/lettuce ingredients ready. I can Cook David Soup, Prepare Cathy Ingredients, or Chop Tomato.\"}"}
+{"i": 301, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 302, "turn1": "ERROR HTTPError"}
+{"i": 303, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 304, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 305, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 306, "turn1": "ERROR HTTPError"}
+{"i": 307, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 308, "turn1": "ERROR HTTPError"}
+{"i": 309, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 310, "turn1": "{\"mode\": \"refuse\", \"reason\": \"There's no order running out right now \u2014 all orders have plenty of time. Also tomatoes are already chopped.\"}"}
+{"i": 311, "turn1": "ERROR HTTPError"}
+{"i": 312, "turn1": "ERROR HTTPError"}
+{"i": 313, "turn1": "ERROR HTTPError"}
+{"i": 314, "turn1": "ERROR HTTPError"}
+{"i": 315, "turn1": "ERROR HTTPError"}
+{"i": 316, "turn1": "ERROR HTTPError"}
+{"i": 317, "turn1": "ERROR HTTPError"}
+{"i": 318, "turn1": "ERROR HTTPError"}
+{"i": 319, "turn1": "ERROR HTTPError"}
+{"i": 320, "turn1": "ERROR HTTPError"}
+{"i": 321, "turn1": "ERROR HTTPError"}
+{"i": 322, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 323, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 324, "turn1": "ERROR HTTPError"}
+{"i": 325, "turn1": "ERROR HTTPError"}
+{"i": 326, "turn1": "ERROR HTTPError"}
+{"i": 327, "turn1": "ERROR HTTPError"}
+{"i": 328, "turn1": "ERROR HTTPError"}
+{"i": 329, "turn1": "ERROR HTTPError"}
+{"i": 330, "turn1": "ERROR HTTPError"}
+{"i": 331, "turn1": "ERROR HTTPError"}
+{"i": 332, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 333, "turn1": "ERROR HTTPError"}
+{"i": 334, "turn1": "ERROR HTTPError"}
+{"i": 335, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 336, "turn1": "ERROR HTTPError"}
+{"i": 337, "turn1": "ERROR HTTPError"}
+{"i": 338, "turn1": "ERROR HTTPError"}
+{"i": 339, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 340, "turn1": "ERROR HTTPError"}
+{"i": 341, "turn1": "ERROR HTTPError"}
+{"i": 342, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 343, "turn1": "ERROR HTTPError"}
+{"i": 344, "turn1": "ERROR HTTPError"}
+{"i": 345, "turn1": "ERROR HTTPError"}
+{"i": 346, "turn1": "ERROR HTTPError"}
+{"i": 347, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 348, "turn1": "ERROR HTTPError"}
+{"i": 349, "turn1": "ERROR HTTPError"}
+{"i": 350, "turn1": "ERROR HTTPError"}
+{"i": 351, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 352, "turn1": "ERROR HTTPError"}
+{"i": 353, "turn1": "ERROR HTTPError"}
+{"i": 354, "turn1": "ERROR HTTPError"}
+{"i": 355, "turn1": "ERROR HTTPError"}
+{"i": 356, "turn1": "ERROR HTTPError"}
+{"i": 357, "turn1": "ERROR HTTPError"}
+{"i": 358, "turn1": "ERROR HTTPError"}
+{"i": 359, "turn1": "ERROR HTTPError"}
+{"i": 360, "turn1": "ERROR HTTPError"}
+{"i": 361, "turn1": "ERROR HTTPError"}
+{"i": 362, "turn1": "ERROR HTTPError"}
+{"i": 363, "turn1": "ERROR HTTPError"}
+{"i": 364, "turn1": "ERROR HTTPError"}
+{"i": 365, "turn1": "ERROR HTTPError"}
+{"i": 366, "turn1": "ERROR HTTPError"}
+{"i": 367, "turn1": "ERROR HTTPError"}
+{"i": 368, "turn1": "ERROR HTTPError"}
+{"i": 369, "turn1": "ERROR HTTPError"}
+{"i": 370, "turn1": "ERROR HTTPError"}
+{"i": 371, "turn1": "ERROR HTTPError"}
+{"i": 372, "turn1": "ERROR HTTPError"}
+{"i": 373, "turn1": "ERROR HTTPError"}
+{"i": 374, "turn1": "ERROR HTTPError"}
+{"i": 375, "turn1": "ERROR HTTPError"}
+{"i": 376, "turn1": "ERROR HTTPError"}
+{"i": 377, "turn1": "ERROR HTTPError"}
+{"i": 378, "turn1": "ERROR HTTPError"}
+{"i": 379, "turn1": "ERROR HTTPError"}
+{"i": 380, "turn1": "ERROR HTTPError"}
+{"i": 381, "turn1": "ERROR HTTPError"}
+{"i": 382, "turn1": "ERROR HTTPError"}
+{"i": 383, "turn1": "ERROR HTTPError"}
+{"i": 384, "turn1": "ERROR HTTPError"}
+{"i": 385, "turn1": "ERROR HTTPError"}
+{"i": 386, "turn1": "ERROR HTTPError"}
+{"i": 387, "turn1": "ERROR HTTPError"}
+{"i": 388, "turn1": "ERROR HTTPError"}
+{"i": 389, "turn1": "ERROR HTTPError"}
+{"i": 390, "turn1": "ERROR HTTPError"}
+{"i": 391, "turn1": "ERROR HTTPError"}
+{"i": 392, "turn1": "ERROR HTTPError"}
+{"i": 393, "turn1": "ERROR HTTPError"}
+{"i": 394, "turn1": "ERROR HTTPError"}
+{"i": 395, "turn1": "ERROR HTTPError"}
+{"i": 396, "turn1": "ERROR HTTPError"}
+{"i": 397, "turn1": "ERROR HTTPError"}
+{"i": 398, "turn1": "ERROR HTTPError"}
+{"i": 399, "turn1": "ERROR HTTPError"}
+{"i": 400, "turn1": "ERROR HTTPError"}
+{"i": 401, "turn1": "ERROR HTTPError"}
+{"i": 402, "turn1": "ERROR HTTPError"}
+{"i": 403, "turn1": "ERROR HTTPError"}
+{"i": 404, "turn1": "ERROR HTTPError"}
+{"i": 405, "turn1": "ERROR HTTPError"}
+{"i": 406, "turn1": "ERROR HTTPError"}
+{"i": 407, "turn1": "ERROR HTTPError"}
+{"i": 408, "turn1": "ERROR HTTPError"}
+{"i": 409, "turn1": "ERROR HTTPError"}
+{"i": 410, "turn1": "ERROR HTTPError"}
+{"i": 411, "turn1": "ERROR HTTPError"}
+{"i": 412, "turn1": "ERROR HTTPError"}
+{"i": 413, "turn1": "ERROR HTTPError"}
+{"i": 414, "turn1": "ERROR HTTPError"}
+{"i": 415, "turn1": "ERROR HTTPError"}
+{"i": 416, "turn1": "ERROR HTTPError"}
+{"i": 417, "turn1": "ERROR HTTPError"}
+{"i": 418, "turn1": "ERROR HTTPError"}
+{"i": 419, "turn1": "ERROR HTTPError"}
+{"i": 420, "turn1": "ERROR HTTPError"}
+{"i": 421, "turn1": "ERROR HTTPError"}
+{"i": 422, "turn1": "ERROR HTTPError"}
+{"i": 423, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 424, "turn1": "ERROR HTTPError"}
+{"i": 425, "turn1": "ERROR HTTPError"}
+{"i": 426, "turn1": "ERROR HTTPError"}
+{"i": 427, "turn1": "ERROR HTTPError"}
+{"i": 428, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 429, "turn1": "{\"mode\": \"refuse\", \"reason\": \"The expiring order is Alice, which needs lettuce and onion. Both are already chopped\u2014you're holding the onion and there is chopped lettuce on the counter\u2014so no chopping is needed for that order.\"}"}
+{"i": 430, "turn1": "ERROR HTTPError"}
+{"i": 431, "turn1": "ERROR HTTPError"}
+{"i": 432, "turn1": "ERROR HTTPError"}
+{"i": 433, "turn1": "ERROR HTTPError"}
+{"i": 434, "turn1": "ERROR HTTPError"}
+{"i": 435, "turn1": "ERROR HTTPError"}
+{"i": 436, "turn1": "ERROR HTTPError"}
+{"i": 437, "turn1": "ERROR HTTPError"}
+{"i": 438, "turn1": "{\"mode\":\"execute\",\"macro\":\"Chop Tomato\"}"}
+{"i": 439, "turn1": "ERROR HTTPError"}
+{"i": 440, "turn1": "ERROR HTTPError"}
+{"i": 441, "turn1": "ERROR HTTPError"}
+{"i": 442, "turn1": "ERROR HTTPError"}
+{"i": 443, "turn1": "ERROR HTTPError"}
+{"i": 444, "turn1": "ERROR HTTPError"}
+{"i": 445, "turn1": "ERROR HTTPError"}
+{"i": 446, "turn1": "ERROR HTTPError"}
+{"i": 447, "turn1": "ERROR HTTPError"}
+{"i": 448, "turn1": "ERROR HTTPError"}
+{"i": 449, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 450, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 451, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 452, "turn1": "ERROR HTTPError"}
+{"i": 453, "turn1": "ERROR HTTPError"}
+{"i": 454, "turn1": "ERROR HTTPError"}
+{"i": 455, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 456, "turn1": "ERROR HTTPError"}
+{"i": 457, "turn1": "ERROR HTTPError"}
+{"i": 458, "turn1": "ERROR HTTPError"}
+{"i": 459, "turn1": "ERROR HTTPError"}
+{"i": 460, "turn1": "ERROR HTTPError"}
+{"i": 461, "turn1": "ERROR HTTPError"}
+{"i": 462, "turn1": "ERROR HTTPError"}
+{"i": 463, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 464, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 465, "turn1": "ERROR HTTPError"}
+{"i": 466, "turn1": "ERROR HTTPError"}
+{"i": 467, "turn1": "ERROR HTTPError"}
+{"i": 468, "turn1": "ERROR HTTPError"}
+{"i": 469, "turn1": "ERROR HTTPError"}
+{"i": 470, "turn1": "ERROR HTTPError"}
+{"i": 471, "turn1": "ERROR HTTPError"}
+{"i": 472, "turn1": "ERROR HTTPError"}
+{"i": 473, "turn1": "ERROR HTTPError"}
+{"i": 474, "turn1": "ERROR HTTPError"}
+{"i": 475, "turn1": "ERROR HTTPError"}
+{"i": 476, "turn1": "ERROR HTTPError"}
+{"i": 477, "turn1": "ERROR HTTPError"}
+{"i": 478, "turn1": "ERROR HTTPError"}
+{"i": 479, "turn1": "ERROR HTTPError"}
+{"i": 480, "turn1": "ERROR HTTPError"}
+{"i": 481, "turn1": "ERROR HTTPError"}
+{"i": 482, "turn1": "ERROR HTTPError"}
+{"i": 483, "turn1": "ERROR HTTPError"}
+{"i": 484, "turn1": "ERROR HTTPError"}
+{"i": 485, "turn1": "ERROR HTTPError"}
+{"i": 486, "turn1": "ERROR HTTPError"}
+{"i": 487, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 488, "turn1": "ERROR HTTPError"}
+{"i": 489, "turn1": "ERROR HTTPError"}
+{"i": 490, "turn1": "ERROR HTTPError"}
+{"i": 491, "turn1": "ERROR HTTPError"}
+{"i": 492, "turn1": "ERROR HTTPError"}
+{"i": 493, "turn1": "ERROR HTTPError"}
+{"i": 494, "turn1": "ERROR HTTPError"}
+{"i": 495, "turn1": "ERROR HTTPError"}
+{"i": 496, "turn1": "ERROR HTTPError"}
+{"i": 497, "turn1": "ERROR HTTPError"}
+{"i": 498, "turn1": "ERROR HTTPError"}
+{"i": 499, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 500, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 501, "turn1": "ERROR HTTPError"}
+{"i": 502, "turn1": "ERROR HTTPError"}
+{"i": 503, "turn1": "ERROR HTTPError"}
+{"i": 504, "turn1": "ERROR HTTPError"}
+{"i": 505, "turn1": "ERROR HTTPError"}
+{"i": 506, "turn1": "ERROR HTTPError"}
+{"i": 507, "turn1": "ERROR HTTPError"}
+{"i": 508, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 509, "turn1": "ERROR HTTPError"}
+{"i": 510, "turn1": "ERROR HTTPError"}
+{"i": 511, "turn1": "ERROR HTTPError"}
+{"i": 512, "turn1": "ERROR HTTPError"}
+{"i": 513, "turn1": "ERROR HTTPError"}
+{"i": 514, "turn1": "ERROR HTTPError"}
+{"i": 515, "turn1": "ERROR HTTPError"}
+{"i": 516, "turn1": "ERROR HTTPError"}
+{"i": 517, "turn1": "ERROR HTTPError"}
+{"i": 518, "turn1": "ERROR HTTPError"}
+{"i": 519, "turn1": "ERROR HTTPError"}
+{"i": 520, "turn1": "ERROR HTTPError"}
+{"i": 521, "turn1": "ERROR HTTPError"}
+{"i": 522, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 523, "turn1": "ERROR HTTPError"}
+{"i": 524, "turn1": "ERROR HTTPError"}
+{"i": 525, "turn1": "ERROR HTTPError"}
+{"i": 526, "turn1": "ERROR HTTPError"}
+{"i": 527, "turn1": "ERROR HTTPError"}
+{"i": 528, "turn1": "ERROR HTTPError"}
+{"i": 529, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 530, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 531, "turn1": "ERROR HTTPError"}
+{"i": 532, "turn1": "ERROR HTTPError"}
+{"i": 533, "turn1": "ERROR HTTPError"}
+{"i": 534, "turn1": "ERROR HTTPError"}
+{"i": 535, "turn1": "ERROR HTTPError"}
+{"i": 536, "turn1": "ERROR HTTPError"}
+{"i": 537, "turn1": "ERROR HTTPError"}
+{"i": 538, "turn1": "ERROR HTTPError"}
+{"i": 539, "turn1": "ERROR HTTPError"}
+{"i": 540, "turn1": "ERROR HTTPError"}
+{"i": 541, "turn1": "ERROR HTTPError"}
+{"i": 542, "turn1": "ERROR HTTPError"}
+{"i": 543, "turn1": "ERROR HTTPError"}
+{"i": 544, "turn1": "ERROR HTTPError"}
+{"i": 545, "turn1": "ERROR HTTPError"}
+{"i": 546, "turn1": "ERROR HTTPError"}
+{"i": 547, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 548, "turn1": "ERROR HTTPError"}
+{"i": 549, "turn1": "ERROR HTTPError"}
+{"i": 550, "turn1": "ERROR HTTPError"}
+{"i": 551, "turn1": "ERROR HTTPError"}
+{"i": 552, "turn1": "ERROR HTTPError"}
+{"i": 553, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 554, "turn1": "ERROR HTTPError"}
+{"i": 555, "turn1": "ERROR HTTPError"}
+{"i": 556, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 557, "turn1": "ERROR HTTPError"}
+{"i": 558, "turn1": "ERROR HTTPError"}
+{"i": 559, "turn1": "ERROR HTTPError"}
+{"i": 560, "turn1": "ERROR HTTPError"}
+{"i": 561, "turn1": "ERROR HTTPError"}
+{"i": 562, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 563, "turn1": "ERROR HTTPError"}
+{"i": 564, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 565, "turn1": "ERROR HTTPError"}
+{"i": 566, "turn1": "ERROR HTTPError"}
+{"i": 567, "turn1": "ERROR HTTPError"}
+{"i": 568, "turn1": "ERROR HTTPError"}
+{"i": 569, "turn1": "ERROR HTTPError"}
+{"i": 570, "turn1": "ERROR HTTPError"}
+{"i": 571, "turn1": "ERROR HTTPError"}
+{"i": 572, "turn1": "ERROR HTTPError"}
+{"i": 573, "turn1": "ERROR HTTPError"}
+{"i": 574, "turn1": "ERROR HTTPError"}
+{"i": 575, "turn1": "ERROR HTTPError"}
+{"i": 576, "turn1": "ERROR HTTPError"}
+{"i": 577, "turn1": "ERROR HTTPError"}
+{"i": 578, "turn1": "{\"mode\":\"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 579, "turn1": "ERROR HTTPError"}
+{"i": 580, "turn1": "ERROR HTTPError"}
+{"i": 581, "turn1": "ERROR HTTPError"}
+{"i": 582, "turn1": "ERROR HTTPError"}
+{"i": 583, "turn1": "ERROR HTTPError"}
+{"i": 584, "turn1": "ERROR HTTPError"}
+{"i": 585, "turn1": "ERROR HTTPError"}
+{"i": 586, "turn1": "ERROR HTTPError"}
+{"i": 587, "turn1": "ERROR HTTPError"}
+{"i": 588, "turn1": "ERROR HTTPError"}
+{"i": 589, "turn1": "ERROR HTTPError"}
+{"i": 590, "turn1": "ERROR HTTPError"}
+{"i": 591, "turn1": "ERROR HTTPError"}
+{"i": 592, "turn1": "ERROR HTTPError"}
+{"i": 593, "turn1": "ERROR HTTPError"}
+{"i": 594, "turn1": "ERROR HTTPError"}
+{"i": 595, "turn1": "ERROR HTTPError"}
+{"i": 596, "turn1": "ERROR HTTPError"}
+{"i": 597, "turn1": "ERROR HTTPError"}
+{"i": 598, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 599, "turn1": "ERROR HTTPError"}
+{"i": 600, "turn1": "ERROR HTTPError"}
+{"i": 601, "turn1": "ERROR HTTPError"}
+{"i": 602, "turn1": "ERROR HTTPError"}
+{"i": 603, "turn1": "ERROR HTTPError"}
+{"i": 604, "turn1": "ERROR HTTPError"}
+{"i": 605, "turn1": "ERROR HTTPError"}
+{"i": 606, "turn1": "ERROR HTTPError"}
+{"i": 607, "turn1": "ERROR HTTPError"}
+{"i": 608, "turn1": "ERROR HTTPError"}
+{"i": 609, "turn1": "ERROR HTTPError"}
+{"i": 610, "turn1": "ERROR HTTPError"}
+{"i": 611, "turn1": "ERROR HTTPError"}
+{"i": 612, "turn1": "ERROR HTTPError"}
+{"i": 613, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 614, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 615, "turn1": "ERROR HTTPError"}
+{"i": 616, "turn1": "ERROR HTTPError"}
+{"i": 617, "turn1": "ERROR HTTPError"}
+{"i": 618, "turn1": "ERROR HTTPError"}
+{"i": 619, "turn1": "ERROR HTTPError"}
+{"i": 620, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 621, "turn1": "ERROR HTTPError"}
+{"i": 622, "turn1": "ERROR HTTPError"}
+{"i": 623, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 624, "turn1": "ERROR HTTPError"}
+{"i": 625, "turn1": "ERROR HTTPError"}
+{"i": 626, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 627, "turn1": "ERROR HTTPError"}
+{"i": 628, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 629, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 630, "turn1": "ERROR HTTPError"}
+{"i": 631, "turn1": "ERROR HTTPError"}
+{"i": 632, "turn1": "ERROR HTTPError"}
+{"i": 633, "turn1": "ERROR HTTPError"}
+{"i": 634, "turn1": "ERROR HTTPError"}
+{"i": 635, "turn1": "ERROR HTTPError"}
+{"i": 636, "turn1": "ERROR HTTPError"}
+{"i": 637, "turn1": "ERROR HTTPError"}
+{"i": 638, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 639, "turn1": "ERROR HTTPError"}
+{"i": 640, "turn1": "ERROR HTTPError"}
+{"i": 641, "turn1": "ERROR HTTPError"}
+{"i": 642, "turn1": "ERROR HTTPError"}
+{"i": 643, "turn1": "ERROR HTTPError"}
+{"i": 644, "turn1": "ERROR HTTPError"}
+{"i": 645, "turn1": "ERROR HTTPError"}
+{"i": 646, "turn1": "ERROR HTTPError"}
+{"i": 647, "turn1": "ERROR HTTPError"}
+{"i": 648, "turn1": "ERROR HTTPError"}
+{"i": 649, "turn1": "ERROR HTTPError"}
+{"i": 650, "turn1": "ERROR HTTPError"}
+{"i": 651, "turn1": "ERROR HTTPError"}
+{"i": 652, "turn1": "ERROR HTTPError"}
+{"i": 653, "turn1": "ERROR HTTPError"}
+{"i": 654, "turn1": "ERROR HTTPError"}
+{"i": 655, "turn1": "ERROR HTTPError"}
+{"i": 656, "turn1": "ERROR HTTPError"}
+{"i": 657, "turn1": "ERROR HTTPError"}
+{"i": 658, "turn1": "ERROR HTTPError"}
+{"i": 659, "turn1": "ERROR HTTPError"}
+{"i": 660, "turn1": "ERROR HTTPError"}
+{"i": 661, "turn1": "ERROR HTTPError"}
+{"i": 662, "turn1": "ERROR HTTPError"}
+{"i": 663, "turn1": "ERROR HTTPError"}
+{"i": 664, "turn1": "ERROR HTTPError"}
+{"i": 665, "turn1": "ERROR HTTPError"}
+{"i": 666, "turn1": "ERROR HTTPError"}
+{"i": 667, "turn1": "ERROR HTTPError"}
+{"i": 668, "turn1": "ERROR HTTPError"}
+{"i": 669, "turn1": "ERROR HTTPError"}
+{"i": 670, "turn1": "ERROR HTTPError"}
+{"i": 671, "turn1": "ERROR HTTPError"}
+{"i": 672, "turn1": "ERROR HTTPError"}
+{"i": 673, "turn1": "ERROR HTTPError"}
+{"i": 674, "turn1": "ERROR HTTPError"}
+{"i": 675, "turn1": "ERROR HTTPError"}
+{"i": 676, "turn1": "ERROR HTTPError"}
+{"i": 677, "turn1": "ERROR HTTPError"}
+{"i": 678, "turn1": "ERROR HTTPError"}
+{"i": 679, "turn1": "ERROR HTTPError"}
+{"i": 680, "turn1": "ERROR HTTPError"}
+{"i": 681, "turn1": "ERROR HTTPError"}
+{"i": 682, "turn1": "ERROR HTTPError"}
+{"i": 683, "turn1": "ERROR HTTPError"}
+{"i": 684, "turn1": "ERROR HTTPError"}
+{"i": 685, "turn1": "ERROR HTTPError"}
+{"i": 686, "turn1": "ERROR HTTPError"}
+{"i": 687, "turn1": "ERROR HTTPError"}
+{"i": 688, "turn1": "ERROR HTTPError"}
+{"i": 689, "turn1": "ERROR HTTPError"}
+{"i": 690, "turn1": "ERROR HTTPError"}
+{"i": 691, "turn1": "ERROR HTTPError"}
+{"i": 692, "turn1": "ERROR HTTPError"}
+{"i": 693, "turn1": "ERROR HTTPError"}
+{"i": 694, "turn1": "ERROR HTTPError"}
+{"i": 695, "turn1": "ERROR HTTPError"}
+{"i": 696, "turn1": "ERROR HTTPError"}
+{"i": 697, "turn1": "ERROR HTTPError"}
+{"i": 698, "turn1": "ERROR HTTPError"}
+{"i": 699, "turn1": "ERROR HTTPError"}
+{"i": 700, "turn1": "ERROR HTTPError"}
+{"i": 701, "turn1": "ERROR HTTPError"}
+{"i": 702, "turn1": "ERROR HTTPError"}
+{"i": 703, "turn1": "ERROR HTTPError"}
+{"i": 704, "turn1": "ERROR HTTPError"}
+{"i": 705, "turn1": "ERROR HTTPError"}
+{"i": 706, "turn1": "ERROR HTTPError"}
+{"i": 707, "turn1": "ERROR HTTPError"}
+{"i": 708, "turn1": "ERROR HTTPError"}
+{"i": 709, "turn1": "ERROR HTTPError"}
+{"i": 710, "turn1": "ERROR HTTPError"}
+{"i": 711, "turn1": "ERROR HTTPError"}
+{"i": 712, "turn1": "ERROR HTTPError"}
+{"i": 713, "turn1": "ERROR HTTPError"}
+{"i": 714, "turn1": "ERROR HTTPError"}
+{"i": 715, "turn1": "ERROR HTTPError"}
+{"i": 716, "turn1": "ERROR HTTPError"}
+{"i": 717, "turn1": "ERROR HTTPError"}
+{"i": 718, "turn1": "ERROR HTTPError"}
+{"i": 719, "turn1": "ERROR HTTPError"}
+{"i": 720, "turn1": "ERROR HTTPError"}
+{"i": 721, "turn1": "ERROR HTTPError"}
+{"i": 722, "turn1": "ERROR HTTPError"}
+{"i": 723, "turn1": "ERROR HTTPError"}
+{"i": 724, "turn1": "ERROR HTTPError"}
+{"i": 725, "turn1": "ERROR HTTPError"}
+{"i": 726, "turn1": "ERROR HTTPError"}
+{"i": 727, "turn1": "ERROR HTTPError"}
+{"i": 728, "turn1": "ERROR HTTPError"}
+{"i": 729, "turn1": "ERROR HTTPError"}
+{"i": 730, "turn1": "ERROR HTTPError"}
+{"i": 731, "turn1": "ERROR HTTPError"}
+{"i": 732, "turn1": "ERROR HTTPError"}
+{"i": 733, "turn1": "ERROR HTTPError"}
+{"i": 734, "turn1": "ERROR HTTPError"}
+{"i": 735, "turn1": "ERROR HTTPError"}
+{"i": 736, "turn1": "ERROR HTTPError"}
+{"i": 737, "turn1": "ERROR HTTPError"}
+{"i": 738, "turn1": "ERROR HTTPError"}
+{"i": 739, "turn1": "ERROR HTTPError"}
+{"i": 740, "turn1": "ERROR HTTPError"}
+{"i": 741, "turn1": "ERROR HTTPError"}
+{"i": 742, "turn1": "ERROR HTTPError"}
+{"i": 743, "turn1": "ERROR HTTPError"}
+{"i": 744, "turn1": "ERROR HTTPError"}
+{"i": 745, "turn1": "ERROR HTTPError"}
+{"i": 746, "turn1": "ERROR HTTPError"}
+{"i": 747, "turn1": "ERROR HTTPError"}
+{"i": 748, "turn1": "ERROR HTTPError"}
+{"i": 749, "turn1": "ERROR HTTPError"}
+{"i": 750, "turn1": "ERROR HTTPError"}
+{"i": 751, "turn1": "ERROR HTTPError"}
+{"i": 752, "turn1": "ERROR HTTPError"}
+{"i": 753, "turn1": "ERROR HTTPError"}
+{"i": 754, "turn1": "ERROR HTTPError"}
+{"i": 755, "turn1": "ERROR HTTPError"}
+{"i": 756, "turn1": "ERROR HTTPError"}
+{"i": 757, "turn1": "ERROR HTTPError"}
+{"i": 758, "turn1": "ERROR HTTPError"}
+{"i": 759, "turn1": "ERROR HTTPError"}
+{"i": 760, "turn1": "ERROR HTTPError"}
+{"i": 761, "turn1": "ERROR HTTPError"}
+{"i": 762, "turn1": "ERROR HTTPError"}
+{"i": 763, "turn1": "ERROR HTTPError"}
+{"i": 764, "turn1": "ERROR HTTPError"}
+{"i": 765, "turn1": "ERROR HTTPError"}
+{"i": 766, "turn1": "ERROR HTTPError"}
+{"i": 767, "turn1": "ERROR HTTPError"}
+{"i": 768, "turn1": "ERROR HTTPError"}
+{"i": 769, "turn1": "ERROR HTTPError"}
+{"i": 770, "turn1": "ERROR HTTPError"}
+{"i": 771, "turn1": "ERROR HTTPError"}
+{"i": 772, "turn1": "ERROR HTTPError"}
+{"i": 773, "turn1": "ERROR HTTPError"}
+{"i": 774, "turn1": "ERROR HTTPError"}
+{"i": 775, "turn1": "ERROR HTTPError"}
+{"i": 776, "turn1": "ERROR HTTPError"}
+{"i": 777, "turn1": "ERROR HTTPError"}
+{"i": 778, "turn1": "ERROR HTTPError"}
+{"i": 779, "turn1": "ERROR HTTPError"}
+{"i": 780, "turn1": "ERROR HTTPError"}
+{"i": 781, "turn1": "ERROR HTTPError"}
+{"i": 782, "turn1": "ERROR HTTPError"}
+{"i": 783, "turn1": "ERROR HTTPError"}
+{"i": 784, "turn1": "ERROR HTTPError"}
+{"i": 785, "turn1": "ERROR HTTPError"}
+{"i": 786, "turn1": "ERROR HTTPError"}
+{"i": 787, "turn1": "ERROR HTTPError"}
+{"i": 788, "turn1": "ERROR HTTPError"}
+{"i": 789, "turn1": "ERROR HTTPError"}
+{"i": 790, "turn1": "ERROR HTTPError"}
+{"i": 791, "turn1": "ERROR HTTPError"}
+{"i": 792, "turn1": "ERROR HTTPError"}
+{"i": 793, "turn1": "ERROR HTTPError"}
+{"i": 794, "turn1": "ERROR HTTPError"}
+{"i": 795, "turn1": "ERROR HTTPError"}
+{"i": 796, "turn1": "ERROR HTTPError"}
+{"i": 797, "turn1": "ERROR HTTPError"}
+{"i": 798, "turn1": "ERROR HTTPError"}
+{"i": 799, "turn1": "ERROR HTTPError"}
+{"i": 800, "turn1": "ERROR HTTPError"}
+{"i": 801, "turn1": "ERROR HTTPError"}
+{"i": 802, "turn1": "ERROR HTTPError"}
+{"i": 803, "turn1": "ERROR HTTPError"}
+{"i": 804, "turn1": "ERROR HTTPError"}
+{"i": 805, "turn1": "ERROR HTTPError"}
+{"i": 806, "turn1": "ERROR HTTPError"}
+{"i": 807, "turn1": "ERROR HTTPError"}
+{"i": 808, "turn1": "ERROR HTTPError"}
+{"i": 809, "turn1": "ERROR HTTPError"}
+{"i": 810, "turn1": "ERROR HTTPError"}
+{"i": 811, "turn1": "ERROR HTTPError"}
+{"i": 812, "turn1": "ERROR HTTPError"}
+{"i": 813, "turn1": "ERROR HTTPError"}
+{"i": 814, "turn1": "ERROR HTTPError"}
+{"i": 815, "turn1": "ERROR HTTPError"}
+{"i": 816, "turn1": "ERROR HTTPError"}
+{"i": 817, "turn1": "ERROR HTTPError"}
+{"i": 818, "turn1": "ERROR HTTPError"}
+{"i": 819, "turn1": "ERROR HTTPError"}
+{"i": 820, "turn1": "ERROR HTTPError"}
+{"i": 821, "turn1": "ERROR HTTPError"}
+{"i": 822, "turn1": "ERROR HTTPError"}
+{"i": 823, "turn1": "ERROR HTTPError"}
+{"i": 824, "turn1": "ERROR HTTPError"}
+{"i": 825, "turn1": "ERROR HTTPError"}
+{"i": 826, "turn1": "ERROR HTTPError"}
+{"i": 827, "turn1": "ERROR HTTPError"}
+{"i": 828, "turn1": "ERROR HTTPError"}
+{"i": 829, "turn1": "ERROR HTTPError"}
+{"i": 830, "turn1": "ERROR HTTPError"}
+{"i": 831, "turn1": "ERROR HTTPError"}
+{"i": 832, "turn1": "ERROR HTTPError"}
+{"i": 833, "turn1": "ERROR HTTPError"}
+{"i": 834, "turn1": "ERROR HTTPError"}
+{"i": 835, "turn1": "ERROR HTTPError"}
+{"i": 836, "turn1": "ERROR HTTPError"}
+{"i": 837, "turn1": "ERROR HTTPError"}
+{"i": 838, "turn1": "ERROR HTTPError"}
+{"i": 839, "turn1": "ERROR HTTPError"}
+{"i": 840, "turn1": "ERROR HTTPError"}
+{"i": 841, "turn1": "ERROR HTTPError"}
+{"i": 842, "turn1": "ERROR HTTPError"}
+{"i": 843, "turn1": "ERROR HTTPError"}
+{"i": 844, "turn1": "ERROR HTTPError"}
+{"i": 845, "turn1": "ERROR HTTPError"}
+{"i": 846, "turn1": "ERROR HTTPError"}
+{"i": 847, "turn1": "ERROR HTTPError"}
+{"i": 848, "turn1": "ERROR HTTPError"}
+{"i": 849, "turn1": "ERROR HTTPError"}
+{"i": 850, "turn1": "ERROR HTTPError"}
+{"i": 851, "turn1": "ERROR HTTPError"}
+{"i": 852, "turn1": "ERROR HTTPError"}
+{"i": 853, "turn1": "ERROR HTTPError"}
+{"i": 854, "turn1": "ERROR HTTPError"}
+{"i": 855, "turn1": "ERROR HTTPError"}
+{"i": 856, "turn1": "ERROR HTTPError"}
+{"i": 857, "turn1": "ERROR HTTPError"}
+{"i": 858, "turn1": "ERROR HTTPError"}
+{"i": 859, "turn1": "ERROR HTTPError"}
+{"i": 860, "turn1": "ERROR HTTPError"}
+{"i": 861, "turn1": "ERROR HTTPError"}
+{"i": 862, "turn1": "ERROR HTTPError"}
+{"i": 863, "turn1": "ERROR HTTPError"}
+{"i": 864, "turn1": "ERROR HTTPError"}
+{"i": 865, "turn1": "ERROR HTTPError"}
+{"i": 866, "turn1": "ERROR HTTPError"}
+{"i": 867, "turn1": "ERROR HTTPError"}
+{"i": 868, "turn1": "ERROR HTTPError"}
+{"i": 869, "turn1": "ERROR HTTPError"}
+{"i": 870, "turn1": "ERROR HTTPError"}
+{"i": 871, "turn1": "ERROR HTTPError"}
+{"i": 872, "turn1": "ERROR HTTPError"}
+{"i": 873, "turn1": "ERROR HTTPError"}
+{"i": 874, "turn1": "ERROR HTTPError"}
+{"i": 875, "turn1": "ERROR HTTPError"}
+{"i": 876, "turn1": "ERROR HTTPError"}
+{"i": 877, "turn1": "ERROR HTTPError"}
+{"i": 878, "turn1": "ERROR HTTPError"}
+{"i": 879, "turn1": "ERROR HTTPError"}
+{"i": 880, "turn1": "ERROR HTTPError"}
+{"i": 881, "turn1": "ERROR HTTPError"}
+{"i": 882, "turn1": "ERROR HTTPError"}
+{"i": 883, "turn1": "ERROR HTTPError"}
+{"i": 884, "turn1": "ERROR HTTPError"}
+{"i": 885, "turn1": "ERROR HTTPError"}
+{"i": 886, "turn1": "ERROR HTTPError"}
+{"i": 887, "turn1": "ERROR HTTPError"}
+{"i": 888, "turn1": "ERROR HTTPError"}
+{"i": 889, "turn1": "ERROR HTTPError"}
+{"i": 890, "turn1": "ERROR HTTPError"}
+{"i": 891, "turn1": "ERROR HTTPError"}
+{"i": 892, "turn1": "ERROR HTTPError"}
+{"i": 893, "turn1": "ERROR HTTPError"}
+{"i": 894, "turn1": "ERROR HTTPError"}
+{"i": 895, "turn1": "ERROR HTTPError"}
+{"i": 896, "turn1": "ERROR HTTPError"}
+{"i": 897, "turn1": "ERROR HTTPError"}
+{"i": 898, "turn1": "ERROR HTTPError"}
+{"i": 899, "turn1": "ERROR HTTPError"}
+{"i": 900, "turn1": "ERROR HTTPError"}
+{"i": 901, "turn1": "ERROR HTTPError"}
+{"i": 902, "turn1": "ERROR HTTPError"}
+{"i": 903, "turn1": "ERROR HTTPError"}
+{"i": 904, "turn1": "ERROR HTTPError"}
+{"i": 905, "turn1": "ERROR HTTPError"}
+{"i": 906, "turn1": "ERROR HTTPError"}
+{"i": 907, "turn1": "ERROR HTTPError"}
+{"i": 908, "turn1": "ERROR HTTPError"}
+{"i": 909, "turn1": "ERROR HTTPError"}
+{"i": 910, "turn1": "ERROR HTTPError"}
+{"i": 911, "turn1": "ERROR HTTPError"}
+{"i": 912, "turn1": "ERROR HTTPError"}
+{"i": 913, "turn1": "ERROR HTTPError"}
+{"i": 914, "turn1": "ERROR HTTPError"}
+{"i": 915, "turn1": "ERROR HTTPError"}
+{"i": 916, "turn1": "ERROR HTTPError"}
+{"i": 917, "turn1": "ERROR HTTPError"}
+{"i": 918, "turn1": "ERROR HTTPError"}
+{"i": 919, "turn1": "ERROR HTTPError"}
+{"i": 920, "turn1": "ERROR HTTPError"}
+{"i": 921, "turn1": "ERROR HTTPError"}
+{"i": 922, "turn1": "ERROR HTTPError"}
+{"i": 923, "turn1": "ERROR HTTPError"}
+{"i": 924, "turn1": "ERROR HTTPError"}
+{"i": 925, "turn1": "ERROR HTTPError"}
+{"i": 926, "turn1": "ERROR HTTPError"}
+{"i": 927, "turn1": "ERROR HTTPError"}
+{"i": 928, "turn1": "ERROR HTTPError"}
+{"i": 929, "turn1": "ERROR HTTPError"}
+{"i": 930, "turn1": "ERROR HTTPError"}
+{"i": 931, "turn1": "ERROR HTTPError"}
+{"i": 932, "turn1": "ERROR HTTPError"}
+{"i": 933, "turn1": "ERROR HTTPError"}
+{"i": 934, "turn1": "ERROR HTTPError"}
+{"i": 935, "turn1": "ERROR HTTPError"}
+{"i": 936, "turn1": "ERROR HTTPError"}
+{"i": 937, "turn1": "ERROR HTTPError"}
+{"i": 938, "turn1": "ERROR HTTPError"}
+{"i": 939, "turn1": "ERROR HTTPError"}
+{"i": 940, "turn1": "ERROR HTTPError"}
+{"i": 941, "turn1": "ERROR HTTPError"}
+{"i": 942, "turn1": "ERROR HTTPError"}
+{"i": 943, "turn1": "ERROR HTTPError"}
+{"i": 944, "turn1": "ERROR HTTPError"}
+{"i": 945, "turn1": "ERROR HTTPError"}
+{"i": 946, "turn1": "ERROR HTTPError"}
+{"i": 947, "turn1": "ERROR HTTPError"}
+{"i": 948, "turn1": "ERROR HTTPError"}
+{"i": 949, "turn1": "ERROR HTTPError"}
+{"i": 950, "turn1": "ERROR HTTPError"}
+{"i": 951, "turn1": "ERROR HTTPError"}
+{"i": 952, "turn1": "ERROR HTTPError"}
+{"i": 953, "turn1": "ERROR HTTPError"}
+{"i": 954, "turn1": "ERROR HTTPError"}
+{"i": 955, "turn1": "ERROR HTTPError"}
+{"i": 956, "turn1": "ERROR HTTPError"}
+{"i": 957, "turn1": "ERROR HTTPError"}
+{"i": 958, "turn1": "ERROR HTTPError"}
+{"i": 959, "turn1": "ERROR HTTPError"}
+{"i": 960, "turn1": "ERROR HTTPError"}
+{"i": 961, "turn1": "ERROR HTTPError"}
+{"i": 962, "turn1": "ERROR HTTPError"}
+{"i": 963, "turn1": "ERROR HTTPError"}
+{"i": 964, "turn1": "ERROR HTTPError"}
+{"i": 965, "turn1": "ERROR HTTPError"}
+{"i": 966, "turn1": "ERROR HTTPError"}
+{"i": 967, "turn1": "ERROR HTTPError"}
+{"i": 968, "turn1": "ERROR HTTPError"}
+{"i": 969, "turn1": "ERROR HTTPError"}
+{"i": 970, "turn1": "ERROR HTTPError"}
+{"i": 971, "turn1": "ERROR HTTPError"}
+{"i": 972, "turn1": "ERROR HTTPError"}
+{"i": 973, "turn1": "ERROR HTTPError"}
+{"i": 974, "turn1": "ERROR HTTPError"}
+{"i": 975, "turn1": "ERROR HTTPError"}
+{"i": 976, "turn1": "ERROR HTTPError"}
+{"i": 977, "turn1": "ERROR HTTPError"}
+{"i": 978, "turn1": "ERROR HTTPError"}
+{"i": 979, "turn1": "ERROR HTTPError"}
+{"i": 980, "turn1": "ERROR HTTPError"}
+{"i": 981, "turn1": "ERROR HTTPError"}
+{"i": 982, "turn1": "ERROR HTTPError"}
+{"i": 983, "turn1": "ERROR HTTPError"}
+{"i": 984, "turn1": "ERROR HTTPError"}
+{"i": 985, "turn1": "ERROR HTTPError"}
+{"i": 986, "turn1": "ERROR HTTPError"}
+{"i": 987, "turn1": "ERROR HTTPError"}
+{"i": 988, "turn1": "ERROR HTTPError"}
+{"i": 989, "turn1": "ERROR HTTPError"}
+{"i": 990, "turn1": "ERROR HTTPError"}
+{"i": 991, "turn1": "ERROR HTTPError"}
+{"i": 992, "turn1": "ERROR HTTPError"}
+{"i": 993, "turn1": "ERROR HTTPError"}
+{"i": 994, "turn1": "ERROR HTTPError"}
+{"i": 995, "turn1": "ERROR HTTPError"}
+{"i": 996, "turn1": "ERROR HTTPError"}
+{"i": 997, "turn1": "ERROR HTTPError"}
+{"i": 998, "turn1": "ERROR HTTPError"}
+{"i": 999, "turn1": "ERROR HTTPError"}
+{"i": 1000, "turn1": "ERROR HTTPError"}
+{"i": 1001, "turn1": "ERROR HTTPError"}
+{"i": 1002, "turn1": "ERROR HTTPError"}
+{"i": 1003, "turn1": "ERROR HTTPError"}
+{"i": 1004, "turn1": "ERROR HTTPError"}
+{"i": 1005, "turn1": "ERROR HTTPError"}
+{"i": 1006, "turn1": "ERROR HTTPError"}
+{"i": 1007, "turn1": "ERROR HTTPError"}
+{"i": 1008, "turn1": "ERROR HTTPError"}
+{"i": 1009, "turn1": "ERROR HTTPError"}
+{"i": 1010, "turn1": "ERROR HTTPError"}
+{"i": 1011, "turn1": "ERROR HTTPError"}
+{"i": 1012, "turn1": "ERROR HTTPError"}
+{"i": 1013, "turn1": "ERROR HTTPError"}
+{"i": 1014, "turn1": "ERROR HTTPError"}
+{"i": 1015, "turn1": "ERROR HTTPError"}
+{"i": 1016, "turn1": "ERROR HTTPError"}
+{"i": 1017, "turn1": "ERROR HTTPError"}
+{"i": 1018, "turn1": "ERROR HTTPError"}
+{"i": 1019, "turn1": "ERROR HTTPError"}
+{"i": 1020, "turn1": "ERROR HTTPError"}
+{"i": 1021, "turn1": "ERROR HTTPError"}
+{"i": 1022, "turn1": "ERROR HTTPError"}
+{"i": 1023, "turn1": "ERROR HTTPError"}
+{"i": 1024, "turn1": "ERROR HTTPError"}
+{"i": 1025, "turn1": "ERROR HTTPError"}
+{"i": 1026, "turn1": "ERROR HTTPError"}
+{"i": 1027, "turn1": "ERROR HTTPError"}
+{"i": 1028, "turn1": "ERROR HTTPError"}
+{"i": 1029, "turn1": "ERROR HTTPError"}
+{"i": 1030, "turn1": "ERROR HTTPError"}
+{"i": 1031, "turn1": "ERROR HTTPError"}
+{"i": 1032, "turn1": "ERROR HTTPError"}
+{"i": 1033, "turn1": "ERROR HTTPError"}
+{"i": 1034, "turn1": "ERROR HTTPError"}
+{"i": 1035, "turn1": "ERROR HTTPError"}
+{"i": 1036, "turn1": "ERROR HTTPError"}
+{"i": 1037, "turn1": "ERROR HTTPError"}
+{"i": 1038, "turn1": "ERROR HTTPError"}
+{"i": 1039, "turn1": "ERROR HTTPError"}
+{"i": 1040, "turn1": "ERROR HTTPError"}
+{"i": 1041, "turn1": "ERROR HTTPError"}
+{"i": 1042, "turn1": "ERROR HTTPError"}
+{"i": 1043, "turn1": "ERROR HTTPError"}
+{"i": 1044, "turn1": "ERROR HTTPError"}
+{"i": 1045, "turn1": "ERROR HTTPError"}
+{"i": 1046, "turn1": "ERROR HTTPError"}
+{"i": 1047, "turn1": "ERROR HTTPError"}
+{"i": 1048, "turn1": "ERROR HTTPError"}
+{"i": 1049, "turn1": "ERROR HTTPError"}
+{"i": 1050, "turn1": "ERROR HTTPError"}
+{"i": 1051, "turn1": "ERROR HTTPError"}
+{"i": 1052, "turn1": "ERROR HTTPError"}
+{"i": 1053, "turn1": "ERROR HTTPError"}
+{"i": 1054, "turn1": "ERROR HTTPError"}
+{"i": 1055, "turn1": "ERROR HTTPError"}
+{"i": 1056, "turn1": "ERROR HTTPError"}
+{"i": 1057, "turn1": "ERROR HTTPError"}
+{"i": 1058, "turn1": "ERROR HTTPError"}
+{"i": 1059, "turn1": "ERROR HTTPError"}
+{"i": 1060, "turn1": "ERROR HTTPError"}
+{"i": 1061, "turn1": "ERROR HTTPError"}
+{"i": 1062, "turn1": "ERROR HTTPError"}
+{"i": 1063, "turn1": "ERROR HTTPError"}
+{"i": 1064, "turn1": "ERROR HTTPError"}
+{"i": 1065, "turn1": "ERROR HTTPError"}
+{"i": 1066, "turn1": "ERROR HTTPError"}
+{"i": 1067, "turn1": "ERROR HTTPError"}
+{"i": 1068, "turn1": "ERROR HTTPError"}
+{"i": 1069, "turn1": "ERROR HTTPError"}
+{"i": 1070, "turn1": "ERROR HTTPError"}
+{"i": 1071, "turn1": "ERROR HTTPError"}
+{"i": 1072, "turn1": "ERROR HTTPError"}
+{"i": 1073, "turn1": "ERROR HTTPError"}
+{"i": 1074, "turn1": "ERROR HTTPError"}
+{"i": 1075, "turn1": "ERROR HTTPError"}
+{"i": 1076, "turn1": "ERROR HTTPError"}
+{"i": 1077, "turn1": "ERROR HTTPError"}
+{"i": 1078, "turn1": "ERROR HTTPError"}
+{"i": 1079, "turn1": "ERROR HTTPError"}
+{"i": 1080, "turn1": "ERROR HTTPError"}
+{"i": 1081, "turn1": "ERROR HTTPError"}
+{"i": 1082, "turn1": "ERROR HTTPError"}
+{"i": 1083, "turn1": "ERROR HTTPError"}
+{"i": 1084, "turn1": "ERROR HTTPError"}
+{"i": 1085, "turn1": "ERROR HTTPError"}
+{"i": 1086, "turn1": "ERROR HTTPError"}
+{"i": 1087, "turn1": "ERROR HTTPError"}
+{"i": 1088, "turn1": "ERROR HTTPError"}
+{"i": 1089, "turn1": "ERROR HTTPError"}
+{"i": 1090, "turn1": "ERROR HTTPError"}
+{"i": 1091, "turn1": "ERROR HTTPError"}
+{"i": 1092, "turn1": "ERROR HTTPError"}
+{"i": 1093, "turn1": "ERROR HTTPError"}
+{"i": 1094, "turn1": "ERROR HTTPError"}
+{"i": 1095, "turn1": "ERROR HTTPError"}
+{"i": 1096, "turn1": "ERROR HTTPError"}
+{"i": 1097, "turn1": "ERROR HTTPError"}
+{"i": 1098, "turn1": "ERROR HTTPError"}
+{"i": 1099, "turn1": "ERROR HTTPError"}
+{"i": 1100, "turn1": "ERROR HTTPError"}
+{"i": 1101, "turn1": "ERROR HTTPError"}
+{"i": 1102, "turn1": "ERROR HTTPError"}
+{"i": 1103, "turn1": "ERROR HTTPError"}
+{"i": 1104, "turn1": "ERROR HTTPError"}
+{"i": 1105, "turn1": "ERROR HTTPError"}
+{"i": 1106, "turn1": "ERROR HTTPError"}
+{"i": 1107, "turn1": "ERROR HTTPError"}
+{"i": 1108, "turn1": "ERROR HTTPError"}
+{"i": 1109, "turn1": "ERROR HTTPError"}
+{"i": 1110, "turn1": "ERROR HTTPError"}
+{"i": 1111, "turn1": "ERROR HTTPError"}
+{"i": 1112, "turn1": "ERROR HTTPError"}
+{"i": 1113, "turn1": "ERROR HTTPError"}
+{"i": 1114, "turn1": "ERROR HTTPError"}
+{"i": 1115, "turn1": "ERROR HTTPError"}
+{"i": 1116, "turn1": "ERROR HTTPError"}
+{"i": 1117, "turn1": "ERROR HTTPError"}
+{"i": 1118, "turn1": "ERROR HTTPError"}
+{"i": 1119, "turn1": "ERROR HTTPError"}
+{"i": 1120, "turn1": "ERROR HTTPError"}
+{"i": 1121, "turn1": "ERROR HTTPError"}
+{"i": 1122, "turn1": "ERROR HTTPError"}
+{"i": 1123, "turn1": "ERROR HTTPError"}
+{"i": 1124, "turn1": "ERROR HTTPError"}
+{"i": 1125, "turn1": "ERROR HTTPError"}
+{"i": 1126, "turn1": "ERROR HTTPError"}
+{"i": 1127, "turn1": "ERROR HTTPError"}
+{"i": 1128, "turn1": "ERROR HTTPError"}
+{"i": 1129, "turn1": "ERROR HTTPError"}
+{"i": 1130, "turn1": "ERROR HTTPError"}
+{"i": 1131, "turn1": "ERROR HTTPError"}
+{"i": 1132, "turn1": "ERROR HTTPError"}
+{"i": 1133, "turn1": "ERROR HTTPError"}
+{"i": 1134, "turn1": "ERROR HTTPError"}
+{"i": 1135, "turn1": "ERROR HTTPError"}
+{"i": 1136, "turn1": "ERROR HTTPError"}
+{"i": 1137, "turn1": "ERROR HTTPError"}
+{"i": 1138, "turn1": "ERROR HTTPError"}
+{"i": 1139, "turn1": "ERROR HTTPError"}
+{"i": 1140, "turn1": "ERROR HTTPError"}
+{"i": 1141, "turn1": "ERROR HTTPError"}
+{"i": 1142, "turn1": "ERROR HTTPError"}
+{"i": 1143, "turn1": "ERROR HTTPError"}
+{"i": 1144, "turn1": "ERROR HTTPError"}
+{"i": 1145, "turn1": "ERROR HTTPError"}
+{"i": 1146, "turn1": "ERROR HTTPError"}
+{"i": 1147, "turn1": "ERROR HTTPError"}
+{"i": 1148, "turn1": "ERROR HTTPError"}
+{"i": 1149, "turn1": "ERROR HTTPError"}
+{"i": 1150, "turn1": "ERROR HTTPError"}
+{"i": 1151, "turn1": "ERROR HTTPError"}
+{"i": 1152, "turn1": "ERROR HTTPError"}
+{"i": 1153, "turn1": "ERROR HTTPError"}
+{"i": 1154, "turn1": "ERROR HTTPError"}
+{"i": 1155, "turn1": "ERROR HTTPError"}
+{"i": 1156, "turn1": "ERROR HTTPError"}
+{"i": 1157, "turn1": "ERROR HTTPError"}
+{"i": 1158, "turn1": "ERROR HTTPError"}
+{"i": 1159, "turn1": "ERROR HTTPError"}
+{"i": 1160, "turn1": "ERROR HTTPError"}
+{"i": 1161, "turn1": "ERROR HTTPError"}
+{"i": 1162, "turn1": "ERROR HTTPError"}
+{"i": 1163, "turn1": "ERROR HTTPError"}
+{"i": 1164, "turn1": "ERROR HTTPError"}
+{"i": 1165, "turn1": "ERROR HTTPError"}
+{"i": 1166, "turn1": "ERROR HTTPError"}
+{"i": 1167, "turn1": "ERROR HTTPError"}
+{"i": 1168, "turn1": "ERROR HTTPError"}
+{"i": 1169, "turn1": "ERROR HTTPError"}
+{"i": 1170, "turn1": "ERROR HTTPError"}
+{"i": 1171, "turn1": "ERROR HTTPError"}
+{"i": 1172, "turn1": "ERROR HTTPError"}
+{"i": 1173, "turn1": "ERROR HTTPError"}
+{"i": 1174, "turn1": "ERROR HTTPError"}
+{"i": 1175, "turn1": "ERROR HTTPError"}
+{"i": 1176, "turn1": "ERROR HTTPError"}
+{"i": 1177, "turn1": "ERROR HTTPError"}
+{"i": 1178, "turn1": "ERROR HTTPError"}
+{"i": 1179, "turn1": "ERROR HTTPError"}
+{"i": 1180, "turn1": "ERROR HTTPError"}
+{"i": 1181, "turn1": "ERROR HTTPError"}
+{"i": 1182, "turn1": "ERROR HTTPError"}
+{"i": 1183, "turn1": "ERROR HTTPError"}
+{"i": 1184, "turn1": "ERROR HTTPError"}
+{"i": 1185, "turn1": "ERROR HTTPError"}
+{"i": 1186, "turn1": "ERROR HTTPError"}
+{"i": 1187, "turn1": "ERROR HTTPError"}
+{"i": 1188, "turn1": "ERROR HTTPError"}
+{"i": 1189, "turn1": "ERROR HTTPError"}
+{"i": 1190, "turn1": "ERROR HTTPError"}
+{"i": 1191, "turn1": "ERROR HTTPError"}
+{"i": 1192, "turn1": "ERROR HTTPError"}
+{"i": 1193, "turn1": "ERROR HTTPError"}
+{"i": 1194, "turn1": "ERROR HTTPError"}
+{"i": 1195, "turn1": "ERROR HTTPError"}
+{"i": 1196, "turn1": "ERROR HTTPError"}
+{"i": 1197, "turn1": "ERROR HTTPError"}
+{"i": 1198, "turn1": "ERROR HTTPError"}
+{"i": 1199, "turn1": "ERROR HTTPError"}
+{"i": 1200, "turn1": "ERROR HTTPError"}
+{"i": 1201, "turn1": "ERROR HTTPError"}
+{"i": 1202, "turn1": "ERROR HTTPError"}
+{"i": 1203, "turn1": "ERROR HTTPError"}
+{"i": 1204, "turn1": "ERROR HTTPError"}
+{"i": 1205, "turn1": "ERROR HTTPError"}
+{"i": 1206, "turn1": "ERROR HTTPError"}
+{"i": 1207, "turn1": "ERROR HTTPError"}
+{"i": 1208, "turn1": "ERROR HTTPError"}
+{"i": 1209, "turn1": "ERROR HTTPError"}
+{"i": 1210, "turn1": "ERROR HTTPError"}
+{"i": 1211, "turn1": "ERROR HTTPError"}
+{"i": 1212, "turn1": "ERROR HTTPError"}
+{"i": 1213, "turn1": "ERROR HTTPError"}
+{"i": 1214, "turn1": "ERROR HTTPError"}
+{"i": 1215, "turn1": "ERROR HTTPError"}
+{"i": 1216, "turn1": "ERROR HTTPError"}
+{"i": 1217, "turn1": "ERROR HTTPError"}
+{"i": 1218, "turn1": "ERROR HTTPError"}
+{"i": 1219, "turn1": "ERROR HTTPError"}
+{"i": 1220, "turn1": "ERROR HTTPError"}
+{"i": 1221, "turn1": "ERROR HTTPError"}
+{"i": 1222, "turn1": "ERROR HTTPError"}
+{"i": 1223, "turn1": "ERROR HTTPError"}
+{"i": 1224, "turn1": "ERROR HTTPError"}
+{"i": 1225, "turn1": "ERROR HTTPError"}
+{"i": 1226, "turn1": "ERROR HTTPError"}
+{"i": 1227, "turn1": "ERROR HTTPError"}
+{"i": 1228, "turn1": "ERROR HTTPError"}
+{"i": 1229, "turn1": "ERROR HTTPError"}
+{"i": 1230, "turn1": "ERROR HTTPError"}
+{"i": 1231, "turn1": "ERROR HTTPError"}
+{"i": 1232, "turn1": "ERROR HTTPError"}
+{"i": 1233, "turn1": "ERROR HTTPError"}
+{"i": 1234, "turn1": "ERROR HTTPError"}
+{"i": 1235, "turn1": "ERROR HTTPError"}
+{"i": 1236, "turn1": "ERROR HTTPError"}
+{"i": 1237, "turn1": "ERROR HTTPError"}
+{"i": 1238, "turn1": "ERROR HTTPError"}
+{"i": 1239, "turn1": "ERROR HTTPError"}
+{"i": 1240, "turn1": "ERROR HTTPError"}
+{"i": 1241, "turn1": "ERROR HTTPError"}
+{"i": 1242, "turn1": "ERROR HTTPError"}
+{"i": 1243, "turn1": "ERROR HTTPError"}
+{"i": 1244, "turn1": "ERROR HTTPError"}
+{"i": 1245, "turn1": "ERROR HTTPError"}
+{"i": 1246, "turn1": "ERROR HTTPError"}
+{"i": 1247, "turn1": "ERROR HTTPError"}
+{"i": 1248, "turn1": "ERROR HTTPError"}
+{"i": 1249, "turn1": "ERROR HTTPError"}
+{"i": 1250, "turn1": "ERROR HTTPError"}
+{"i": 1251, "turn1": "ERROR HTTPError"}
+{"i": 1252, "turn1": "ERROR HTTPError"}
+{"i": 1253, "turn1": "ERROR HTTPError"}
+{"i": 1254, "turn1": "ERROR HTTPError"}
+{"i": 1255, "turn1": "ERROR HTTPError"}
+{"i": 1256, "turn1": "ERROR HTTPError"}
+{"i": 1257, "turn1": "ERROR HTTPError"}
+{"i": 1258, "turn1": "ERROR HTTPError"}
+{"i": 1259, "turn1": "ERROR HTTPError"}
+{"i": 1260, "turn1": "ERROR HTTPError"}
+{"i": 1261, "turn1": "ERROR HTTPError"}
+{"i": 1262, "turn1": "ERROR HTTPError"}
+{"i": 1263, "turn1": "ERROR HTTPError"}
+{"i": 1264, "turn1": "ERROR HTTPError"}
+{"i": 1265, "turn1": "ERROR HTTPError"}
+{"i": 1266, "turn1": "ERROR HTTPError"}
+{"i": 1267, "turn1": "ERROR HTTPError"}
+{"i": 1268, "turn1": "ERROR HTTPError"}
+{"i": 1269, "turn1": "ERROR HTTPError"}
+{"i": 1270, "turn1": "ERROR HTTPError"}
+{"i": 1271, "turn1": "ERROR HTTPError"}
+{"i": 1272, "turn1": "ERROR HTTPError"}
+{"i": 1273, "turn1": "ERROR HTTPError"}
+{"i": 1274, "turn1": "ERROR HTTPError"}
+{"i": 1275, "turn1": "ERROR HTTPError"}
+{"i": 1276, "turn1": "ERROR HTTPError"}
+{"i": 1277, "turn1": "ERROR HTTPError"}
+{"i": 1278, "turn1": "ERROR HTTPError"}
+{"i": 1279, "turn1": "ERROR HTTPError"}
+{"i": 1280, "turn1": "ERROR HTTPError"}
+{"i": 1281, "turn1": "ERROR HTTPError"}
+{"i": 1282, "turn1": "ERROR HTTPError"}
+{"i": 1283, "turn1": "ERROR HTTPError"}
+{"i": 1284, "turn1": "ERROR HTTPError"}
+{"i": 1285, "turn1": "ERROR HTTPError"}
+{"i": 1286, "turn1": "ERROR HTTPError"}
+{"i": 1287, "turn1": "ERROR HTTPError"}
+{"i": 1288, "turn1": "ERROR HTTPError"}
+{"i": 1289, "turn1": "ERROR HTTPError"}
+{"i": 1290, "turn1": "ERROR HTTPError"}
+{"i": 1291, "turn1": "ERROR HTTPError"}
+{"i": 1292, "turn1": "ERROR HTTPError"}
+{"i": 1293, "turn1": "ERROR HTTPError"}
+{"i": 1294, "turn1": "ERROR HTTPError"}
+{"i": 1295, "turn1": "ERROR HTTPError"}
+{"i": 1296, "turn1": "ERROR HTTPError"}
+{"i": 1297, "turn1": "ERROR HTTPError"}
+{"i": 1298, "turn1": "ERROR HTTPError"}
+{"i": 1299, "turn1": "ERROR HTTPError"}
+{"i": 1300, "turn1": "ERROR HTTPError"}
+{"i": 1301, "turn1": "ERROR HTTPError"}
+{"i": 1302, "turn1": "ERROR HTTPError"}
+{"i": 1303, "turn1": "ERROR HTTPError"}
+{"i": 1304, "turn1": "ERROR HTTPError"}
+{"i": 1305, "turn1": "ERROR HTTPError"}
+{"i": 1306, "turn1": "ERROR HTTPError"}
+{"i": 1307, "turn1": "ERROR HTTPError"}
+{"i": 1308, "turn1": "ERROR HTTPError"}
+{"i": 1309, "turn1": "ERROR HTTPError"}
+{"i": 1310, "turn1": "ERROR HTTPError"}
+{"i": 1311, "turn1": "ERROR HTTPError"}
+{"i": 1312, "turn1": "ERROR HTTPError"}
+{"i": 1313, "turn1": "ERROR HTTPError"}
+{"i": 1314, "turn1": "ERROR HTTPError"}
+{"i": 1315, "turn1": "ERROR HTTPError"}
+{"i": 1316, "turn1": "ERROR HTTPError"}
+{"i": 1317, "turn1": "ERROR HTTPError"}
+{"i": 1318, "turn1": "ERROR HTTPError"}
+{"i": 1319, "turn1": "ERROR HTTPError"}
+{"i": 1320, "turn1": "ERROR HTTPError"}
+{"i": 1321, "turn1": "ERROR HTTPError"}
+{"i": 1322, "turn1": "ERROR HTTPError"}
+{"i": 1323, "turn1": "ERROR HTTPError"}
+{"i": 1324, "turn1": "ERROR HTTPError"}
+{"i": 1325, "turn1": "ERROR HTTPError"}
+{"i": 1326, "turn1": "ERROR HTTPError"}
+{"i": 1327, "turn1": "ERROR HTTPError"}
+{"i": 1328, "turn1": "ERROR HTTPError"}
+{"i": 1329, "turn1": "ERROR HTTPError"}
+{"i": 1330, "turn1": "ERROR HTTPError"}
+{"i": 1331, "turn1": "ERROR HTTPError"}
+{"i": 1332, "turn1": "ERROR HTTPError"}
+{"i": 1333, "turn1": "ERROR HTTPError"}
+{"i": 1334, "turn1": "ERROR HTTPError"}
+{"i": 1335, "turn1": "ERROR HTTPError"}
+{"i": 1336, "turn1": "ERROR HTTPError"}
+{"i": 1337, "turn1": "ERROR HTTPError"}
+{"i": 1338, "turn1": "ERROR HTTPError"}
+{"i": 1339, "turn1": "ERROR HTTPError"}
+{"i": 1340, "turn1": "ERROR HTTPError"}
+{"i": 1341, "turn1": "ERROR HTTPError"}
+{"i": 1342, "turn1": "ERROR HTTPError"}
+{"i": 1343, "turn1": "ERROR HTTPError"}
+{"i": 1344, "turn1": "ERROR HTTPError"}
+{"i": 1345, "turn1": "ERROR HTTPError"}
+{"i": 1346, "turn1": "ERROR HTTPError"}
+{"i": 1347, "turn1": "ERROR HTTPError"}
+{"i": 1348, "turn1": "ERROR HTTPError"}
+{"i": 1349, "turn1": "ERROR HTTPError"}
+{"i": 1350, "turn1": "ERROR HTTPError"}
+{"i": 1351, "turn1": "ERROR HTTPError"}
+{"i": 1352, "turn1": "ERROR HTTPError"}
+{"i": 1353, "turn1": "ERROR HTTPError"}
+{"i": 1354, "turn1": "ERROR HTTPError"}
+{"i": 1355, "turn1": "ERROR HTTPError"}
+{"i": 1356, "turn1": "ERROR HTTPError"}
+{"i": 1357, "turn1": "ERROR HTTPError"}
+{"i": 1358, "turn1": "ERROR HTTPError"}
+{"i": 1359, "turn1": "ERROR HTTPError"}
+{"i": 1360, "turn1": "ERROR HTTPError"}
+{"i": 1361, "turn1": "ERROR HTTPError"}
+{"i": 1362, "turn1": "ERROR HTTPError"}
+{"i": 1363, "turn1": "ERROR HTTPError"}
+{"i": 1364, "turn1": "ERROR HTTPError"}
+{"i": 1365, "turn1": "ERROR HTTPError"}
+{"i": 1366, "turn1": "ERROR HTTPError"}
+{"i": 1367, "turn1": "ERROR HTTPError"}
+{"i": 1368, "turn1": "ERROR HTTPError"}
+{"i": 1369, "turn1": "ERROR HTTPError"}
+{"i": 1370, "turn1": "ERROR HTTPError"}
+{"i": 1371, "turn1": "ERROR HTTPError"}
+{"i": 1372, "turn1": "ERROR HTTPError"}
+{"i": 1373, "turn1": "ERROR HTTPError"}
+{"i": 1374, "turn1": "ERROR HTTPError"}
+{"i": 1375, "turn1": "ERROR HTTPError"}
+{"i": 1376, "turn1": "ERROR HTTPError"}
+{"i": 1377, "turn1": "ERROR HTTPError"}
+{"i": 1378, "turn1": "ERROR HTTPError"}
+{"i": 1379, "turn1": "ERROR HTTPError"}
+{"i": 1380, "turn1": "ERROR HTTPError"}
+{"i": 1381, "turn1": "ERROR HTTPError"}
+{"i": 1382, "turn1": "ERROR HTTPError"}
+{"i": 1383, "turn1": "ERROR HTTPError"}
+{"i": 1384, "turn1": "ERROR HTTPError"}
+{"i": 1385, "turn1": "ERROR HTTPError"}
+{"i": 1386, "turn1": "ERROR HTTPError"}
+{"i": 1387, "turn1": "ERROR HTTPError"}
+{"i": 1388, "turn1": "ERROR HTTPError"}
+{"i": 1389, "turn1": "ERROR HTTPError"}
+{"i": 1390, "turn1": "ERROR HTTPError"}
+{"i": 1391, "turn1": "ERROR HTTPError"}
+{"i": 1392, "turn1": "ERROR HTTPError"}
+{"i": 1393, "turn1": "ERROR HTTPError"}
+{"i": 1394, "turn1": "ERROR HTTPError"}
+{"i": 1395, "turn1": "ERROR HTTPError"}
+{"i": 1396, "turn1": "ERROR HTTPError"}
+{"i": 1397, "turn1": "ERROR HTTPError"}
+{"i": 1398, "turn1": "ERROR HTTPError"}
+{"i": 1399, "turn1": "ERROR HTTPError"}
+{"i": 1400, "turn1": "ERROR HTTPError"}
+{"i": 1401, "turn1": "ERROR HTTPError"}
+{"i": 1402, "turn1": "ERROR HTTPError"}
+{"i": 1403, "turn1": "ERROR HTTPError"}
+{"i": 1404, "turn1": "ERROR HTTPError"}
+{"i": 1405, "turn1": "ERROR HTTPError"}
+{"i": 1406, "turn1": "ERROR HTTPError"}
+{"i": 1407, "turn1": "ERROR HTTPError"}
+{"i": 1408, "turn1": "ERROR HTTPError"}
+{"i": 1409, "turn1": "ERROR HTTPError"}
+{"i": 1410, "turn1": "ERROR HTTPError"}
+{"i": 1411, "turn1": "ERROR HTTPError"}
+{"i": 1412, "turn1": "ERROR HTTPError"}
+{"i": 1413, "turn1": "ERROR HTTPError"}
+{"i": 1414, "turn1": "ERROR HTTPError"}
+{"i": 1415, "turn1": "ERROR HTTPError"}
+{"i": 1416, "turn1": "ERROR HTTPError"}
+{"i": 1417, "turn1": "ERROR HTTPError"}
+{"i": 1418, "turn1": "ERROR HTTPError"}
+{"i": 1419, "turn1": "ERROR HTTPError"}
+{"i": 1420, "turn1": "ERROR HTTPError"}
+{"i": 1421, "turn1": "ERROR HTTPError"}
+{"i": 1422, "turn1": "ERROR HTTPError"}
+{"i": 1423, "turn1": "ERROR HTTPError"}
+{"i": 1424, "turn1": "ERROR HTTPError"}
+{"i": 1425, "turn1": "ERROR HTTPError"}
+{"i": 1426, "turn1": "ERROR HTTPError"}
+{"i": 1427, "turn1": "ERROR HTTPError"}
+{"i": 1428, "turn1": "ERROR HTTPError"}
+{"i": 1429, "turn1": "ERROR HTTPError"}
+{"i": 1430, "turn1": "ERROR HTTPError"}
+{"i": 1431, "turn1": "ERROR HTTPError"}
+{"i": 1432, "turn1": "ERROR HTTPError"}
+{"i": 1433, "turn1": "ERROR HTTPError"}
+{"i": 1434, "turn1": "ERROR HTTPError"}
+{"i": 1435, "turn1": "ERROR HTTPError"}
+{"i": 1436, "turn1": "ERROR HTTPError"}
+{"i": 1437, "turn1": "ERROR HTTPError"}
+{"i": 1438, "turn1": "ERROR HTTPError"}
+{"i": 1439, "turn1": "ERROR HTTPError"}
+{"i": 1440, "turn1": "ERROR HTTPError"}
+{"i": 1441, "turn1": "ERROR HTTPError"}
+{"i": 1442, "turn1": "ERROR HTTPError"}
+{"i": 1443, "turn1": "ERROR HTTPError"}
+{"i": 1444, "turn1": "ERROR HTTPError"}
+{"i": 1445, "turn1": "ERROR HTTPError"}
+{"i": 1446, "turn1": "ERROR HTTPError"}
+{"i": 1447, "turn1": "ERROR HTTPError"}
+{"i": 1448, "turn1": "ERROR HTTPError"}
+{"i": 1449, "turn1": "ERROR HTTPError"}
+{"i": 1450, "turn1": "ERROR HTTPError"}
+{"i": 1451, "turn1": "ERROR HTTPError"}
+{"i": 1452, "turn1": "ERROR HTTPError"}
+{"i": 1453, "turn1": "ERROR HTTPError"}
+{"i": 1454, "turn1": "ERROR HTTPError"}
+{"i": 1455, "turn1": "ERROR HTTPError"}
+{"i": 1456, "turn1": "ERROR HTTPError"}
+{"i": 1457, "turn1": "ERROR HTTPError"}
+{"i": 1458, "turn1": "ERROR HTTPError"}
+{"i": 1459, "turn1": "ERROR HTTPError"}
+{"i": 1460, "turn1": "ERROR HTTPError"}
+{"i": 1461, "turn1": "ERROR HTTPError"}
+{"i": 1462, "turn1": "ERROR HTTPError"}
+{"i": 1463, "turn1": "ERROR HTTPError"}
+{"i": 1464, "turn1": "ERROR HTTPError"}
+{"i": 1465, "turn1": "ERROR HTTPError"}
+{"i": 1466, "turn1": "ERROR HTTPError"}
+{"i": 1467, "turn1": "ERROR HTTPError"}
+{"i": 1468, "turn1": "ERROR HTTPError"}
+{"i": 1469, "turn1": "ERROR HTTPError"}
+{"i": 1470, "turn1": "ERROR HTTPError"}
+{"i": 1471, "turn1": "ERROR HTTPError"}
+{"i": 1472, "turn1": "ERROR HTTPError"}
+{"i": 1473, "turn1": "ERROR HTTPError"}
+{"i": 1474, "turn1": "ERROR HTTPError"}
+{"i": 1475, "turn1": "ERROR HTTPError"}
+{"i": 1476, "turn1": "ERROR HTTPError"}
+{"i": 1477, "turn1": "ERROR HTTPError"}
+{"i": 1478, "turn1": "ERROR HTTPError"}
+{"i": 1479, "turn1": "ERROR HTTPError"}
+{"i": 1480, "turn1": "ERROR HTTPError"}
+{"i": 1481, "turn1": "ERROR HTTPError"}
+{"i": 1482, "turn1": "ERROR HTTPError"}
+{"i": 1483, "turn1": "ERROR HTTPError"}
+{"i": 1484, "turn1": "ERROR HTTPError"}
+{"i": 1485, "turn1": "ERROR HTTPError"}
+{"i": 1486, "turn1": "ERROR HTTPError"}
+{"i": 1487, "turn1": "ERROR HTTPError"}
+{"i": 1488, "turn1": "ERROR HTTPError"}
+{"i": 1489, "turn1": "ERROR HTTPError"}
+{"i": 1490, "turn1": "ERROR HTTPError"}
+{"i": 1491, "turn1": "ERROR HTTPError"}
+{"i": 1492, "turn1": "ERROR HTTPError"}
+{"i": 1493, "turn1": "ERROR HTTPError"}
+{"i": 1494, "turn1": "ERROR HTTPError"}
+{"i": 1495, "turn1": "ERROR HTTPError"}
+{"i": 1496, "turn1": "ERROR HTTPError"}
+{"i": 1497, "turn1": "ERROR HTTPError"}
+{"i": 1498, "turn1": "ERROR HTTPError"}
+{"i": 1499, "turn1": "ERROR HTTPError"}
+{"i": 1500, "turn1": "ERROR HTTPError"}
+{"i": 1501, "turn1": "ERROR HTTPError"}
+{"i": 1502, "turn1": "ERROR HTTPError"}
+{"i": 1503, "turn1": "ERROR HTTPError"}
+{"i": 1504, "turn1": "ERROR HTTPError"}
+{"i": 1505, "turn1": "ERROR HTTPError"}
+{"i": 1506, "turn1": "ERROR HTTPError"}
+{"i": 1507, "turn1": "ERROR HTTPError"}
+{"i": 1508, "turn1": "ERROR HTTPError"}
+{"i": 1509, "turn1": "ERROR HTTPError"}
+{"i": 1510, "turn1": "ERROR HTTPError"}
+{"i": 1511, "turn1": "ERROR HTTPError"}
+{"i": 1512, "turn1": "ERROR HTTPError"}
+{"i": 1513, "turn1": "ERROR HTTPError"}
+{"i": 1514, "turn1": "ERROR HTTPError"}
+{"i": 1515, "turn1": "ERROR HTTPError"}
+{"i": 1516, "turn1": "ERROR HTTPError"}
+{"i": 1517, "turn1": "ERROR HTTPError"}
+{"i": 1518, "turn1": "ERROR HTTPError"}
+{"i": 1519, "turn1": "ERROR HTTPError"}
+{"i": 1520, "turn1": "ERROR HTTPError"}
+{"i": 1521, "turn1": "ERROR HTTPError"}
+{"i": 1522, "turn1": "ERROR HTTPError"}
+{"i": 1523, "turn1": "ERROR HTTPError"}
+{"i": 1524, "turn1": "ERROR HTTPError"}
+{"i": 1525, "turn1": "ERROR HTTPError"}
+{"i": 1526, "turn1": "ERROR HTTPError"}
+{"i": 1527, "turn1": "ERROR HTTPError"}
+{"i": 1528, "turn1": "ERROR HTTPError"}
+{"i": 1529, "turn1": "ERROR HTTPError"}
+{"i": 1530, "turn1": "ERROR HTTPError"}
+{"i": 1531, "turn1": "ERROR HTTPError"}
+{"i": 1532, "turn1": "ERROR HTTPError"}
+{"i": 1533, "turn1": "ERROR HTTPError"}
+{"i": 1534, "turn1": "ERROR HTTPError"}
+{"i": 1535, "turn1": "ERROR HTTPError"}
+{"i": 1536, "turn1": "ERROR HTTPError"}
+{"i": 1537, "turn1": "ERROR HTTPError"}
+{"i": 1538, "turn1": "ERROR HTTPError"}
+{"i": 1539, "turn1": "ERROR HTTPError"}
+{"i": 1540, "turn1": "ERROR HTTPError"}
+{"i": 1541, "turn1": "ERROR HTTPError"}
+{"i": 1542, "turn1": "ERROR HTTPError"}
+{"i": 1543, "turn1": "ERROR HTTPError"}
+{"i": 1544, "turn1": "ERROR HTTPError"}
+{"i": 1545, "turn1": "ERROR HTTPError"}
+{"i": 1546, "turn1": "ERROR HTTPError"}
+{"i": 1547, "turn1": "ERROR HTTPError"}
+{"i": 1548, "turn1": "ERROR HTTPError"}
+{"i": 1549, "turn1": "ERROR HTTPError"}
+{"i": 1550, "turn1": "ERROR HTTPError"}
+{"i": 1551, "turn1": "ERROR HTTPError"}
+{"i": 1552, "turn1": "ERROR HTTPError"}
+{"i": 1553, "turn1": "ERROR HTTPError"}
+{"i": 1554, "turn1": "ERROR HTTPError"}
+{"i": 1555, "turn1": "ERROR HTTPError"}
+{"i": 1556, "turn1": "ERROR HTTPError"}
+{"i": 1557, "turn1": "ERROR HTTPError"}
+{"i": 1558, "turn1": "ERROR HTTPError"}
+{"i": 1559, "turn1": "ERROR HTTPError"}
+{"i": 1560, "turn1": "ERROR HTTPError"}
+{"i": 1561, "turn1": "ERROR HTTPError"}
+{"i": 1562, "turn1": "ERROR HTTPError"}
+{"i": 1563, "turn1": "ERROR HTTPError"}
+{"i": 1564, "turn1": "ERROR HTTPError"}
+{"i": 1565, "turn1": "ERROR HTTPError"}
+{"i": 1566, "turn1": "ERROR HTTPError"}
+{"i": 1567, "turn1": "ERROR HTTPError"}
+{"i": 1568, "turn1": "ERROR HTTPError"}
+{"i": 1569, "turn1": "ERROR HTTPError"}
+{"i": 1570, "turn1": "ERROR HTTPError"}
+{"i": 1571, "turn1": "ERROR HTTPError"}
+{"i": 1572, "turn1": "ERROR HTTPError"}
+{"i": 1573, "turn1": "ERROR HTTPError"}
+{"i": 1574, "turn1": "ERROR HTTPError"}
+{"i": 1575, "turn1": "ERROR HTTPError"}
+{"i": 1576, "turn1": "ERROR HTTPError"}
+{"i": 1577, "turn1": "ERROR HTTPError"}
+{"i": 1578, "turn1": "ERROR HTTPError"}
+{"i": 1579, "turn1": "ERROR HTTPError"}
+{"i": 1580, "turn1": "ERROR HTTPError"}
+{"i": 1581, "turn1": "ERROR HTTPError"}
+{"i": 1582, "turn1": "ERROR HTTPError"}
+{"i": 1583, "turn1": "ERROR HTTPError"}
+{"i": 1584, "turn1": "ERROR HTTPError"}
+{"i": 1585, "turn1": "ERROR HTTPError"}
+{"i": 1586, "turn1": "ERROR HTTPError"}
+{"i": 1587, "turn1": "ERROR HTTPError"}
+{"i": 1588, "turn1": "ERROR HTTPError"}
+{"i": 1589, "turn1": "ERROR HTTPError"}
+{"i": 1590, "turn1": "ERROR HTTPError"}
+{"i": 1591, "turn1": "ERROR HTTPError"}
+{"i": 1592, "turn1": "ERROR HTTPError"}
+{"i": 1593, "turn1": "ERROR HTTPError"}
+{"i": 1594, "turn1": "ERROR HTTPError"}
+{"i": 1595, "turn1": "ERROR HTTPError"}
+{"i": 1596, "turn1": "ERROR HTTPError"}
+{"i": 1597, "turn1": "ERROR HTTPError"}
+{"i": 1598, "turn1": "ERROR HTTPError"}
+{"i": 1599, "turn1": "ERROR HTTPError"}
+{"i": 1600, "turn1": "ERROR HTTPError"}
+{"i": 1601, "turn1": "ERROR HTTPError"}
+{"i": 1602, "turn1": "ERROR HTTPError"}
+{"i": 1603, "turn1": "ERROR HTTPError"}
+{"i": 1604, "turn1": "ERROR HTTPError"}
+{"i": 1605, "turn1": "ERROR HTTPError"}
+{"i": 1606, "turn1": "ERROR HTTPError"}
+{"i": 1607, "turn1": "ERROR HTTPError"}
+{"i": 1608, "turn1": "ERROR HTTPError"}
+{"i": 1609, "turn1": "ERROR HTTPError"}
+{"i": 1610, "turn1": "ERROR HTTPError"}
+{"i": 1611, "turn1": "ERROR HTTPError"}
+{"i": 1612, "turn1": "ERROR HTTPError"}
+{"i": 1613, "turn1": "ERROR HTTPError"}
+{"i": 1614, "turn1": "ERROR HTTPError"}
+{"i": 1615, "turn1": "ERROR HTTPError"}
+{"i": 1616, "turn1": "ERROR HTTPError"}
+{"i": 1617, "turn1": "ERROR HTTPError"}
+{"i": 1618, "turn1": "ERROR HTTPError"}
+{"i": 1619, "turn1": "ERROR HTTPError"}
+{"i": 1620, "turn1": "ERROR HTTPError"}
+{"i": 1621, "turn1": "ERROR HTTPError"}
+{"i": 1622, "turn1": "ERROR HTTPError"}
+{"i": 1623, "turn1": "ERROR HTTPError"}
+{"i": 1624, "turn1": "ERROR HTTPError"}
+{"i": 1625, "turn1": "ERROR HTTPError"}
+{"i": 1626, "turn1": "ERROR HTTPError"}
+{"i": 1627, "turn1": "ERROR HTTPError"}
+{"i": 1628, "turn1": "ERROR HTTPError"}
+{"i": 1629, "turn1": "ERROR HTTPError"}
+{"i": 1630, "turn1": "ERROR HTTPError"}
+{"i": 1631, "turn1": "ERROR HTTPError"}
+{"i": 1632, "turn1": "ERROR HTTPError"}
+{"i": 1633, "turn1": "ERROR HTTPError"}
+{"i": 1634, "turn1": "ERROR HTTPError"}
+{"i": 1635, "turn1": "ERROR HTTPError"}
+{"i": 1636, "turn1": "ERROR HTTPError"}
+{"i": 1637, "turn1": "ERROR HTTPError"}
+{"i": 1638, "turn1": "ERROR HTTPError"}
+{"i": 1639, "turn1": "ERROR HTTPError"}
+{"i": 1640, "turn1": "ERROR HTTPError"}
+{"i": 1641, "turn1": "ERROR HTTPError"}
+{"i": 1642, "turn1": "ERROR HTTPError"}
+{"i": 1643, "turn1": "ERROR HTTPError"}
+{"i": 1644, "turn1": "ERROR HTTPError"}
+{"i": 1645, "turn1": "ERROR HTTPError"}
+{"i": 1646, "turn1": "ERROR HTTPError"}
+{"i": 1647, "turn1": "ERROR HTTPError"}
+{"i": 1648, "turn1": "ERROR HTTPError"}
+{"i": 1649, "turn1": "ERROR HTTPError"}
+{"i": 1650, "turn1": "ERROR HTTPError"}
+{"i": 1651, "turn1": "ERROR HTTPError"}
+{"i": 1652, "turn1": "ERROR HTTPError"}
+{"i": 1653, "turn1": "ERROR HTTPError"}
+{"i": 1654, "turn1": "ERROR HTTPError"}
+{"i": 1655, "turn1": "ERROR HTTPError"}
+{"i": 1656, "turn1": "ERROR HTTPError"}
+{"i": 1657, "turn1": "ERROR HTTPError"}
+{"i": 1658, "turn1": "ERROR HTTPError"}
+{"i": 1659, "turn1": "ERROR HTTPError"}
+{"i": 1660, "turn1": "ERROR HTTPError"}
+{"i": 1661, "turn1": "ERROR HTTPError"}
+{"i": 1662, "turn1": "ERROR HTTPError"}
+{"i": 1663, "turn1": "ERROR HTTPError"}
+{"i": 1664, "turn1": "ERROR HTTPError"}
+{"i": 1665, "turn1": "ERROR HTTPError"}
+{"i": 1666, "turn1": "ERROR HTTPError"}
+{"i": 1667, "turn1": "ERROR HTTPError"}
+{"i": 1668, "turn1": "ERROR HTTPError"}
+{"i": 1669, "turn1": "ERROR HTTPError"}
+{"i": 1670, "turn1": "ERROR HTTPError"}
+{"i": 1671, "turn1": "ERROR HTTPError"}
+{"i": 1672, "turn1": "ERROR HTTPError"}
+{"i": 1673, "turn1": "ERROR HTTPError"}
+{"i": 1674, "turn1": "ERROR HTTPError"}
+{"i": 1675, "turn1": "ERROR HTTPError"}
+{"i": 1676, "turn1": "ERROR HTTPError"}
+{"i": 1677, "turn1": "ERROR HTTPError"}
+{"i": 1678, "turn1": "ERROR HTTPError"}
+{"i": 1679, "turn1": "ERROR HTTPError"}
+{"i": 1680, "turn1": "ERROR HTTPError"}
+{"i": 1681, "turn1": "ERROR HTTPError"}
+{"i": 1682, "turn1": "ERROR HTTPError"}
+{"i": 1683, "turn1": "ERROR HTTPError"}
+{"i": 1684, "turn1": "ERROR HTTPError"}
+{"i": 1685, "turn1": "ERROR HTTPError"}
+{"i": 1686, "turn1": "ERROR HTTPError"}
+{"i": 1687, "turn1": "ERROR HTTPError"}
+{"i": 1688, "turn1": "ERROR HTTPError"}
+{"i": 1689, "turn1": "ERROR HTTPError"}
+{"i": 1690, "turn1": "ERROR HTTPError"}
+{"i": 1691, "turn1": "ERROR HTTPError"}
+{"i": 1692, "turn1": "ERROR HTTPError"}
+{"i": 1693, "turn1": "ERROR HTTPError"}
+{"i": 1694, "turn1": "ERROR HTTPError"}
+{"i": 1695, "turn1": "ERROR HTTPError"}
+{"i": 1696, "turn1": "ERROR HTTPError"}
+{"i": 1697, "turn1": "ERROR HTTPError"}
+{"i": 1698, "turn1": "ERROR HTTPError"}
+{"i": 1699, "turn1": "ERROR HTTPError"}
+{"i": 1700, "turn1": "ERROR HTTPError"}
+{"i": 1701, "turn1": "ERROR HTTPError"}
+{"i": 1702, "turn1": "ERROR HTTPError"}
+{"i": 1703, "turn1": "ERROR HTTPError"}
+{"i": 1704, "turn1": "ERROR HTTPError"}
+{"i": 1705, "turn1": "ERROR HTTPError"}
+{"i": 1706, "turn1": "ERROR HTTPError"}
+{"i": 1707, "turn1": "ERROR HTTPError"}
+{"i": 1708, "turn1": "ERROR HTTPError"}
+{"i": 1709, "turn1": "ERROR HTTPError"}
+{"i": 1710, "turn1": "ERROR HTTPError"}
+{"i": 1711, "turn1": "ERROR HTTPError"}
+{"i": 1712, "turn1": "ERROR HTTPError"}
+{"i": 1713, "turn1": "ERROR HTTPError"}
+{"i": 1714, "turn1": "ERROR HTTPError"}
+{"i": 1715, "turn1": "ERROR HTTPError"}
+{"i": 1716, "turn1": "ERROR HTTPError"}
+{"i": 1717, "turn1": "ERROR HTTPError"}
+{"i": 1718, "turn1": "ERROR HTTPError"}
+{"i": 1719, "turn1": "ERROR HTTPError"}
+{"i": 1720, "turn1": "ERROR HTTPError"}
+{"i": 1721, "turn1": "ERROR HTTPError"}
+{"i": 1722, "turn1": "ERROR HTTPError"}
+{"i": 1723, "turn1": "ERROR HTTPError"}
+{"i": 1724, "turn1": "ERROR HTTPError"}
+{"i": 1725, "turn1": "ERROR HTTPError"}
+{"i": 1726, "turn1": "ERROR HTTPError"}
+{"i": 1727, "turn1": "ERROR HTTPError"}
+{"i": 1728, "turn1": "ERROR HTTPError"}
+{"i": 1729, "turn1": "ERROR HTTPError"}
+{"i": 1730, "turn1": "ERROR HTTPError"}
+{"i": 1731, "turn1": "ERROR HTTPError"}
+{"i": 1732, "turn1": "ERROR HTTPError"}
+{"i": 1733, "turn1": "ERROR HTTPError"}
+{"i": 1734, "turn1": "ERROR HTTPError"}
+{"i": 1735, "turn1": "ERROR HTTPError"}
+{"i": 1736, "turn1": "ERROR HTTPError"}
+{"i": 1737, "turn1": "ERROR HTTPError"}
+{"i": 1738, "turn1": "ERROR HTTPError"}
+{"i": 1739, "turn1": "ERROR HTTPError"}
+{"i": 1740, "turn1": "ERROR HTTPError"}
+{"i": 1741, "turn1": "ERROR HTTPError"}
+{"i": 1742, "turn1": "ERROR HTTPError"}
+{"i": 1743, "turn1": "ERROR HTTPError"}
+{"i": 1744, "turn1": "ERROR HTTPError"}
+{"i": 1745, "turn1": "ERROR HTTPError"}
+{"i": 1746, "turn1": "ERROR HTTPError"}
+{"i": 1747, "turn1": "ERROR HTTPError"}
+{"i": 1748, "turn1": "ERROR HTTPError"}
+{"i": 1749, "turn1": "ERROR HTTPError"}
+{"i": 1750, "turn1": "ERROR HTTPError"}
+{"i": 1751, "turn1": "ERROR HTTPError"}
+{"i": 1752, "turn1": "ERROR HTTPError"}
+{"i": 1753, "turn1": "ERROR HTTPError"}
+{"i": 1754, "turn1": "ERROR HTTPError"}
+{"i": 1755, "turn1": "ERROR HTTPError"}
+{"i": 1756, "turn1": "ERROR HTTPError"}
+{"i": 1757, "turn1": "ERROR HTTPError"}
+{"i": 1758, "turn1": "ERROR HTTPError"}
+{"i": 1759, "turn1": "ERROR HTTPError"}
+{"i": 1760, "turn1": "ERROR HTTPError"}
+{"i": 1761, "turn1": "ERROR HTTPError"}
+{"i": 1762, "turn1": "ERROR HTTPError"}
+{"i": 1763, "turn1": "ERROR HTTPError"}
+{"i": 1764, "turn1": "ERROR HTTPError"}
+{"i": 1765, "turn1": "ERROR HTTPError"}
+{"i": 1766, "turn1": "ERROR HTTPError"}
+{"i": 1767, "turn1": "ERROR HTTPError"}
+{"i": 1768, "turn1": "ERROR HTTPError"}
+{"i": 1769, "turn1": "ERROR HTTPError"}
+{"i": 1770, "turn1": "ERROR HTTPError"}
+{"i": 1771, "turn1": "ERROR HTTPError"}
+{"i": 1772, "turn1": "ERROR HTTPError"}
+{"i": 1773, "turn1": "ERROR HTTPError"}
+{"i": 1774, "turn1": "ERROR HTTPError"}
+{"i": 1775, "turn1": "ERROR HTTPError"}
+{"i": 1776, "turn1": "ERROR HTTPError"}
+{"i": 1777, "turn1": "ERROR HTTPError"}
+{"i": 1778, "turn1": "ERROR HTTPError"}
+{"i": 1779, "turn1": "ERROR HTTPError"}
+{"i": 1780, "turn1": "ERROR HTTPError"}
+{"i": 1781, "turn1": "ERROR HTTPError"}
+{"i": 1782, "turn1": "ERROR HTTPError"}
+{"i": 1783, "turn1": "ERROR HTTPError"}
+{"i": 1784, "turn1": "ERROR HTTPError"}
+{"i": 1785, "turn1": "ERROR HTTPError"}
+{"i": 1786, "turn1": "ERROR HTTPError"}
+{"i": 1787, "turn1": "ERROR HTTPError"}
+{"i": 1788, "turn1": "ERROR HTTPError"}
+{"i": 1789, "turn1": "ERROR HTTPError"}
+{"i": 1790, "turn1": "ERROR HTTPError"}
+{"i": 1791, "turn1": "ERROR HTTPError"}
+{"i": 1792, "turn1": "ERROR HTTPError"}
+{"i": 1793, "turn1": "ERROR HTTPError"}
+{"i": 1794, "turn1": "ERROR HTTPError"}
+{"i": 1795, "turn1": "ERROR HTTPError"}
+{"i": 1796, "turn1": "ERROR HTTPError"}
+{"i": 1797, "turn1": "ERROR HTTPError"}
+{"i": 1798, "turn1": "ERROR HTTPError"}
+{"i": 1799, "turn1": "ERROR HTTPError"}
+{"i": 1800, "turn1": "ERROR HTTPError"}
+{"i": 1801, "turn1": "ERROR HTTPError"}
+{"i": 1802, "turn1": "ERROR HTTPError"}
+{"i": 1803, "turn1": "ERROR HTTPError"}
+{"i": 1804, "turn1": "ERROR HTTPError"}
+{"i": 1805, "turn1": "ERROR HTTPError"}
+{"i": 1806, "turn1": "ERROR HTTPError"}
+{"i": 1807, "turn1": "ERROR HTTPError"}
+{"i": 1808, "turn1": "ERROR HTTPError"}
+{"i": 1809, "turn1": "ERROR HTTPError"}
+{"i": 1810, "turn1": "ERROR HTTPError"}
+{"i": 1811, "turn1": "ERROR HTTPError"}
+{"i": 1812, "turn1": "ERROR HTTPError"}
+{"i": 1813, "turn1": "ERROR HTTPError"}
+{"i": 1814, "turn1": "ERROR HTTPError"}
+{"i": 1815, "turn1": "ERROR HTTPError"}
+{"i": 1816, "turn1": "ERROR HTTPError"}
+{"i": 1817, "turn1": "ERROR HTTPError"}
+{"i": 1818, "turn1": "ERROR HTTPError"}
+{"i": 1819, "turn1": "ERROR HTTPError"}
+{"i": 1820, "turn1": "ERROR HTTPError"}
+{"i": 1821, "turn1": "ERROR HTTPError"}
+{"i": 1822, "turn1": "ERROR HTTPError"}
+{"i": 1823, "turn1": "ERROR HTTPError"}
+{"i": 1824, "turn1": "ERROR HTTPError"}
+{"i": 1825, "turn1": "ERROR HTTPError"}
+{"i": 1826, "turn1": "ERROR HTTPError"}
+{"i": 1827, "turn1": "ERROR HTTPError"}
+{"i": 1828, "turn1": "ERROR HTTPError"}
+{"i": 1829, "turn1": "ERROR HTTPError"}
+{"i": 1830, "turn1": "ERROR HTTPError"}
+{"i": 1831, "turn1": "ERROR HTTPError"}
+{"i": 1832, "turn1": "ERROR HTTPError"}
+{"i": 1833, "turn1": "ERROR HTTPError"}
+{"i": 1834, "turn1": "ERROR HTTPError"}
+{"i": 1835, "turn1": "ERROR HTTPError"}
+{"i": 1836, "turn1": "ERROR HTTPError"}
+{"i": 1837, "turn1": "ERROR HTTPError"}
+{"i": 1838, "turn1": "ERROR HTTPError"}
+{"i": 1839, "turn1": "ERROR HTTPError"}
+{"i": 1840, "turn1": "ERROR HTTPError"}
+{"i": 1841, "turn1": "ERROR HTTPError"}
+{"i": 1842, "turn1": "ERROR HTTPError"}
+{"i": 1843, "turn1": "ERROR HTTPError"}
+{"i": 1844, "turn1": "ERROR HTTPError"}
+{"i": 1845, "turn1": "ERROR HTTPError"}
+{"i": 1846, "turn1": "ERROR HTTPError"}
+{"i": 1847, "turn1": "ERROR HTTPError"}
+{"i": 1848, "turn1": "ERROR HTTPError"}
+{"i": 1849, "turn1": "ERROR HTTPError"}
+{"i": 1850, "turn1": "ERROR HTTPError"}
+{"i": 1851, "turn1": "ERROR HTTPError"}
+{"i": 1852, "turn1": "ERROR HTTPError"}
+{"i": 1853, "turn1": "ERROR HTTPError"}
+{"i": 1854, "turn1": "ERROR HTTPError"}
+{"i": 1855, "turn1": "ERROR HTTPError"}
+{"i": 1856, "turn1": "ERROR HTTPError"}
+{"i": 1857, "turn1": "ERROR HTTPError"}
+{"i": 1858, "turn1": "ERROR HTTPError"}
+{"i": 1859, "turn1": "ERROR HTTPError"}
+{"i": 1860, "turn1": "ERROR HTTPError"}
+{"i": 1861, "turn1": "ERROR HTTPError"}
+{"i": 1862, "turn1": "ERROR HTTPError"}
+{"i": 1863, "turn1": "ERROR HTTPError"}
+{"i": 1864, "turn1": "ERROR HTTPError"}
+{"i": 1865, "turn1": "ERROR HTTPError"}
+{"i": 1866, "turn1": "ERROR HTTPError"}
+{"i": 1867, "turn1": "ERROR HTTPError"}
+{"i": 1868, "turn1": "ERROR HTTPError"}
+{"i": 1869, "turn1": "ERROR HTTPError"}
+{"i": 1870, "turn1": "ERROR HTTPError"}
+{"i": 1871, "turn1": "ERROR HTTPError"}
+{"i": 1872, "turn1": "ERROR HTTPError"}
+{"i": 1873, "turn1": "ERROR HTTPError"}
+{"i": 1874, "turn1": "ERROR HTTPError"}
+{"i": 1875, "turn1": "ERROR HTTPError"}
+{"i": 1876, "turn1": "ERROR HTTPError"}
+{"i": 1877, "turn1": "ERROR HTTPError"}
+{"i": 1878, "turn1": "ERROR HTTPError"}
+{"i": 1879, "turn1": "ERROR HTTPError"}
+{"i": 1880, "turn1": "ERROR HTTPError"}
+{"i": 1881, "turn1": "ERROR HTTPError"}
+{"i": 1882, "turn1": "ERROR HTTPError"}
+{"i": 1883, "turn1": "ERROR HTTPError"}
+{"i": 1884, "turn1": "ERROR HTTPError"}
+{"i": 1885, "turn1": "ERROR HTTPError"}
+{"i": 1886, "turn1": "ERROR HTTPError"}
+{"i": 1887, "turn1": "ERROR HTTPError"}
+{"i": 1888, "turn1": "ERROR HTTPError"}
+{"i": 1889, "turn1": "ERROR HTTPError"}
+{"i": 1890, "turn1": "ERROR HTTPError"}
+{"i": 1891, "turn1": "ERROR HTTPError"}
+{"i": 1892, "turn1": "ERROR HTTPError"}
+{"i": 1893, "turn1": "ERROR HTTPError"}
+{"i": 1894, "turn1": "ERROR HTTPError"}
+{"i": 1895, "turn1": "ERROR HTTPError"}
+{"i": 1896, "turn1": "ERROR HTTPError"}
+{"i": 1897, "turn1": "ERROR HTTPError"}
+{"i": 1898, "turn1": "ERROR HTTPError"}
+{"i": 1899, "turn1": "ERROR HTTPError"}
+{"i": 1900, "turn1": "ERROR HTTPError"}
+{"i": 1901, "turn1": "ERROR HTTPError"}
+{"i": 1902, "turn1": "ERROR HTTPError"}
+{"i": 1903, "turn1": "ERROR HTTPError"}
+{"i": 1904, "turn1": "ERROR HTTPError"}
+{"i": 1905, "turn1": "ERROR HTTPError"}
+{"i": 1906, "turn1": "ERROR HTTPError"}
+{"i": 1907, "turn1": "ERROR HTTPError"}
+{"i": 1908, "turn1": "ERROR HTTPError"}
+{"i": 1909, "turn1": "ERROR HTTPError"}
+{"i": 1910, "turn1": "ERROR HTTPError"}
+{"i": 1911, "turn1": "ERROR HTTPError"}
+{"i": 1912, "turn1": "ERROR HTTPError"}
+{"i": 1913, "turn1": "ERROR HTTPError"}
+{"i": 1914, "turn1": "ERROR HTTPError"}
+{"i": 1915, "turn1": "ERROR HTTPError"}
+{"i": 1916, "turn1": "ERROR HTTPError"}
+{"i": 1917, "turn1": "ERROR HTTPError"}
+{"i": 1918, "turn1": "ERROR HTTPError"}
+{"i": 1919, "turn1": "ERROR HTTPError"}
+{"i": 1920, "turn1": "ERROR HTTPError"}
+{"i": 1921, "turn1": "ERROR HTTPError"}
+{"i": 1922, "turn1": "ERROR HTTPError"}
+{"i": 1923, "turn1": "ERROR HTTPError"}
+{"i": 1924, "turn1": "ERROR HTTPError"}
+{"i": 1925, "turn1": "ERROR HTTPError"}
+{"i": 1926, "turn1": "ERROR HTTPError"}
+{"i": 1927, "turn1": "ERROR HTTPError"}
+{"i": 1928, "turn1": "ERROR HTTPError"}
+{"i": 1929, "turn1": "ERROR HTTPError"}
+{"i": 1930, "turn1": "ERROR HTTPError"}
+{"i": 1931, "turn1": "ERROR HTTPError"}
+{"i": 1932, "turn1": "ERROR HTTPError"}
+{"i": 1933, "turn1": "ERROR HTTPError"}
+{"i": 1934, "turn1": "ERROR HTTPError"}
+{"i": 1935, "turn1": "ERROR HTTPError"}
+{"i": 1936, "turn1": "ERROR HTTPError"}
+{"i": 1937, "turn1": "ERROR HTTPError"}
+{"i": 1938, "turn1": "ERROR HTTPError"}
+{"i": 1939, "turn1": "ERROR HTTPError"}
+{"i": 1940, "turn1": "ERROR HTTPError"}
+{"i": 1941, "turn1": "ERROR HTTPError"}
+{"i": 1942, "turn1": "ERROR HTTPError"}
+{"i": 1943, "turn1": "ERROR HTTPError"}
+{"i": 1944, "turn1": "ERROR HTTPError"}
+{"i": 1945, "turn1": "ERROR HTTPError"}
+{"i": 1946, "turn1": "ERROR HTTPError"}
+{"i": 1947, "turn1": "ERROR HTTPError"}
+{"i": 1948, "turn1": "ERROR HTTPError"}
+{"i": 1949, "turn1": "ERROR HTTPError"}
+{"i": 1950, "turn1": "ERROR HTTPError"}
+{"i": 1951, "turn1": "ERROR HTTPError"}
+{"i": 1952, "turn1": "ERROR HTTPError"}
+{"i": 1953, "turn1": "ERROR HTTPError"}
+{"i": 1954, "turn1": "ERROR HTTPError"}
+{"i": 1955, "turn1": "ERROR HTTPError"}
+{"i": 1956, "turn1": "ERROR HTTPError"}
+{"i": 1957, "turn1": "ERROR HTTPError"}
+{"i": 1958, "turn1": "ERROR HTTPError"}
+{"i": 1959, "turn1": "ERROR HTTPError"}
+{"i": 1960, "turn1": "ERROR HTTPError"}
+{"i": 1961, "turn1": "ERROR HTTPError"}
+{"i": 1962, "turn1": "ERROR HTTPError"}
+{"i": 1963, "turn1": "ERROR HTTPError"}
+{"i": 1964, "turn1": "ERROR HTTPError"}
+{"i": 1965, "turn1": "ERROR HTTPError"}
+{"i": 1966, "turn1": "ERROR HTTPError"}
+{"i": 1967, "turn1": "ERROR HTTPError"}
+{"i": 1968, "turn1": "ERROR HTTPError"}
+{"i": 1969, "turn1": "ERROR HTTPError"}
+{"i": 1970, "turn1": "ERROR HTTPError"}
+{"i": 1971, "turn1": "ERROR HTTPError"}
+{"i": 1972, "turn1": "ERROR HTTPError"}
+{"i": 1973, "turn1": "ERROR HTTPError"}
+{"i": 1974, "turn1": "ERROR HTTPError"}
+{"i": 1975, "turn1": "ERROR HTTPError"}
+{"i": 1976, "turn1": "ERROR HTTPError"}
+{"i": 1977, "turn1": "ERROR HTTPError"}
+{"i": 1978, "turn1": "ERROR HTTPError"}
+{"i": 1979, "turn1": "ERROR HTTPError"}
+{"i": 1980, "turn1": "ERROR HTTPError"}
+{"i": 1981, "turn1": "ERROR HTTPError"}
+{"i": 1982, "turn1": "ERROR HTTPError"}
+{"i": 1983, "turn1": "ERROR HTTPError"}
+{"i": 1984, "turn1": "ERROR HTTPError"}
+{"i": 1985, "turn1": "ERROR HTTPError"}
+{"i": 1986, "turn1": "ERROR HTTPError"}
+{"i": 1987, "turn1": "ERROR HTTPError"}
+{"i": 1988, "turn1": "ERROR HTTPError"}
+{"i": 1989, "turn1": "ERROR HTTPError"}
+{"i": 1990, "turn1": "ERROR HTTPError"}
+{"i": 1991, "turn1": "ERROR HTTPError"}
+{"i": 1992, "turn1": "ERROR HTTPError"}
+{"i": 1993, "turn1": "ERROR HTTPError"}
+{"i": 1994, "turn1": "ERROR HTTPError"}
+{"i": 1995, "turn1": "ERROR HTTPError"}
+{"i": 1996, "turn1": "ERROR HTTPError"}
+{"i": 1997, "turn1": "ERROR HTTPError"}
+{"i": 1998, "turn1": "ERROR HTTPError"}
+{"i": 1999, "turn1": "ERROR HTTPError"}

@@ -1,0 +1,3 @@
+[submodule "hla"]
+	path = hla
+	url = https://github.com/HosnLS/Hierarchical-Language-Agent.git

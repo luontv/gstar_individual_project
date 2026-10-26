@@ -1,0 +1,2 @@
+z-ai/glm-5.3                     answered 30/100  clear/ambiguous acc 0.80  kappa 0.57  exact set 0.70  intended in set 0.80  says ambiguous 0.23 (truth 0.43)
+elapsed 386 s

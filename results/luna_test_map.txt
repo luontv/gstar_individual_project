@@ -1,0 +1,4 @@
+gpt-5.6-luna: 2000 commands, 107 questions, 0 unparseable, 4.3 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| gpt-5.6-luna | 0.91 | 0.87 | 0.19 | 0.80 | 0.32 | 0.46 | 0.01 | 0.06 | 1.00 | 0.72 |

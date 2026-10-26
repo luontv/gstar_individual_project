@@ -1,0 +1,2 @@
+qwen/qwen3.8-max                 answered 43/100  clear/ambiguous acc 0.95  kappa 0.91  exact set 0.91  intended in set 1.00  says ambiguous 0.47 (truth 0.51)
+elapsed 763 s

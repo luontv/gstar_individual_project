@@ -1,0 +1,4 @@
+default_model: 2000 commands, 939 questions, 0 unparseable, 6.1 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| default_model | 0.83 | 0.73 | 0.79 | 0.98 | 0.92 | 0.94 | 0.02 | 0.11 | 1.00 | 0.66 |

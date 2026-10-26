@@ -1,0 +1,13 @@
+.venv/
+.venv-ml/
+__pycache__/
+.DS_Store
+data/*
+!data/test/
+!data/states.jsonl
+!data/states_extra.jsonl
+!data/states_v2.jsonl
+!data/paraphrases.json
+runs/
+form/
+scripts/data/make_form.py

@@ -1,0 +1,225 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+ring game 5: served 2, expired 5, 19 commands
+ring game 6: served 2, expired 5, 17 commands
+ring game 7: served 6, expired 2, 26 commands
+ring game 8: served 6, expired 2, 23 commands
+ring game 9: served 3, expired 4, 23 commands
+ring game 10: served 4, expired 5, 19 commands
+ring game 11: served 4, expired 5, 21 commands
+ring game 12: served 0, expired 6, 20 commands
+ring game 13: served 2, expired 6, 22 commands
+ring game 14: served 2, expired 5, 22 commands
+bottleneck game 5: served 3, expired 5, 20 commands
+bottleneck game 6: served 1, expired 5, 18 commands
+bottleneck game 7: served 3, expired 5, 16 commands
+bottleneck game 8: served 1, expired 6, 16 commands
+bottleneck game 9: served 0, expired 6, 16 commands
+bottleneck game 10: served 2, expired 6, 16 commands
+bottleneck game 11: served 2, expired 5, 15 commands
+bottleneck game 12: served 3, expired 4, 17 commands
+bottleneck game 13: served 1, expired 6, 15 commands
+bottleneck game 14: served 1, expired 6, 17 commands
+partition game 5: served 4, expired 4, 22 commands
+partition game 6: served 4, expired 4, 26 commands
+partition game 7: served 3, expired 4, 22 commands
+partition game 8: served 5, expired 5, 21 commands
+partition game 9: served 2, expired 4, 19 commands
+partition game 10: served 5, expired 3, 29 commands
+partition game 11: served 4, expired 4, 22 commands
+partition game 12: served 3, expired 5, 22 commands
+partition game 13: served 5, expired 3, 25 commands
+partition game 14: served 7, expired 3, 28 commands
+quick game 5: served 4, expired 6, 23 commands
+quick game 6: served 3, expired 7, 18 commands
+quick game 7: served 3, expired 7, 23 commands
+quick game 8: served 5, expired 5, 23 commands
+quick game 9: served 3, expired 7, 20 commands
+quick game 10: served 2, expired 6, 19 commands
+quick game 11: served 1, expired 8, 16 commands
+quick game 12: served 2, expired 8, 17 commands
+quick game 13: served 3, expired 6, 20 commands
+quick game 14: served 0, expired 8, 13 commands
+
+mind_reader
+| maps | served | expired | commands | ambiguous | right step | asks on ambiguous | asks on clear | wait s | latency p50 / p95 ms |
+|---|---|---|---|---|---|---|---|---|---|
+| all | 2.90 | 5.15 | 20.15 | 0.26 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+| ring | 3.10 | 4.50 | 21.20 | 0.40 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+| bottleneck | 1.70 | 5.40 | 16.60 | 0.35 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+| partition | 4.20 | 3.90 | 23.60 | 0.03 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+| quick | 2.60 | 6.80 | 19.20 | 0.33 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+
+# games 15-54 per map (--first 15 --games 40), appended to live_mind_reader.jsonl
+ring game 15: served 2, expired 4, 17 commands
+ring game 16: served 4, expired 5, 24 commands
+ring game 17: served 3, expired 5, 20 commands
+ring game 18: served 1, expired 5, 17 commands
+ring game 19: served 3, expired 5, 23 commands
+ring game 20: served 4, expired 4, 20 commands
+ring game 21: served 3, expired 4, 20 commands
+ring game 22: served 2, expired 5, 16 commands
+ring game 23: served 4, expired 5, 21 commands
+ring game 24: served 1, expired 5, 19 commands
+ring game 25: served 5, expired 4, 23 commands
+ring game 26: served 4, expired 4, 25 commands
+ring game 27: served 3, expired 4, 22 commands
+ring game 28: served 2, expired 5, 21 commands
+ring game 29: served 3, expired 5, 17 commands
+ring game 30: served 4, expired 5, 21 commands
+ring game 31: served 2, expired 5, 18 commands
+ring game 32: served 3, expired 4, 20 commands
+ring game 33: served 6, expired 4, 23 commands
+ring game 34: served 4, expired 5, 22 commands
+ring game 35: served 2, expired 5, 17 commands
+ring game 36: served 1, expired 5, 19 commands
+ring game 37: served 5, expired 4, 26 commands
+ring game 38: served 4, expired 4, 21 commands
+ring game 39: served 2, expired 5, 15 commands
+ring game 40: served 3, expired 4, 19 commands
+ring game 41: served 1, expired 6, 18 commands
+ring game 42: served 3, expired 5, 21 commands
+ring game 43: served 4, expired 3, 22 commands
+ring game 44: served 5, expired 3, 23 commands
+ring game 45: served 2, expired 4, 20 commands
+ring game 46: served 2, expired 6, 21 commands
+ring game 47: served 3, expired 4, 21 commands
+ring game 48: served 3, expired 5, 19 commands
+ring game 49: served 2, expired 5, 17 commands
+ring game 50: served 3, expired 6, 19 commands
+ring game 51: served 3, expired 5, 20 commands
+ring game 52: served 1, expired 5, 18 commands
+ring game 53: served 1, expired 6, 15 commands
+ring game 54: served 4, expired 3, 21 commands
+bottleneck game 15: served 0, expired 6, 14 commands
+bottleneck game 16: served 1, expired 6, 13 commands
+bottleneck game 17: served 1, expired 6, 13 commands
+bottleneck game 18: served 1, expired 5, 15 commands
+bottleneck game 19: served 1, expired 5, 17 commands
+bottleneck game 20: served 0, expired 6, 14 commands
+bottleneck game 21: served 1, expired 5, 16 commands
+bottleneck game 22: served 2, expired 5, 18 commands
+bottleneck game 23: served 2, expired 5, 16 commands
+bottleneck game 24: served 1, expired 5, 14 commands
+bottleneck game 25: served 1, expired 6, 16 commands
+bottleneck game 26: served 1, expired 6, 14 commands
+bottleneck game 27: served 0, expired 6, 9 commands
+bottleneck game 28: served 1, expired 6, 14 commands
+bottleneck game 29: served 3, expired 3, 20 commands
+bottleneck game 30: served 0, expired 6, 18 commands
+bottleneck game 31: served 2, expired 4, 19 commands
+bottleneck game 32: served 2, expired 5, 17 commands
+bottleneck game 33: served 2, expired 5, 20 commands
+bottleneck game 34: served 2, expired 5, 13 commands
+bottleneck game 35: served 1, expired 6, 17 commands
+bottleneck game 36: served 0, expired 6, 14 commands
+bottleneck game 37: served 1, expired 6, 12 commands
+bottleneck game 38: served 1, expired 5, 20 commands
+bottleneck game 39: served 3, expired 4, 20 commands
+bottleneck game 40: served 2, expired 5, 17 commands
+bottleneck game 41: served 3, expired 5, 18 commands
+bottleneck game 42: served 0, expired 6, 13 commands
+bottleneck game 43: served 3, expired 4, 19 commands
+bottleneck game 44: served 1, expired 6, 14 commands
+bottleneck game 45: served 1, expired 5, 15 commands
+bottleneck game 46: served 1, expired 6, 17 commands
+bottleneck game 47: served 0, expired 6, 12 commands
+bottleneck game 48: served 4, expired 5, 19 commands
+bottleneck game 49: served 4, expired 4, 20 commands
+bottleneck game 50: served 2, expired 6, 18 commands
+bottleneck game 51: served 1, expired 5, 13 commands
+Invalid event detected: Assemble_Plate
+bottleneck game 52: served 2, expired 5, 13 commands
+bottleneck game 53: served 4, expired 4, 21 commands
+bottleneck game 54: served 1, expired 5, 12 commands
+partition game 15: served 2, expired 5, 20 commands
+partition game 16: served 2, expired 5, 18 commands
+partition game 17: served 3, expired 3, 26 commands
+partition game 18: served 1, expired 5, 19 commands
+partition game 19: served 2, expired 5, 20 commands
+partition game 20: served 6, expired 4, 27 commands
+partition game 21: served 2, expired 6, 22 commands
+partition game 22: served 2, expired 6, 21 commands
+partition game 23: served 5, expired 5, 25 commands
+partition game 24: served 2, expired 4, 19 commands
+partition game 25: served 7, expired 4, 26 commands
+partition game 26: served 4, expired 3, 24 commands
+partition game 27: served 5, expired 3, 26 commands
+partition game 28: served 1, expired 5, 18 commands
+partition game 29: served 0, expired 6, 18 commands
+partition game 30: served 2, expired 4, 24 commands
+partition game 31: served 4, expired 4, 25 commands
+partition game 32: served 1, expired 5, 25 commands
+partition game 33: served 5, expired 4, 25 commands
+partition game 34: served 6, expired 3, 27 commands
+partition game 35: served 4, expired 5, 26 commands
+partition game 36: served 6, expired 3, 29 commands
+partition game 37: served 5, expired 3, 27 commands
+partition game 38: served 6, expired 4, 25 commands
+partition game 39: served 1, expired 6, 22 commands
+partition game 40: served 3, expired 3, 22 commands
+partition game 41: served 3, expired 5, 24 commands
+partition game 42: served 2, expired 4, 21 commands
+partition game 43: served 5, expired 4, 25 commands
+partition game 44: served 0, expired 6, 19 commands
+partition game 45: served 2, expired 6, 22 commands
+partition game 46: served 4, expired 4, 24 commands
+partition game 47: served 3, expired 5, 21 commands
+partition game 48: served 4, expired 3, 25 commands
+partition game 49: served 4, expired 5, 22 commands
+partition game 50: served 5, expired 4, 27 commands
+partition game 51: served 4, expired 2, 24 commands
+partition game 52: served 5, expired 3, 25 commands
+partition game 53: served 2, expired 4, 25 commands
+partition game 54: served 1, expired 5, 20 commands
+quick game 15: served 4, expired 6, 19 commands
+quick game 16: served 3, expired 6, 18 commands
+quick game 17: served 3, expired 6, 17 commands
+quick game 18: served 4, expired 7, 21 commands
+quick game 19: served 2, expired 7, 17 commands
+quick game 20: served 2, expired 8, 17 commands
+quick game 21: served 4, expired 6, 19 commands
+quick game 22: served 5, expired 5, 24 commands
+quick game 23: served 3, expired 6, 21 commands
+quick game 24: served 3, expired 6, 20 commands
+quick game 25: served 2, expired 7, 16 commands
+quick game 26: served 2, expired 8, 18 commands
+quick game 27: served 5, expired 6, 25 commands
+quick game 28: served 1, expired 7, 17 commands
+quick game 29: served 3, expired 6, 20 commands
+quick game 30: served 3, expired 7, 19 commands
+quick game 31: served 3, expired 7, 19 commands
+quick game 32: served 4, expired 6, 21 commands
+quick game 33: served 3, expired 7, 18 commands
+quick game 34: served 1, expired 7, 18 commands
+quick game 35: served 1, expired 7, 15 commands
+quick game 36: served 2, expired 7, 21 commands
+quick game 37: served 2, expired 8, 18 commands
+quick game 38: served 3, expired 7, 16 commands
+quick game 39: served 4, expired 6, 21 commands
+quick game 40: served 1, expired 8, 12 commands
+quick game 41: served 5, expired 6, 20 commands
+quick game 42: served 2, expired 8, 15 commands
+quick game 43: served 3, expired 7, 19 commands
+quick game 44: served 0, expired 8, 13 commands
+quick game 45: served 4, expired 6, 18 commands
+quick game 46: served 4, expired 6, 19 commands
+quick game 47: served 4, expired 6, 23 commands
+quick game 48: served 2, expired 7, 21 commands
+quick game 49: served 1, expired 8, 18 commands
+quick game 50: served 3, expired 7, 18 commands
+quick game 51: served 2, expired 7, 20 commands
+quick game 52: served 2, expired 7, 22 commands
+quick game 53: served 2, expired 6, 17 commands
+quick game 54: served 2, expired 8, 19 commands
+
+mind_reader
+| maps | served | expired | commands | ambiguous | right step | asks on ambiguous | asks on clear | wait s | latency p50 / p95 ms |
+|---|---|---|---|---|---|---|---|---|---|
+| all | 2.60 | 5.24 | 19.46 | 0.29 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+| ring | 2.92 | 4.62 | 20.02 | 0.38 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+| bottleneck | 1.48 | 5.25 | 15.85 | 0.42 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+| partition | 3.27 | 4.33 | 23.25 | 0.03 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |
+| quick | 2.73 | 6.78 | 18.73 | 0.41 | 1.00 | 0.00 | 0.00 | 0.00 | 0 / 0 |

@@ -1,0 +1,2 @@
+deepseek-v4-pro                  answered 47/100  clear/ambiguous acc 0.79  kappa 0.59  exact set 0.66  intended in set 0.81  says ambiguous 0.40 (truth 0.62)
+elapsed 651 s

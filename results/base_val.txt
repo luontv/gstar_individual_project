@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:05<00:05,  5.56s/it]Fetching 2 files: 100%|██████████| 2/2 [00:23<00:00, 12.66s/it]Fetching 2 files: 100%|██████████| 2/2 [00:23<00:00, 11.60s/it]
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<06:15,  1.21s/it]Loading weights:  47%|████▋     | 147/311 [00:01<00:01, 151.70it/s]Loading weights:  71%|███████   | 220/311 [00:01<00:00, 183.68it/s]Loading weights:  87%|████████▋ | 272/311 [00:01<00:00, 194.77it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 156.99it/s]
+Qwen/Qwen3-1.7B: 600 commands, 56 questions, 0 unparseable, 2.4 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Qwen/Qwen3-1.7B | 0.62 | 0.42 | 0.45 | 0.64 | 0.12 | 0.20 | 0.07 | 0.13 | 1.00 | -0.11 |
+latency per command: p50 793 ms, p95 1631 ms

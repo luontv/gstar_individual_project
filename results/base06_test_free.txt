@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:21,  2.19it/s]Loading weights:  68%|██████▊   | 213/311 [00:00<00:00, 507.30it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 452.56it/s]
+Qwen/Qwen3-0.6B: 731 commands, 53 questions, 0 unparseable, 2.5 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Qwen/Qwen3-0.6B | 0.41 | 0.30 | 0.14 | 0.00 | 0.00 | 0.00 | 0.10 | 0.05 | 0.00 | -0.33 |
+latency per command: p50 890 ms, p95 2048 ms

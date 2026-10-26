@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:43,  3.00it/s]Loading weights:  48%|████▊     | 148/311 [00:00<00:00, 441.06it/s]Loading weights:  76%|███████▌  | 236/311 [00:00<00:00, 564.95it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 497.80it/s]
+out/sft-0.6b: 731 commands, 166 questions, 0 unparseable, 1.8 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| out/sft-0.6b | 0.90 | 0.95 | 0.64 | 0.96 | 0.82 | 0.88 | 0.01 | 0.06 | 1.00 | 0.74 |
+latency per command: p50 672 ms, p95 1575 ms

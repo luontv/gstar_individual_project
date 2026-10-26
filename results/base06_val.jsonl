@@ -1,0 +1,600 @@
+{"i": 0, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 1, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 2, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I'm sorry, but I can't serve the soup right now. The cooking Bob Soup is already done, and we have limited ingredients. Let me know if you need help with anything else!\"}\n```"}
+{"i": 3, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the urgent one?\", \"Is there enough ingredients for the urgent one?\"], \"question\": \"Can you prepare the urgent one?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 4, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for Bob's soup?\", \"Can you prepare the ingredients for David's soup?\", \"Can you prepare the ingredients for Cathy's soup?\"], \"question\": \"Which soup would you like to prepare next?\"}\n```", "reply": "", "turn2": "{\"mode\": \"ask\", \"options\": [\"David Soup\", \"Bob Soup\", \"Cathy Soup\"], \"question\": \"Which soup would you like to prepare next?\"}"}
+{"i": 5, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 6, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 7, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 8, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I'm sorry, but I can't serve the soup right now. The cooking Bob Soup is already done, and we have limited ingredients. Let me know if you need help with anything else!\"}\n```"}
+{"i": 9, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 10, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 11, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 12, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 13, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 14, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 15, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 16, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the ingredient you need to prepare?\", \"Can you prepare the soup with the ingredients you have?\", \"Is there enough ingredients to prepare the soup?\"], \"question\": \"What is the ingredient you need to prepare?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 17, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 18, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 19, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 20, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 21, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 22, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 23, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop the tomato?\", \"Can you chop the lettuce?\", \"Can you chop the onion?\", \"Can you chop the tomato again?\"], \"question\": \"What do you want to chop next?\"}\n```", "reply": "lettuce please", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"lettuce\", \"onion\", \"tomato\"], \"question\": \"What do you want to chop next?\"}\n```"}
+{"i": 24, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. The urgent order is Cathy Soup, which needs cooking.\"}\n```"}
+{"i": 25, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 26, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 27, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 28, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 29, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 30, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 31, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 32, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 33, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 34, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}\n```"}
+{"i": 35, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 36, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}\n```"}
+{"i": 37, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 38, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 39, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 40, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 41, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which ingredient do you need to prepare next?\"}\n```", "reply": "alice please", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 42, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. The urgent order is David Soup, which is already cooked. Let me check the remaining ingredients.\"}\n```"}
+{"i": 43, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 44, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 45, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 46, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 47, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't serve the one about to expire. The Soup is already prepared and placed.\"}"}
+{"i": 48, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 49, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 50, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 51, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 52, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 53, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 54, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 55, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 56, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 57, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 58, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 59, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 60, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 61, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 62, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Bob Soup\", \"Prepare Cathy Soup\"], \"question\": \"Which of the following would you like to prepare next? Bob Soup, Cathy Soup, or another one?\"}\n```", "reply": "the bob one", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 63, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't serve the other one right now. The soup is already being prepared and served. Let me know if there's something else I can assist with.\"}\n```"}
+{"i": 64, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 65, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 66, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I need to prepare the Soup. Let me check the ingredients.\"}\n```"}
+{"i": 67, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 68, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 69, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 70, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Soup\"}\n```"}
+{"i": 71, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 72, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 73, "turn1": "{\"mode\": \"reply\", \"text\": \"I'll prepare the soup for you.\"}"}
+{"i": 74, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 75, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 76, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I'll serve the soup.\"}\n```"}
+{"i": 77, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 78, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 79, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 80, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 81, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 82, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 83, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 84, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 85, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 86, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 87, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 88, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 89, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 90, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 91, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 92, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 93, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the Alice Soup right now. The soup is already cooked and plates are already done.\"}"}
+{"i": 94, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 95, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 96, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 97, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 98, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 99, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 100, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. The next available soup is Bob's, which is already cooking. Let me check the ingredients.\"}\n```"}
+{"i": 101, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 102, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 103, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 104, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. Let's focus on the next available action.\"}\n```"}
+{"i": 105, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop the onion?\", \"Can you chop the lettuce?\", \"Can you chop the tomato?\"], \"question\": \"What do you want to chop next?\"}\n```", "reply": "either, just hurry", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"chop tomato\", \"chop lettuce\", \"chop onion\"], \"question\": \"What do you want to chop next?\"}\n```"}
+{"i": 106, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 107, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. Let's focus on the next steps.\"}\n```"}
+{"i": 108, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 109, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 110, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare the urgent one\", \"Prepare the next one\"], \"question\": \"Which soup should I prepare next?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 111, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 112, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there any other action you need to perform?\", \"Do you have the ingredients for the soup?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"What is the next action?\"], \"question\": \"Can you repeat the order?\"}\n```"}
+{"i": 113, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 114, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 115, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 116, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare Cathy's ingredients?\", \"Is there enough ingredients for Cathy's soup?\", \"Can you prepare the ingredients for Cathy's soup?\", \"Do you have the ingredients for Cathy's soup?\"], \"question\": \"Can you prepare the ingredients for Cathy's soup?\"}\n```", "reply": "the one with both", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 117, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 118, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 119, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 120, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 121, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 122, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 123, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 124, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 125, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 126, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 127, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent soup order?\", \"What is the little time soup order?\"], \"question\": \"What is the urgent soup order?\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent soup order?\"], \"question\": \"What is the urgent soup order?\"}\n```"}
+{"i": 128, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Do you have any onion?\", \"What is the quantity of onion you want to chop?\"], \"question\": \"Can you chop some onion?\"}\n```", "reply": "all of those", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Do you have any onion left?\", \"Can you chop some onion and let's see how it goes?\"], \"question\": \"Can you chop some onion?\"}\n```"}
+{"i": 129, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 130, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 131, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Soup\"}\n```"}
+{"i": 132, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 133, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 134, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 135, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Can you chop some lettuce?\", \"Can you chop some tomato?\"], \"question\": \"Can you chop some onion?\"}\n```", "reply": "onion", "turn2": "{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Can you chop some tomato?\", \"Can you chop some lettuce?\"], \"question\": \"Can you chop some onion?\"}"}
+{"i": 136, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 137, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Soup\"}\n```"}
+{"i": 138, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 139, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 140, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 141, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 142, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 143, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 144, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop <Tomato|Lettuce|Onion>\"}"}
+{"i": 145, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 146, "turn1": "{\"mode\": \"reply\", \"text\": \"I'll serve the soup.\"}"}
+{"i": 147, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 148, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 149, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 150, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for Bob's soup?\", \"Is there enough ingredients for Bob's soup?\", \"Can you prepare the ingredients for Cathy's soup?\"], \"question\": \"Which soup would you like to prepare next?\"}\n```", "reply": "all of those", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"all of those\"], \"question\": \"Which soup would you like to prepare next?\"}\n```"}
+{"i": 151, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 152, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The soup is already cooked and plates are not available.\"}"}
+{"i": 153, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"Plate Cathy Soup.\"}\n```"}
+{"i": 154, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 155, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 156, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 157, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 158, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 159, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 160, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 161, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 162, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 163, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 164, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}\n```"}
+{"i": 165, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the Bob ingredients?\", \"Is there enough ingredients for Bob's soup?\"], \"question\": \"Can you prepare the Bob ingredients?\"}\n```", "reply": "both", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 166, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 167, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist you with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 168, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't serve the one about to expire. The Soup is already cooked and plates. Let me know if you need help with anything else.\"}"}
+{"i": 169, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 170, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 171, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the other recipe?\", \"Can you prepare another recipe?\", \"Are there any other recipes available?\"], \"question\": \"What is the other recipe you would like to prepare?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 172, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist you with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Do you have enough ingredients?\", \"Is there anything else you need?\"], \"question\": \"Can you repeat the order?\"}\n```"}
+{"i": 173, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 174, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 175, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the Alice Soup right now. The soup is already on the table.\"}\n```"}
+{"i": 176, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 177, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 178, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 179, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 180, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 181, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 182, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 183, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. Let's focus on the next available action.\"}\n```"}
+{"i": 184, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"Plate Bob Soup.\"}\n```"}
+{"i": 185, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 186, "turn1": "{\"mode\": \"reply\", \"text\": \"I'll prepare the Soup for you.\"}"}
+{"i": 187, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 188, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 189, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 190, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 191, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup next to me right now. The soup is already cooked and served. Let me know if you need help with anything else.\"}\n```"}
+{"i": 192, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 193, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 194, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 195, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 196, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare Bob's ingredients?\", \"Is there enough ingredients for Bob's soup?\", \"Can you prepare David's ingredients?\", \"Do you have enough ingredients for the soup?\"], \"question\": \"Can you prepare Bob's ingredients?\"}\n```", "reply": "both", "turn2": "{\"mode\": \"ask\", \"options\": [\"Can you prepare Bob's ingredients?\", \"Can you prepare David's ingredients?\"], \"question\": \"Can you prepare Bob's ingredients?\"}"}
+{"i": 197, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 198, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 199, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 200, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 201, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 202, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 203, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 204, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 205, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Bob Soup\", \"Prepare Alice Soup\", \"Prepare Cathy Soup\"], \"question\": \"Which of the following can be done next to the player? (1) Prepare Bob Soup (2) Prepare Alice Soup (3) Prepare Cathy Soup\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Bob Soup\", \"Prepare Alice Soup\", \"Prepare Cathy Soup\"], \"question\": \"Which of the following can be done next to the player? (1) Prepare Bob Soup (2) Prepare Alice Soup (3) Prepare Cathy Soup\")}\n```"}
+{"i": 206, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 207, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 208, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 209, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 210, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 211, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 212, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 213, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 214, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 215, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 216, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 217, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist you with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"What is the next action?\"], \"question\": \"Can you repeat the order?\"}\n```"}
+{"i": 218, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop another onion?\", \"Can you chop a tomato?\", \"Can you chop lettuce?\"], \"question\": \"Please specify which item you'd like to chop next.\"}\n```", "reply": "lettuce please", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 219, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 220, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 221, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 222, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 223, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 224, "turn1": "{\"mode\": \"reply\", \"text\": \"I'll serve the soup.\"}"}
+{"i": 225, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\"], \"question\": \"Can you chop some onion?\"}\n```", "reply": "onion please", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\"], \"question\": \"Can you chop some onion?\"}\n```"}
+{"i": 226, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 227, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 228, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 229, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 230, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 231, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Soup\"}\n```"}
+{"i": 232, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 233, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for the soup?\", \"Are there any other ingredients needed?\", \"What specific ingredients do you need for the soup?\"], \"question\": \"Can you prepare the ingredients for the soup?\"}\n```", "reply": "what?", "turn2": "{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for the soup?\"], \"question\": \"Can you prepare the ingredients for the soup?\"}"}
+{"i": 234, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 235, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. Let's focus on the urgent orders first.\"}\n```"}
+{"i": 236, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 237, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. Let's focus on the orders first.\"}\n```"}
+{"i": 238, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 239, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 240, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 241, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 242, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist you with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "either, just hurry", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"either\", \"just hurry\"], \"question\": \"Can you repeat the order?\"}\n```"}
+{"i": 243, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist you with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"What is the next action?\"], \"question\": \"Can you repeat the order?\"}\n```"}
+{"i": 244, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 245, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 246, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Soup\", \"Prepare David Soup\"], \"question\": \"Which of the following would you like to prepare next? Cathy Soup (expiring), David Soup (plenty of time), or another soup?\"}\n```", "reply": "david", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 247, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 248, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 249, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 250, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 251, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 252, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 253, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 254, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 255, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 256, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare Alice's soup?\", \"Can you prepare David's soup?\", \"Can you prepare Cathy's soup?\"], \"question\": \"Which soup would you like to prepare next?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 257, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 258, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Alice Soup\", \"Prepare David Soup\", \"Prepare Cathy Soup\"], \"question\": \"Which of the following can be done next to resolve the urgent order?\"}\n```", "reply": "doesn't matter", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare David Soup\", \"Prepare Alice Soup\"], \"question\": \"Which of the following can be done next to resolve the urgent order?\"}\n```"}
+{"i": 259, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 260, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 261, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 262, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 263, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 264, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}\n```"}
+{"i": 265, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 266, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 267, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I'll plate the Cathy Soup.\"}\n```"}
+{"i": 268, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't serve the one next to me. The next to me is Cathy Soup, but I don't have the ingredients for that yet.\"}\n```"}
+{"i": 269, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I will serve the soup next to me.\"}\n```"}
+{"i": 270, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 271, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The pots are already cooking Cathy and David's soup, and I have to use the cutboard to place the ingredients.\"}"}
+{"i": 272, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 273, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. Let's focus on the next available tasks.\"}\n```"}
+{"i": 274, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 275, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 276, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 277, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 278, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 279, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the urgent one?\", \"Is there enough ingredients for the urgent one?\"], \"question\": \"Can you prepare the urgent one?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 280, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 281, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 282, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent order?\", \"Are there any other orders?\", \"Can I prepare the next order?\"], \"question\": \"What is the urgent order?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent order?\"], \"question\": \"What is the urgent order?\"}\n```"}
+{"i": 283, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 284, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 285, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 286, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 287, "turn1": "{\"mode\": \"reply\", \"text\": \"I'll serve the soup.\"}"}
+{"i": 288, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 289, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}\n```"}
+{"i": 290, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 291, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for the soup?\", \"Are there any ingredients left?\", \"Do you have the necessary ingredients for the soup?\"], \"question\": \"Can you prepare the ingredients for the soup?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 292, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 293, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I'm sorry, but I can't serve the soup right now. The cooking process is already complete, and I need to use the ingredients. Let me know if you'd like to proceed with another action.\"}\n```"}
+{"i": 294, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 295, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The soup is already cooked and needs to be served.\"}"}
+{"i": 296, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop a tomato?\", \"Can you chop a lettuce?\", \"Can you chop an onion?\"], \"question\": \"What do you want to chop next?\"}\n```", "reply": "the tomato one", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 297, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 298, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I need to prepare the Soup. Let me check the ingredients.\"}\n```"}
+{"i": 299, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 300, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 301, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 302, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 303, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"Plate Bob Soup.\"}\n```"}
+{"i": 304, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 305, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 306, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 307, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 308, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 309, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 310, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 311, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 312, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 313, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 314, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 315, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for the Soup?\", \"Are there enough ingredients to prepare the Soup?\", \"Do you have the ingredients for the Soup?\"], \"question\": \"Can you prepare the ingredients for the Soup?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 316, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 317, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 318, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 319, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 320, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 321, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve <Soup> Soup\"}\n```"}
+{"i": 322, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for Bob's soup?\", \"Is there enough ingredients for Bob's soup?\", \"Do you have the ingredients for Bob's soup?\"], \"question\": \"Can you prepare the ingredients for Bob's soup?\"}\n```", "reply": "all of those", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 323, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent order?\", \"Can I prepare the next order?\", \"Are there any other orders left?\"], \"question\": \"What is the urgent order?\"}\n```", "reply": "either, just hurry", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"either\", \"just hurry\"], \"question\": \"What is the urgent order?\"}\n```"}
+{"i": 324, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 325, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 326, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 327, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 328, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 329, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 330, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 331, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare the urgent one\", \"Prepare the next one\"], \"question\": \"Which soup should I prepare next?\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Soup\", \"Cook Soup\"], \"question\": \"Which soup should I prepare next?\"}\n```"}
+{"i": 332, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 333, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 334, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. Let's focus on the orders first.\"}\n```"}
+{"i": 335, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't serve the one about to expire. The soup is already cooked and plates. Let me know if you need help with anything else.\"}\n```"}
+{"i": 336, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 337, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 338, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 339, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve <Soup> Soup\"}\n```"}
+{"i": 340, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 341, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}\n```"}
+{"i": 342, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 343, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 344, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 345, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 346, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare the urgent one\", \"Prepare the next one\"], \"question\": \"Which one would you like to prepare next?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 347, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Can you chop some lettuce?\", \"Can you chop some tomato?\"], \"question\": \"Can you chop some onion?\"}\n```", "reply": "onion", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 348, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare Alice's soup?\", \"Can you prepare Bob's soup?\", \"Can you prepare David's soup?\"], \"question\": \"Which of these orders would you like to prepare next?\"}\n```", "reply": "both", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which of these orders would you like to prepare next?\"}\n```"}
+{"i": 349, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 350, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 351, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 352, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 353, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 354, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 355, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 356, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 357, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 358, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I'll plate the soup next to me.\"}\n```"}
+{"i": 359, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Can you chop some tomato?\", \"Can you chop some lettuce?\"], \"question\": \"can you chop some onion?\"}\n```", "reply": "onion", "turn2": "{\"mode\": \"ask\", \"options\": [\"chop onion\", \"chop lettuce\", \"chop tomato\"], \"question\": \"What would you like to chop next?\"}"}
+{"i": 360, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 361, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare another soup?\", \"Is there enough time to make another soup?\"], \"question\": \"Can you prepare another soup?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 362, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 363, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The next to me is the fire extinguisher, and I have already used all the ingredients.\"}\n```"}
+{"i": 364, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 365, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 366, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}\n```"}
+{"i": 367, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't serve anything right now. The pots are empty, and I need to prepare the soup.\"}"}
+{"i": 368, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 369, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 370, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The soup is already cooked and needs to be served.\"}\n```"}
+{"i": 371, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. Let's focus on the other orders first.\"}\n```"}
+{"i": 372, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 373, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 374, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 375, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 376, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 377, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which ingredient do you need to prepare next?\"}\n```", "reply": "the bob one", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which ingredient do you need to prepare next?\"}\n```"}
+{"i": 378, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 379, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 380, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 381, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 382, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 383, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 384, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 385, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 386, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 387, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 388, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 389, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Cook Alice Soup\", \"Cook David Soup\"], \"question\": \"Which of the following actions would best address the urgent orders and your current resources?\"}\n```", "reply": "both", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Cathy Ingredients\", \"Prepare David Ingredients\", \"Cook Alice Soup\", \"Cook David Soup\"], \"question\": \"Which of the following actions would best address the urgent orders and your current resources?\"}\n```"}
+{"i": 390, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 391, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 392, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 393, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 394, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Can you chop some lettuce?\", \"Can you chop some tomato?\"], \"question\": \"Can you chop some onion?\"}\n```", "reply": "the onion one", "turn2": "{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\"], \"question\": \"Can you chop some onion?\"}"}
+{"i": 395, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 396, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. The urgent orders are Alice Soup and Cathy Soup. Let me check the cooking status.\"}\n```"}
+{"i": 397, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 398, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 399, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 400, "turn1": "{\"mode\": \"reply\", \"text\": \"Plate the soup.\"}"}
+{"i": 401, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 402, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 403, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 404, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The soup is already cooked and needs to be served.\"}\n```"}
+{"i": 405, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else you need?\", \"Do you have another order in mind?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 406, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 407, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 408, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 409, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 410, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. Let's focus on the orders first.\"}\n```"}
+{"i": 411, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. The urgent order is Cathy Soup, which is still in the process of cooking. Let me know if you'd like to proceed with the next available action.\"}\n```"}
+{"i": 412, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 413, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 414, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for Bob's soup?\", \"Is there enough ingredients for Bob's soup?\", \"Do you have the ingredients for Bob's soup?\"], \"question\": \"Can you prepare the ingredients for Bob's soup?\"}\n```", "reply": "all of those", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 415, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The pots are empty, and I need to prepare the soup first.\"}\n```"}
+{"i": 416, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 417, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 418, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Soup\"}\n```"}
+{"i": 419, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 420, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 421, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. The next available soup is David Soup, which is already plated. Let me check the ingredients for the next step.\"}\n```"}
+{"i": 422, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 423, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The next to me has already been cooked.\"}\n```"}
+{"i": 424, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 425, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 426, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 427, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 428, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 429, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The next to me is David Soup, and I have some ingredients left.\"}"}
+{"i": 430, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 431, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist you with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "just do it", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 432, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 433, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 434, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 435, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare Alice's ingredients?\", \"Can you prepare Bob's ingredients?\", \"Can you prepare David's ingredients?\"], \"question\": \"Which ingredient preparation would you like to do next?\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\", \"Prepare Cathy Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which ingredient preparation would you like to do next?\"}\n```"}
+{"i": 436, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 437, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop the tomato?\", \"Can you chop the lettuce?\", \"Can you chop the onion?\", \"Can you chop the tomato again?\"], \"question\": \"Can you chop the tomato?\"}\n```", "reply": "onion please", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop the onion?\", \"Can you chop the tomato?\", \"Can you chop the lettuce?\"], \"question\": \"What do you want to chop next?\"}\n```"}
+{"i": 438, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 439, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't serve anything right now. Let me check the ingredients first.\"}"}
+{"i": 440, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 441, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 442, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The soup is already cooked and needs to be served.\"}"}
+{"i": 443, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 444, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 445, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 446, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 447, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 448, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 449, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 450, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The soup is already prepared and plates are already done.\"}"}
+{"i": 451, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. Let me check the ingredients first.\"}"}
+{"i": 452, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 453, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 454, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 455, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 456, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 457, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 458, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Can you chop some lettuce?\", \"Can you chop some tomato?\"], \"question\": \"Can you chop some onion?\"}\n```", "reply": "onion please", "turn2": "{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\", \"Can you chop some lettuce or tomato?\"], \"question\": \"Can you chop some onion?\"}"}
+{"i": 459, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 460, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 461, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 462, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 463, "turn1": "{\"mode\": \"reply\", \"text\": \"I'll prepare the soup for you.\"}"}
+{"i": 464, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 465, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop the tomato?\", \"Can you chop the lettuce?\", \"Can you chop the onion?\", \"Can you chop the tomato again?\"], \"question\": \"What would you like to chop next?\"}\n```", "reply": "onion", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"What would you like to chop next?\"], \"question\": \"What would you like to chop next?\"}\n```"}
+{"i": 466, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 467, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist you with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Do you have enough ingredients?\", \"Is there anything else you need?\"], \"question\": \"Can you repeat the order?\"}\n```"}
+{"i": 468, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"What time is the soup expiring?\", \"What is the next ingredient to chop?\"], \"question\": \"Can you repeat the order?\"}\n```"}
+{"i": 469, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 470, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}\n```"}
+{"i": 471, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 472, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. Let's focus on the other orders first.\"}\n```"}
+{"i": 473, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The next to me is the soup, and I need to use the ingredients.\"}\n```"}
+{"i": 474, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 475, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 476, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 477, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. Let's focus on the other orders first.\"}\n```"}
+{"i": 478, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 479, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 480, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 481, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Alice Ingredients\", \"Prepare Bob Ingredients\", \"Prepare David Ingredients\"], \"question\": \"Which of the following ingredients should be prepared next?\"}\n```", "reply": "alice", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"alice\", \"bob\", \"cathy\", \"david\"], \"question\": \"Which of the following ingredients should be prepared next?\"}\n```"}
+{"i": 482, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 483, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 484, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 485, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 486, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 487, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 488, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup next to me right now. The soup is already cooked and plates are not available.\"}"}
+{"i": 489, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 490, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the David Soup right now. The pots are empty and the soup is not cooked yet.\"}\n```"}
+{"i": 491, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 492, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 493, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent one right now. The next available soup is Cathy's, which is still cooking. Let me check the ingredients.\"}\n```"}
+{"i": 494, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 495, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 496, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 497, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 498, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 499, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 500, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I need to prepare the soup. Let me check the ingredients.\"}\n```"}
+{"i": 501, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}\n```"}
+{"i": 502, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 503, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 504, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I need to prepare the soup for the players. Let me check the ingredients.\"}\n```"}
+{"i": 505, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 506, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 507, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 508, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 509, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't serve the one about to expire. The soup is already been served.\"}"}
+{"i": 510, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 511, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 512, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 513, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the soup again?\", \"Is there enough ingredients to make the soup?\", \"Do you have the necessary ingredients for the soup?\"], \"question\": \"Can you prepare the soup again?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the soup again?\", \"What is the next step?\"], \"question\": \"Can you prepare the soup again?\"}\n```"}
+{"i": 514, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 515, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 516, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 517, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 518, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 519, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 520, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 521, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 522, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 523, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the urgent soup right now. Let's focus on the next steps first.\"}\n```"}
+{"i": 524, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 525, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Alice Soup\", \"Prepare Bob Soup\", \"Prepare Cathy Soup\"], \"question\": \"Which of the following would you like to prepare next? Alice Soup (expiring), Bob Soup (expiring), Cathy Soup (plenty of time)\"}\n```", "reply": "either, just hurry", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Alice Soup (expiring)\", \"Bob Soup (expiring)\", \"Cathy Soup (plenty of time)\"], \"question\": \"Which of the following would you like to prepare next? Alice Soup (expiring), Bob Soup (expiring), Cathy Soup (plenty of time)\"}\n```"}
+{"i": 526, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve <Soup> Soup\"}\n```"}
+{"i": 527, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 528, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The soup is already cooked and on the table.\"}\n```"}
+{"i": 529, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 530, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 531, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the Alice Soup right now. The soup is already cooked and plates are already made.\"}\n```"}
+{"i": 532, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 533, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 534, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 535, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\"], \"question\": \"Can you chop some onion?\"}\n```", "reply": "onion", "turn2": "{\"mode\": \"ask\", \"options\": [\"Can you chop some onion?\"], \"question\": \"Can you chop some onion?\"}"}
+{"i": 536, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 537, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 538, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 539, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 540, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 541, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Which ingredients would you like to prepare next?\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Prepare Bob Ingredients\", \"Prepare David Ingredients\", \"Prepare Cathy Ingredients\"], \"question\": \"Which ingredients would you like to prepare next?\"}\n```"}
+{"i": 542, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}\n```"}
+{"i": 543, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 544, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}\n```"}
+{"i": 545, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 546, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 547, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 548, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I need to prepare the Soup. Let me check the ingredients.\"}\n```"}
+{"i": 549, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 550, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 551, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can prepare the Soup for you.\"}\n```"}
+{"i": 552, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for Bob's soup?\", \"Is there enough ingredients for Bob's soup?\", \"Do you have the ingredients for Bob's soup?\"], \"question\": \"Can you prepare the ingredients for Bob's soup?\"}\n```", "reply": "the one with both", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 553, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent order?\", \"Are there any other urgent orders?\"], \"question\": \"What is the urgent order?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent order?\"], \"question\": \"What is the urgent order?\"}\n```"}
+{"i": 554, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent order?\", \"Are there any other urgent orders?\"], \"question\": \"What is the urgent order?\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"What is the urgent order?\"], \"question\": \"What is the urgent order?\"}\n```"}
+{"i": 555, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 556, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare Cathy's ingredients?\", \"Is there enough ingredients for Cathy's soup?\"], \"question\": \"Can you prepare Cathy's ingredients?\"}\n```", "reply": "the one with both", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 557, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 558, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 559, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}
+{"i": 560, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 561, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}\n```"}
+{"i": 562, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 563, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 564, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 565, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. The soup is already cooked and plates are not available. Let me know if you need help with anything else.\"}"}
+{"i": 566, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 567, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 568, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 569, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"Is there anything else I can assist you with?\"], \"question\": \"Can you repeat the order?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you repeat the order?\", \"What is the next action?\"], \"question\": \"Can you repeat the order?\"}\n```"}
+{"i": 570, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 571, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 572, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 573, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}\n```"}
+{"i": 574, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 575, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the ingredients for the soup?\", \"Are there any other ingredients needed?\", \"What specific ingredients do you need for the soup?\"], \"question\": \"Can you prepare the ingredients for the soup?\"}\n```", "reply": "just do it", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Soup Ingredients\"}"}
+{"i": 576, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}\n```"}
+{"i": 577, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 578, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 579, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 580, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 581, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can't plate the soup right now. Let's focus on the ingredients first.\"}\n```"}
+{"i": 582, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 583, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I'm sorry, but I can't serve the soup right now. The cooking is already in progress, and we have limited ingredients.\"}\n```"}
+{"i": 584, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}\n```"}
+{"i": 585, "turn1": "{\"mode\": \"reply\", \"text\": \"I can't plate the Alice Soup right now. The soup is already cooked and needs to be served.\"}"}
+{"i": 586, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}\n```"}
+{"i": 587, "turn1": "```json\n{\"mode\": \"reply\", \"text\": \"I can plate the soup for you.\"}\n```"}
+{"i": 588, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}\n```"}
+{"i": 589, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 590, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 591, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the other one?\", \"Is there enough ingredients for the other one?\"], \"question\": \"Can you prepare the other one?\"}\n```", "reply": "what?", "turn2": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare the other one?\"], \"question\": \"Can you prepare the other one?\"}\n```"}
+{"i": 592, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}\n```"}
+{"i": 593, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 594, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 595, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 596, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}\n```"}
+{"i": 597, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}\n```"}
+{"i": 598, "turn1": "```json\n{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}\n```"}
+{"i": 599, "turn1": "```json\n{\"mode\": \"ask\", \"options\": [\"Can you prepare Cathy's ingredients?\", \"Is there enough ingredients for Cathy's soup?\", \"Can you prepare the ingredients for Cathy's soup?\"], \"question\": \"Can you prepare the ingredients for Cathy's soup?\"}\n```", "reply": "", "turn2": "```json\n{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}\n```"}

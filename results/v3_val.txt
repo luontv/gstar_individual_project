@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<07:03,  1.37s/it]Loading weights:  51%|█████     | 158/311 [00:01<00:01, 148.96it/s]Loading weights:  80%|████████  | 249/311 [00:01<00:00, 176.78it/s]Loading weights:  99%|█████████▉| 309/311 [00:02<00:00, 194.49it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 147.59it/s]
+runs/sft-1.7b-v3: 600 commands, 303 questions, 0 unparseable, 2.8 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| runs/sft-1.7b-v3 | 0.93 | 0.88 | 0.81 | 0.98 | 0.99 | 0.98 | 0.02 | 0.09 | 1.00 | 0.85 |
+latency per command: p50 1293 ms, p95 1678 ms

@@ -1,0 +1,2 @@
+gemini-3.8-flash                 answered 12/100  clear/ambiguous acc 0.92  kappa 0.80  exact set 0.75  intended in set 0.92  says ambiguous 0.67 (truth 0.75)
+elapsed 600 s

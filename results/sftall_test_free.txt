@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<05:38,  1.09s/it]Loading weights:  37%|███▋      | 115/311 [00:01<00:01, 131.88it/s]Loading weights:  58%|█████▊    | 180/311 [00:01<00:00, 168.57it/s]Loading weights:  73%|███████▎  | 227/311 [00:01<00:00, 186.94it/s]Loading weights:  85%|████████▌ | 265/311 [00:01<00:00, 201.64it/s]Loading weights:  96%|█████████▌| 299/311 [00:01<00:00, 216.34it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 158.53it/s]
+out/sftall-1.7b-v3: 731 commands, 183 questions, 0 unparseable, 3.0 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| out/sftall-1.7b-v3 | 0.90 | 0.86 | 0.75 | 0.92 | 0.86 | 0.89 | 0.03 | 0.17 | 0.99 | 0.74 |
+latency per command: p50 798 ms, p95 1739 ms

@@ -1,0 +1,4 @@
+deepseek-v4-flash: 2000 commands, 3 questions, 1684 unparseable, 20.3 min
+| policy | intent acc | acc | gold best | acc | gold not best | ask P | ask R | ask F1 | over-ask | over-ask | context | question IG | turn-1 reward |
+|---|---|---|---|---|---|---|---|---|---|---|
+| deepseek-v4-flash | 0.13 | 0.11 | 0.09 | 0.67 | 0.01 | 0.01 | 0.00 | 0.00 | 1.00 | -0.75 |

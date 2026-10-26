@@ -1,0 +1,600 @@
+{"i": 0, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 1, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 2, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 3, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 4, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 5, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 6, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 7, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 8, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 9, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 10, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 11, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 12, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Cathy\", \"David\"], \"question\": \"Alice, Cathy or David soup?\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 13, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 14, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 15, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 16, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 17, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 18, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 19, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 20, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 21, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 22, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 23, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 24, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 25, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 26, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Bob\"], \"question\": \"Alice or Bob soup?\"}", "reply": "the alice one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 27, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 28, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 29, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 30, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 31, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 32, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 33, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 34, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 35, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 36, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 37, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 38, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 39, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 40, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 41, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "no, not david", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 42, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 43, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 44, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 45, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 46, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 47, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 48, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 49, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 50, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 51, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 52, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 53, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 54, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 55, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 56, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 57, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 58, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 59, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Bob\"], \"question\": \"Alice or Bob soup?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 60, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "neither", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 61, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 62, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 63, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 64, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 65, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 66, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 67, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 68, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 69, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 70, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 71, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 72, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 73, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 74, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 75, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 76, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Cathy Soup\"}"}
+{"i": 77, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 78, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Cathy\", \"David\"], \"question\": \"Alice, Cathy or David soup?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 79, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 80, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 81, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 82, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 83, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 84, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 85, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 86, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 87, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 88, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 89, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 90, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 91, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 92, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 93, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 94, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 95, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 96, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 97, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 98, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 99, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 100, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 101, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 102, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 103, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 104, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 105, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 106, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 107, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 108, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 109, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 110, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 111, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 112, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 113, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 114, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 115, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 116, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 117, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Cathy\"], \"question\": \"Alice or Cathy soup?\"}", "reply": "not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 118, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 119, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 120, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 121, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "no, not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 122, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 123, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 124, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 125, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 126, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 127, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 128, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 129, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 130, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 131, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 132, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 133, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 134, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 135, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 136, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 137, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 138, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"David\"], \"question\": \"Bob or David soup?\"}", "reply": "not bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 139, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 140, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 141, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "no, not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 142, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 143, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 144, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "neither", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 145, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 146, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"David\"], \"question\": \"Bob or David soup?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 147, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 148, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 149, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 150, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 151, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 152, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 153, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 154, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 155, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 156, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 157, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 158, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 159, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 160, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 161, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 162, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 163, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 164, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 165, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 166, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 167, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 168, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 169, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "cathy please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 170, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 171, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 172, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 173, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 174, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 175, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 176, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 177, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 178, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Bob\"], \"question\": \"Alice or Bob soup?\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 179, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 180, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 181, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 182, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 183, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 184, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 185, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 186, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 187, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 188, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 189, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "no, not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 190, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 191, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 192, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "neither", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 193, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 194, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 195, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 196, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 197, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 198, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 199, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 200, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 201, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 202, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 203, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 204, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 205, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 206, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 207, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 208, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 209, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 210, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "the cathy one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 211, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 212, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 213, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 214, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 215, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 216, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 217, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 218, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 219, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 220, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 221, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 222, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 223, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 224, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 225, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 226, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "no, not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 227, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 228, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 229, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 230, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 231, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 232, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 233, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 234, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 235, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 236, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 237, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 238, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 239, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 240, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 241, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 242, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 243, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 244, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Cathy\", \"David\"], \"question\": \"Alice, Cathy or David soup?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 245, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 246, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 247, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 248, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 249, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "no, not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 250, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 251, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 252, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 253, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 254, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 255, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 256, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 257, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 258, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"David\"], \"question\": \"Bob or David soup?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 259, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 260, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 261, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 262, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 263, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 264, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 265, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 266, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 267, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 268, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 269, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 270, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 271, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "no, not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 272, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 273, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 274, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 275, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 276, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 277, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 278, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 279, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 280, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 281, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 282, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 283, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 284, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 285, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 286, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 287, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 288, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 289, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 290, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 291, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 292, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 293, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 294, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 295, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 296, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 297, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 298, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 299, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 300, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 301, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 302, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 303, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 304, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 305, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 306, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 307, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 308, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 309, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 310, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 311, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 312, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 313, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 314, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 315, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 316, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 317, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 318, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 319, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 320, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 321, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 322, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 323, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 324, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 325, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 326, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 327, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 328, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 329, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 330, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 331, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 332, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 333, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 334, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 335, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 336, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 337, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 338, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 339, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 340, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 341, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 342, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 343, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 344, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 345, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 346, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 347, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 348, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 349, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 350, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 351, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "no, not david", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 352, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 353, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 354, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 355, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 356, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 357, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 358, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 359, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 360, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 361, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 362, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 363, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 364, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 365, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 366, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 367, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 368, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 369, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 370, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 371, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 372, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 373, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 374, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 375, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 376, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "neither", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 377, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 378, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "neither", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 379, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 380, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 381, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 382, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 383, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 384, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 385, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 386, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 387, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 388, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 389, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 390, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 391, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 392, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 393, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 394, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 395, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 396, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 397, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Cathy\"], \"question\": \"Alice or Cathy soup?\"}", "reply": "cathy please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 398, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 399, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 400, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 401, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 402, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 403, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 404, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 405, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 406, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 407, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 408, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 409, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 410, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 411, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 412, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 413, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 414, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 415, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 416, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "no, not alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 417, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the lettuce one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 418, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 419, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 420, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 421, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 422, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 423, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "not bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 424, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 425, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "no, not tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 426, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 427, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 428, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 429, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 430, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"David\"], \"question\": \"Bob or David soup?\"}", "reply": "the bob one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 431, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 432, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 433, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 434, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 435, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Cathy\", \"David\"], \"question\": \"Alice, Cathy or David soup?\"}", "reply": "the alice one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 436, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 437, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 438, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 439, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 440, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 441, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 442, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 443, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 444, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 445, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 446, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 447, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 448, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 449, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 450, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 451, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "david please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 452, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 453, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 454, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 455, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 456, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 457, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 458, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 459, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 460, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 461, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 462, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 463, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 464, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 465, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 466, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 467, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 468, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 469, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "no, not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 470, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Alice Soup\"}"}
+{"i": 471, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 472, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 473, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"David\"], \"question\": \"Bob or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 474, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "the cathy one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 475, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 476, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 477, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 478, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 479, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 480, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 481, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 482, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 483, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 484, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 485, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 486, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 487, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"Bob\"], \"question\": \"Cathy or Bob soup?\"}", "reply": "cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 488, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 489, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 490, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 491, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 492, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 493, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 494, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 495, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 496, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Cathy\", \"David\"], \"question\": \"Alice, Cathy or David soup?\"}", "reply": "alice", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 497, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 498, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 499, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 500, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 501, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 502, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 503, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 504, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 505, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 506, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 507, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "not lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 508, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook David Soup\"}"}
+{"i": 509, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 510, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "either, just hurry", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 511, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 512, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 513, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 514, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 515, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "no, not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 516, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 517, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 518, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 519, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 520, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 521, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 522, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 523, "turn1": "{\"mode\": \"ask\", \"options\": [\"Cathy\", \"David\"], \"question\": \"Cathy or David soup?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 524, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 525, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 526, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve David Soup\"}"}
+{"i": 527, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 528, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate David Soup\"}"}
+{"i": 529, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 530, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 531, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 532, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 533, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 534, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 535, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 536, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 537, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 538, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 539, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "neither", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 540, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 541, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 542, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 543, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "no, not cathy", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 544, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 545, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 546, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"Bob\"], \"question\": \"Alice or Bob soup?\"}", "reply": "bob please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 547, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 548, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 549, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "not onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 550, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 551, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 552, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 553, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"David\"], \"question\": \"Bob or David soup?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 554, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"David\"], \"question\": \"Bob or David soup?\"}", "reply": "no, not bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 555, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "onion", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 556, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 557, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 558, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 559, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}
+{"i": 560, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 561, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 562, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 563, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 564, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 565, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 566, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 567, "turn1": "{\"mode\": \"ask\", \"options\": [\"Alice\", \"David\"], \"question\": \"Alice or David soup?\"}", "reply": "the david one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 568, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "lettuce", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 569, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 570, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 571, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 572, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 573, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Cathy Soup\"}"}
+{"i": 574, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\"], \"question\": \"Tomato or lettuce?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 575, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 576, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Bob Soup\"}"}
+{"i": 577, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 578, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "tomato please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 579, "turn1": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 580, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "neither", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 581, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Bob Soup\"}"}
+{"i": 582, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 583, "turn1": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 584, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Cathy Soup\"}"}
+{"i": 585, "turn1": "{\"mode\": \"execute\", \"macro\": \"Plate Alice Soup\"}"}
+{"i": 586, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Bob Ingredients\"}"}
+{"i": 587, "turn1": "{\"mode\": \"ask\", \"options\": [\"Bob\", \"Cathy\"], \"question\": \"Bob or Cathy soup?\"}", "reply": "bob", "turn2": "{\"mode\": \"execute\", \"macro\": \"Serve Bob Soup\"}"}
+{"i": 588, "turn1": "{\"mode\": \"execute\", \"macro\": \"Cook Alice Soup\"}"}
+{"i": 589, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 590, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "lettuce please", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 591, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare David Ingredients\"}"}
+{"i": 592, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "doesn't matter", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Lettuce\"}"}
+{"i": 593, "turn1": "{\"mode\": \"ask\", \"options\": [\"Lettuce\", \"Onion\"], \"question\": \"Lettuce or onion?\"}", "reply": "the onion one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Onion\"}"}
+{"i": 594, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 595, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "tomato", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 596, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Onion\"], \"question\": \"Tomato or onion?\"}", "reply": "", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 597, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Alice Ingredients\"}"}
+{"i": 598, "turn1": "{\"mode\": \"ask\", \"options\": [\"Tomato\", \"Lettuce\", \"Onion\"], \"question\": \"Tomato, lettuce or onion?\"}", "reply": "the tomato one", "turn2": "{\"mode\": \"execute\", \"macro\": \"Chop Tomato\"}"}
+{"i": 599, "turn1": "{\"mode\": \"execute\", \"macro\": \"Prepare Cathy Ingredients\"}"}

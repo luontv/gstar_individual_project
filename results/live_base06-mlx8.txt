@@ -1,0 +1,53 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+ring game 5: served 2, expired 4, 21 commands
+ring game 6: served 4, expired 3, 36 commands
+ring game 7: served 3, expired 4, 21 commands
+ring game 8: served 3, expired 5, 35 commands
+ring game 9: served 2, expired 6, 19 commands
+ring game 10: served 2, expired 5, 16 commands
+ring game 11: served 2, expired 5, 21 commands
+ring game 12: served 4, expired 3, 22 commands
+ring game 13: served 0, expired 6, 31 commands
+ring game 14: served 2, expired 5, 24 commands
+bottleneck game 5: served 1, expired 5, 25 commands
+bottleneck game 6: served 1, expired 6, 22 commands
+bottleneck game 7: served 1, expired 6, 21 commands
+bottleneck game 8: served 0, expired 6, 14 commands
+bottleneck game 9: served 0, expired 6, 14 commands
+bottleneck game 10: served 0, expired 6, 16 commands
+bottleneck game 11: served 2, expired 6, 19 commands
+bottleneck game 12: served 0, expired 6, 13 commands
+bottleneck game 13: served 2, expired 6, 17 commands
+bottleneck game 14: served 3, expired 5, 31 commands
+partition game 5: served 1, expired 5, 38 commands
+partition game 6: served 2, expired 5, 38 commands
+partition game 7: served 1, expired 6, 38 commands
+partition game 8: served 1, expired 5, 48 commands
+partition game 9: served 0, expired 6, 33 commands
+partition game 10: served 3, expired 5, 31 commands
+partition game 11: served 2, expired 4, 32 commands
+partition game 12: served 2, expired 5, 43 commands
+partition game 13: served 2, expired 5, 29 commands
+partition game 14: served 2, expired 5, 41 commands
+quick game 5: served 0, expired 8, 17 commands
+quick game 6: served 1, expired 8, 19 commands
+quick game 7: served 3, expired 7, 36 commands
+quick game 8: served 1, expired 8, 18 commands
+quick game 9: served 1, expired 8, 23 commands
+quick game 10: served 2, expired 7, 16 commands
+quick game 11: served 2, expired 6, 24 commands
+quick game 12: served 4, expired 7, 31 commands
+quick game 13: served 2, expired 7, 23 commands
+quick game 14: served 1, expired 8, 20 commands
+
+base06-mlx8
+| maps | served | expired | commands | ambiguous | right step | asks on ambiguous | asks on clear | wait s | latency p50 / p95 ms |
+|---|---|---|---|---|---|---|---|---|---|
+| all | 1.68 | 5.72 | 25.90 | 0.24 | 0.43 | 0.09 | 0.09 | 0.51 | 263 / 520 |
+| ring | 2.40 | 4.60 | 24.60 | 0.33 | 0.39 | 0.07 | 0.13 | 0.58 | 261 / 567 |
+| bottleneck | 1.00 | 5.80 | 19.20 | 0.41 | 0.49 | 0.10 | 0.11 | 0.56 | 268 / 548 |
+| partition | 1.60 | 5.10 | 37.10 | 0.07 | 0.39 | 0.00 | 0.05 | 0.43 | 295 / 503 |
+| quick | 1.70 | 7.40 | 22.70 | 0.27 | 0.46 | 0.13 | 0.12 | 0.53 | 218 / 464 |

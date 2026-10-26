@@ -1,0 +1,15 @@
+data/test/test_phrasing_nc.jsonl
+results/luna_test_phrasing.jsonl              answered 1424  asks: ambiguous 0.10  context-clear 0.05  IG 1.00  acts on most urgent 0.73 (chance 0.55, n 222)
+results/api_qwen3_8_flash_test_phrasing.jsonl answered 1424  asks: ambiguous 0.26  context-clear 0.27  IG 1.00  acts on most urgent 0.44 (chance 0.57, n 148)
+results/api_gemini_3_5_flash_test_phrasing.jsonl answered  926  asks: ambiguous 0.28  context-clear 0.02  IG 1.00  acts on most urgent 0.73 (chance 0.53, n 120)
+results/api_deepseek_v4_flash_test_phrasing.jsonl answered  249  asks: ambiguous 0.00  context-clear 0.00  IG 0.00  acts on most urgent 0.76 (chance 0.55, n 38)
+results/v3_test_phrasing.jsonl                answered 1424  asks: ambiguous 0.91  context-clear 0.18  IG 1.00  acts on most urgent 0.75 (chance 0.50, n 8)
+data/test/test_map_nc.jsonl
+results/luna_test_map.jsonl                   answered 2000  asks: ambiguous 0.32  context-clear 0.06  IG 1.00  acts on most urgent 0.89 (chance 0.49, n 122)
+results/api_qwen3_8_flash_test_map.jsonl      answered 2000  asks: ambiguous 0.46  context-clear 0.24  IG 1.00  acts on most urgent 0.60 (chance 0.50, n 57)
+results/api_gemini_3_5_flash_test_map.jsonl   answered  905  asks: ambiguous 0.20  context-clear 0.02  IG 1.00  acts on most urgent 0.83 (chance 0.49, n 63)
+results/api_deepseek_v4_flash_test_map.jsonl  answered  316  asks: ambiguous 0.05  context-clear 0.00  IG 1.00  acts on most urgent 0.72 (chance 0.49, n 29)
+results/v3_test_map.jsonl                     answered 2000  asks: ambiguous 0.65  context-clear 0.08  IG 1.00  acts on most urgent 0.65 (chance 0.51, n 37)
+gemini-3.5-flash     ambiguous 66  labelled ambiguous 62  asked when playing 17
+qwen/qwen3.8-flash   ambiguous 152  labelled ambiguous 91  asked when playing 28
+deepseek-v4-flash    ambiguous 3  labelled ambiguous 1  asked when playing 0
